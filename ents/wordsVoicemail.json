@@ -1,0 +1,9 @@
+{
+  "id": "3766030c-5ac1-4975-9bcb-18395d087da4",
+  "name": "wordsVoicemail",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

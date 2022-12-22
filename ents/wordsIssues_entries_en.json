@@ -1,0 +1,135 @@
+[
+  {
+    "value": "check",
+    "synonyms": [
+      "check",
+      "check the",
+      "system check",
+      "check up",
+      "check up on",
+      "checkup",
+      "diagnose",
+      "diagnosis",
+      "diagnostics",
+      "install",
+      "installation",
+      "trouble shooting",
+      "troubleshooting",
+      "concern",
+      "complimentary",
+      "general",
+      "existing",
+      "test",
+      "control",
+      "is gone",
+      "change",
+      "change the",
+      "exchange",
+      "add",
+      "added"
+    ]
+  },
+  {
+    "value": "fix",
+    "synonyms": [
+      "fix",
+      "fix the",
+      "fix it",
+      "get it fixed",
+      "fixes",
+      "adjust",
+      "repair",
+      "repairs",
+      "reparation",
+      "upgrade",
+      "upgrades",
+      "update",
+      "updates",
+      "perform",
+      "replace",
+      "replacement",
+      "remove"
+    ]
+  },
+  {
+    "value": "front",
+    "synonyms": [
+      "front",
+      "rear",
+      "back",
+      "side",
+      "right",
+      "left",
+      "interior",
+      "exterior",
+      "new",
+      "one",
+      "two",
+      "four",
+      "three",
+      "on",
+      "off",
+      "is on",
+      "is off",
+      "from",
+      "or",
+      "all",
+      "full"
+    ]
+  },
+  {
+    "value": "request",
+    "synonyms": [
+      "request",
+      "special",
+      "specials",
+      "just",
+      "just an",
+      "package",
+      "promotion"
+    ]
+  },
+  {
+    "value": "problem",
+    "synonyms": [
+      "problem",
+      "won\u0027t close",
+      "cannot close",
+      "does not close",
+      "do not close",
+      "will not close",
+      "resist",
+      "stuck",
+      "something wrong",
+      "malfunction",
+      "trouble",
+      "breakdown",
+      "issue",
+      "issues",
+      "not work",
+      "isn\u0027t working",
+      "not working",
+      "doesn\u0027t work",
+      "doesn\u0027t run",
+      "not run",
+      "not starting",
+      "broke",
+      "broken",
+      "broken down",
+      "is gone"
+    ]
+  },
+  {
+    "value": "system",
+    "synonyms": [
+      "system diagnosis",
+      "system repair",
+      "system repairs",
+      "system",
+      "system work",
+      "system malfunction",
+      "system defective",
+      "system not working"
+    ]
+  }
+]

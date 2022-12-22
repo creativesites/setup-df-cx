@@ -1,0 +1,49 @@
+{
+  "id": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "0-GreetingGalpinV2-Complement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "switch_to_getservices",
+      "affectedContexts": [
+        {
+          "name": "1-Greeting-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "text": "ERROR",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "ERROR"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

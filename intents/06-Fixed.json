@@ -1,0 +1,181 @@
+{
+  "id": "8772327e-bbde-42ea-b4b6-92467c079ec2",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "06-Fixed",
+  "auto": true,
+  "contexts": [
+    "fixedLine",
+    "transferVM",
+    "adHoc",
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getVM",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "5-Voicemail-FN-Operator-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "quickLane",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt2",
+          "lifespan": 1
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 0
+        },
+        {
+          "name": "adHoc",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "41cdc459-1e68-45ef-8a25-7cccd3d650b8",
+          "name": "delay_time",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "30",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a0247151-11a2-48dd-892a-654349adab3a",
+          "name": "wordsvoicemail",
+          "required": false,
+          "dataType": "@wordsVoicemail",
+          "value": "$wordsvoicemail",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4b6899c8-ce0d-4404-a53d-34ac482fa496",
+          "name": "serviceOptions",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$serviceOptions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a488a4e-6cc4-4a08-b072-4e1251115f0b",
+          "name": "wordsAppointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsAppointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dda8f684-c0a5-46cc-980e-63c5f603367d",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "275d015c-2cc0-4c6d-9c9d-0e40d9e0d310",
+          "name": "wordsStatus",
+          "required": false,
+          "dataType": "@wordsStatus",
+          "value": "$wordsStatus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e94e0898-d393-4f37-b7ee-d95bf3b46b9b",
+          "name": "price",
+          "required": false,
+          "dataType": "@wordsQuote",
+          "value": "$price",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/TellMeNeed.ogg\"\u003e\nMy teammates are busy now. Please tell me your reason for calling and perhaps the name of your advisor, and I will get you help as soon as somebody frees up.\n\u003c/audio\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

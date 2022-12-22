@@ -1,0 +1,111 @@
+{
+  "id": "fab6925c-31dd-4cce-9c20-39599f489a41",
+  "parentId": "5d8d7d97-c630-4335-9b50-fb8ceb90b71d",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "5-BookConfirmNNVerifyPhone",
+  "auto": true,
+  "contexts": [
+    "verifyPhone",
+    "awaitingFLNameConfirm",
+    "book",
+    "config",
+    "compressed"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "foundName",
+          "lifespan": 1
+        },
+        {
+          "name": "timeSlotSelected",
+          "lifespan": 1
+        },
+        {
+          "name": "compressed",
+          "lifespan": 1
+        },
+        {
+          "name": "verifyPhone",
+          "lifespan": 0
+        },
+        {
+          "name": "1-BookFNConfirmPhone-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f838fe53-4af6-4277-a15d-a89d6f2c3495",
+          "name": "firstName",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1652e49c-99b4-48ec-8c7e-011ed34ce425",
+          "name": "firstNamex",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1ff4d9a6-6334-428a-bba4-be2355943d5e",
+          "name": "lastName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "A",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWould you like to book under phone number #config.readPhoneNum ?\n\u003c/prosody\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

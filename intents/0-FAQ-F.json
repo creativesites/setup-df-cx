@@ -1,0 +1,52 @@
+{
+  "id": "59cccfcd-15ab-43e0-87f0-0cf0a75c986f",
+  "parentId": "09c180cf-1199-41d4-bb21-c44750a544fa",
+  "rootParentId": "09c180cf-1199-41d4-bb21-c44750a544fa",
+  "name": "0-FAQ-F",
+  "contexts": [
+    "0-FAQ-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "0-FAQ.0-FAQ-fallback",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e What else can I help you with? \u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What else can I help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

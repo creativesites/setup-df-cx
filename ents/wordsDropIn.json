@@ -1,0 +1,9 @@
+{
+  "id": "53a95daa-3890-4c81-95f0-e6e770dd2dcd",
+  "name": "wordsDropIn",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

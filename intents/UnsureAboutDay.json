@@ -1,0 +1,113 @@
+{
+  "id": "d770352d-7154-42e3-b770-6014ffd1075b",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "UnsureAboutDay",
+  "auto": true,
+  "contexts": [
+    "getAvail",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "23-GetServices-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "876b7dc4-83a4-40c1-bcf9-119a6504abe9",
+          "name": "wordsNotSure",
+          "required": false,
+          "dataType": "@wordsNotSure",
+          "value": "$wordsNotSure",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "57fe4c9e-842b-4c42-9e97-20f077829563",
+          "name": "timeInput",
+          "required": false,
+          "dataType": "@sys.time",
+          "value": "$timeInput",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "547fc904-c0b4-4acc-850b-974e099c46cc",
+          "name": "date-period",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "value": "$date-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d8646f98-da3e-42fb-9541-b6e3a4ac6b83",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e What day works for you best? \u003c/prosody\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

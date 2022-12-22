@@ -1,0 +1,38 @@
+{
+  "id": "d42781d4-bafc-468f-9bbb-9b926bc4d5f7",
+  "parentId": "8960724d-b354-459a-afa1-3cbd496ec524",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-RescheduleYMM",
+  "auto": true,
+  "contexts": [
+    "9-Reschedule-followup",
+    "9-Reschedule-followup-2",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "search_appt.9-Reschedule-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

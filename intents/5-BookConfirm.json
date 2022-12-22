@@ -1,0 +1,271 @@
+{
+  "id": "2d39cf74-3fcf-4dc2-9ba4-99612449a58a",
+  "parentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "5-BookConfirm",
+  "auto": true,
+  "contexts": [
+    "awaitingFLNameConfirm",
+    "book",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book_me",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "543e9d6e-4885-4003-9c78-86405966e292",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.1.mp3\"\u003ePlease say your first name then spell it\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "753075cc-02d3-478b-8fdd-21c8aa2fad21",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "700d71ea-f473-418a-8507-9f6edd8d779f",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2f96a412-5f65-444d-9003-3b088a2af8c3",
+          "name": "successMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Great. You are booked #config.currentOriginalDate , #config.preferredTime.original. at #config.businessName. Would you like me to text you the booking details?",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a72c5d1d-5b2a-4cdf-9775-85fce63900ad",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cacc7069-6570-4ad4-b01e-d983ecd55fdf",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "58aee922-8f69-49f6-8c2f-af602d031f3c",
+          "name": "sendSMS",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "from\u003d+1#config.businessPhone,to\u003d+1#config.customerPhone,message\u003d\u0027You are confirmed for service:\n#config.currentOriginalDate at #config.preferredTimeReadable for your #config.carYear #config.make #config.carModel\nThe #config.businessName team\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9ba79fdb-5492-44b4-9dca-b9105e3617ec",
+          "name": "sendEmail",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "fromEmail\u003d\u0027info@autoservice.ai\u0027,toEmail\u003d\u0027#config.advisorEmail\u0027,subject\u003d\u0027You got a booking\u0027,msg\u003d\u0027Booking Details:\n\nDate: #config.currentOriginalDate at #config.preferredTime.original\nFor: #config.carYear #config.make #config.carModel\nCustomer: #config.firstName #config.lastName Tel: #config.customerPhone\n#config.businessName \nService: #config.serviceOriginal\nTransportation: #config.transportation\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dc21f7cb-48c2-4ee7-9001-93c846126b31",
+          "name": "booked",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "true",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "385d3986-5842-466d-88af-7abfb07ae17e",
+          "name": "anyXXXURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dincomingCall\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b1d63d46-fa93-4f02-b0b8-509264ffc676",
+          "name": "anyXXXURL2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dscheduleStartAutoServ\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "436f8747-7e84-401b-939b-a96430e7964d",
+          "name": "anyXXXURL3",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dscheduleCompleteAutoServ\u0026phoneNum\u003d#config.customerPhone\u0026eventInfoStr1\u003d#config.carYear #config.make #config.carModel\u0026eventInfoStr2\u003d#config.firstName #config.lastName\u0026eventInfoStr3\u003dService:#config.serviceOriginal\u0026bookDate\u003d#config.preferredDate\u0026bookTime\u003d#config.preferredTime.original\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "42486692-04a6-4a15-8c22-f3f875267919",
+          "name": "anySERRAURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://olqebwz23e.execute-api.us-east-1.amazonaws.com/production/book?email\u003d%27#config.advisorEmail%27\u0026fname\u003d%27#config.firstName%27\u0026lname\u003d%27#config.lastName%27\u0026phone\u003d%27+1#config.customerPhone%27\u0026year\u003d%27#config.carYear%27\u0026make\u003d%27#config.make%27\u0026model\u003d%27#config.carModel%27\u0026mileage\u003d%2710000%27\u0026date\u003d%27#config.preferredDate%27\u0026time\u003d%27#config.preferredTime%27\u0026services\u003d%27#config.serviceOriginal%27\u0026serviceOriginal\u003d%27https://www.serrahonda.net%27\u0026test\u003d%27$0%27",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "09c3a6f2-5e2f-4cd8-8955-980976d51258",
+          "name": "anyFFUNUrl",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://22klgbg0xb.execute-api.us-east-1.amazonaws.com/ffun/book?phone\u003d#config.customerPhone\u0026email\u003dallioforbus%40gmail.com\u0026fname\u003d#config.firstName\u0026lname\u003d#config.lastName\u0026year\u003d#config.carYear\u0026make\u003d#config.make\u0026model\u003d#config.carModel\u0026mileage\u003d10000\u0026selectedDate\u003d#config.preferredDate\u0026bestTimeToCall\u003dmorning\u0026services\u003dRequested%20Services:#config.service%20Note:%20Customer%20Preferred%20Time%20is:#config.preferredTime.original\u0026url\u003dhttps://www.fmssaskatoon.com/src/v6/ajax/xxSubmitForm.asp\u0026type\u003d1\u0026location\u003dSaskatoon",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5007373c-b951-4172-95c6-1c3ba0ee4857",
+          "name": "testService",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.service",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/50.ogg\"\u003e Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye. \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,89 @@
+{
+  "id": "0e8b895c-25b0-4f0e-8c29-6040beefe241",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherNo",
+  "auto": true,
+  "contexts": [
+    "otherSvc",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "maxOtherSvc",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c43d0776-40c1-42ec-a907-614b111dc5d2",
+          "name": "wordsNo",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsNo",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3ea1a35a-d47a-4ea8-8a2f-3b96b7dcc880",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

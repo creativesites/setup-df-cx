@@ -1,0 +1,46 @@
+[
+  {
+    "value": "idontwant",
+    "synonyms": [
+      "i do not want an appointment",
+      "i do not want to book",
+      "do not need an appointment",
+      "i do not need an appointment",
+      "no i don\u0027t want an appointment",
+      "no i do not want an appointment",
+      "no i do not need an appointment",
+      "no i don\u0027t need an appointment",
+      "no, i don\u0027t want an appointment",
+      "no, i do not want an appointment",
+      "no, i do not need an appointment",
+      "no, i don\u0027t need an appointment"
+    ]
+  },
+  {
+    "value": "notabooking",
+    "synonyms": [
+      "not a booking",
+      "not interested",
+      "no need for booking"
+    ]
+  },
+  {
+    "value": "justWant",
+    "synonyms": [
+      "no, i just want",
+      "no i just want"
+    ]
+  },
+  {
+    "value": "howLong",
+    "synonyms": [
+      "how Long",
+      "how long my appointment",
+      "how long for appointment",
+      "how long is",
+      "how long for",
+      "how long my",
+      "how long is an appointment"
+    ]
+  }
+]

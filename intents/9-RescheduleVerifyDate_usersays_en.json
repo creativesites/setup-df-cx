@@ -1,0 +1,103 @@
+[
+  {
+    "id": "9f0f6e57-0444-4193-9b67-bf0e97709f3e",
+    "data": [
+      {
+        "text": "august 11",
+        "meta": "@sys.date",
+        "alias": "preferredDate",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "4:15 p.m.",
+        "meta": "@sys.time",
+        "alias": "preferredTime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4f968e0-ef17-45ab-bf8a-4a9e83af15df",
+    "data": [
+      {
+        "text": "wednesday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "august 10",
+        "meta": "@sys.date",
+        "alias": "preferredDate",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3 p.m.",
+        "meta": "@sys.time",
+        "alias": "preferredTime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61adde1c-b506-497d-9c82-73802c258eea",
+    "data": [
+      {
+        "text": "tuesday",
+        "meta": "@sys.date",
+        "alias": "preferredDate",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9 a.m.",
+        "meta": "@sys.time",
+        "alias": "preferredTime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

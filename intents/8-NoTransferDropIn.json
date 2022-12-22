@@ -1,0 +1,91 @@
+{
+  "id": "da453b06-530d-414a-b1e4-090991782d04",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "8-NoTransferDropIn",
+  "auto": true,
+  "contexts": [
+    "config",
+    "dropIn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5fea103b-9804-4504-8577-b598a2aca08b",
+          "name": "wordsdropin",
+          "required": false,
+          "dataType": "@wordsDropIn",
+          "value": "$wordsdropin",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "41abbe5a-e4ab-4291-9507-e7e304057695",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c92a07aa-6d34-469d-94e1-0365172f7576",
+          "name": "wordspre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordspre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/dropIn.ogg\"\u003e\nSorry to hear your car is having issues.\nYou can drop off your car at the dealership for an emergency appointment or have it towed in any time during the day. To book an appointment, please say make appointment. To talk to an agent, please say operator.\n\u003c/audio\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

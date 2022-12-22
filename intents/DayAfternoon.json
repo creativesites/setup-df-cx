@@ -1,0 +1,213 @@
+{
+  "id": "fdbb1e28-0b42-400f-b3d3-47d8585215a3",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "DayAfternoon",
+  "auto": true,
+  "contexts": [
+    "getAvail",
+    "config",
+    "YMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_timeslots",
+      "affectedContexts": [
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2fce57fd-eed2-467a-98f2-ad2579f3bc33",
+          "name": "preferredDate",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$preferredDate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day works for you?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "12339806-88c8-4fad-9e0a-802e90a77466",
+          "name": "preferredTime",
+          "required": false,
+          "dataType": "@sys.time",
+          "value": "2021-11-03T11:59:00",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3589ab51-b4b9-4d75-aac9-dbbc00cecbb6",
+          "name": "preferredIsNotAvailable",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/FirstAvailability.ogg\"\u003eOur first availability is\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n$currentOriginalDate afternoon at $timeOptions\n\u003c/prosody\u003e   \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/selectTimeNextDate.ogg\"\u003e\nPlease select a time, say next, or say a date\n\u003c/audio\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d6083bef-f233-49c5-b2dd-bc9b96a7a20c",
+          "name": "preferredIsNotAvailableDiff",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/noAvailOnDay.ogg\"\u003e\nWe do not have any availability on that day\n\u003c/audio\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.ogg\"\u003e\nWe have availability starting\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n$currentOriginalDate at $timeOptions\n\u003c/prosody\u003e \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/selectTimeNextDate.ogg\"\u003e\nPlease select a time, say next or say a date\n\u003c/audio\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0860983e-d0a3-4e31-a1ef-df1ae74a1644",
+          "name": "failure",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWe do not have availability that day. We have availability starting  $currentOriginalDate at $timeOptions . please select a time followed by A.M. or P.M., say next, or choose another date of your liking\n\u003c/prosody\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a80292c8-78b6-4621-acca-eac98895be13",
+          "name": "wordsAfternoon",
+          "required": false,
+          "dataType": "@wordsAfternoon",
+          "value": "$wordsAfternoon",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ce5ae455-d462-4e36-be06-2920bcadd8c4",
+          "name": "timeOptions",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.timeOptions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "42595433-ea88-4ef2-a2c6-887498f26d5b",
+          "name": "currentOriginalDate",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.currentOriginalDate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4066c566-6778-4f97-934b-413e77509b5d",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b8b78710-2fc7-4a04-a663-320348b17f0b",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e We could not find any availability on that day. Please say another date or say operator \u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We could not find any availability on that day. Please say another date or say operator"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

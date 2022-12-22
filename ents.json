@@ -1,0 +1,883 @@
+{
+    "isRegexp": false,
+    "isEnum": false,
+    "allowFuzzyExtraction": false,
+    "name": "serviceOptions",
+    "automatedExpansion": false,
+    "entries": [
+      {
+        "value": "000",
+        "synonyms": [
+          "100011",
+          "mile service",
+          "miles service",
+          "K miles service",
+          "year service",
+          "major service",
+          "preventative service",
+          "full service",
+          "complete service",
+          "minor service",
+          "regular service",
+          "scheduled service",
+          "km service",
+          "kilometer service",
+          "kilometers service",
+          "maintenance service",
+          "general maintenance",
+          "regular maintenance",
+          "regular check up",
+          "routine service",
+          "scheduled maintenance",
+          "general service",
+          "service maintenance",
+          "routine maintanance",
+          "essential maintanance",
+          "annual maintenance",
+          "needs maintenance",
+          "need maintenance",
+          "maintenance required",
+          "basic service",
+          "factory service",
+          "standard service",
+          "recommended service",
+          "recommended services",
+          "first service",
+          "maintenance schedule",
+          "service schedule",
+          "service interval",
+          "maintenance check",
+          "oil services"
+        ]
+      },
+      {
+        "value": "MINOR",
+        "synonyms": [
+          "10001",
+          "change filter",
+          "Synthetic Oil",
+          "engine oil",
+          "diesel oil",
+          "diesel synthetic oil",
+          "why change",
+          "oil chage",
+          "4 cylinders",
+          "6 cylinders",
+          "8 cylinders",
+          "oil change"
+        ]
+      },
+      {
+        "value": "FM305",
+        "synonyms": [
+          "10002",
+          "seasonal tires",
+          "seasonal tires off rims",
+          "seasonal tires on rims",
+          "winter tire",
+          "winter tires",
+          "tire swap",
+          "swap tires",
+          "tire changeover",
+          "replace tires",
+          "replace tire",
+          "replace 4 tires",
+          "new tire",
+          "new tires",
+          "tire service",
+          "change tires",
+          "change tire"
+        ]
+      },
+      {
+        "value": "FM305",
+        "synonyms": [
+          "10003",
+          "tire pressure",
+          "low pressure",
+          "low tire pressure",
+          "tire Low Pressure",
+          "tyre pressure",
+          "check treadwear"
+        ]
+      },
+      {
+        "value": "TPMS",
+        "synonyms": [
+          "10004",
+          "flat tire",
+          "tire repair",
+          "fix a flat",
+          "repair a flat",
+          "have a flat",
+          "need a flat tire fix",
+          "nail in tire",
+          "tire replacement"
+        ]
+      },
+      {
+        "value": "DIAGTIRE",
+        "synonyms": [
+          "10005",
+          "change wheel",
+          "change wheels",
+          "Wheel Shaking",
+          "new wheel",
+          "new wheels"
+        ]
+      },
+      {
+        "value": "FM305",
+        "synonyms": [
+          "10006",
+          "wheel bearing"
+        ]
+      },
+      {
+        "value": "FM305",
+        "synonyms": [
+          "10007",
+          "Tire Storage"
+        ]
+      },
+      {
+        "value": "BAL",
+        "synonyms": [
+          "10008",
+          "tire balance",
+          "tire balanced",
+          "balance wheel",
+          "balance wheels",
+          "wheel balance",
+          "wheel balanced",
+          "wheels balance",
+          "wheels balanced"
+        ]
+      },
+      {
+        "value": "ROTATE",
+        "synonyms": [
+          "10009",
+          "tire rotate",
+          "tire rotation",
+          "rotate tire",
+          "rotate tires",
+          "tire cotation"
+        ]
+      },
+      {
+        "value": "FM305",
+        "synonyms": [
+          "10010",
+          "Tire Pulling",
+          "Tire Shaking",
+          "Road Noise"
+        ]
+      },
+      {
+        "value": "ALIGN4",
+        "synonyms": [
+          "10011",
+          "wheel alignment",
+          "wheel align",
+          "wheel aligned",
+          "wheels aligned",
+          "alignment check"
+        ]
+      },
+      {
+        "value": "ALIGN4",
+        "synonyms": [
+          "10012",
+          "Four Wheel Alignment"
+        ]
+      },
+      {
+        "value": "DIAGSES",
+        "synonyms": [
+          "10013",
+          "interior lighting",
+          "exterior lighting",
+          "engine light",
+          "engine soon light",
+          "tail light",
+          "tail lights",
+          "check engine light",
+          "warning lights"
+        ]
+      },
+      {
+        "value": "DIAGELECT",
+        "synonyms": [
+          "10014",
+          "battery",
+          "battery terminal",
+          "12 v battery",
+          "12 volt battery",
+          "clean battery",
+          "clean battery terminal",
+          "clean battery terminals",
+          "battery is dead"
+        ]
+      },
+      {
+        "value": "DIAGELECT",
+        "synonyms": [
+          "100141",
+          "replace battery",
+          "battery replace",
+          "battery replacement"
+        ]
+      },
+      {
+        "value": "DIAGENG",
+        "synonyms": [
+          "10015",
+          "knocking sound",
+          "grinding sound",
+          "lack of power",
+          "poor mileage",
+          "tuneup",
+          "tune up",
+          "vibration problem",
+          "running rough",
+          "cylinder misfire",
+          "cylinder",
+          "engine diagnosis",
+          "knocking sounds",
+          "grinding sounds",
+          "lots of vibration",
+          "vibration issue",
+          "vibration issues",
+          "performance problem",
+          "performance issues",
+          "performance matter",
+          "mechanical",
+          "mechanically",
+          "repair",
+          "with thermostat",
+          "with gasket",
+          "check thermostat",
+          "check gasket\",”radiator hoses",
+          "fan belts",
+          "engine overheating",
+          "shaking",
+          "pulling",
+          "won't start",
+          "does not move",
+          "does not work",
+          "accident",
+          "towed"
+        ]
+      },
+      {
+        "value": "DIAGELECT",
+        "synonyms": [
+          "100151",
+          "spark plug",
+          "spark plugs",
+          "replace spark plug",
+          "replace spark plugs"
+        ]
+      },
+      {
+        "value": "DIAGENG",
+        "synonyms": [
+          "10016",
+          "abs",
+          "Anti-lock Brake",
+          "Anti-lock",
+          "ABS Brake",
+          "ABS brake",
+          "ABS brake check",
+          "Anti-lock Break",
+          "ABS Break",
+          "ABS break",
+          "ABS break check"
+        ]
+      },
+      {
+        "value": "AC DIAG",
+        "synonyms": [
+          "10017",
+          "ac",
+          "a c",
+          "air conditioning",
+          "air conditioner",
+          "cooling system",
+          "a c filter",
+          "hvac",
+          "h v a c filter",
+          "evap",
+          "e v a p",
+          "Hvac Filter",
+          "climate control",
+          "heating system",
+          "heater system",
+          "nitrogen"
+        ]
+      },
+      {
+        "value": "DIAGMTRANS",
+        "synonyms": [
+          "10018",
+          "transmission",
+          "automatic transmission",
+          "manual transmission",
+          "clutch problem",
+          "not shifting",
+          "transmission diagnosis",
+          "clutch issue",
+          "clutch not working",
+          "clutch failure"
+        ]
+      },
+      {
+        "value": "DIAGELECT",
+        "synonyms": [
+          "10019",
+          "bulb indicator",
+          "lighting indicator",
+          "exterior lighting",
+          "interior lighting",
+          "tail light",
+          "tail lights",
+          "headlight",
+          "charging problem",
+          "wiring problem",
+          "sensor problem",
+          "turning signal",
+          "lamp problem",
+          "indicator",
+          "warning light",
+          "warning lamp",
+          "lamp illuminated",
+          "light on",
+          "light off",
+          "lamp is illuminated",
+          "head light",
+          "light bulb",
+          "indicator on",
+          "light indicator",
+          "headlights",
+          "reverse lights",
+          "park and fog lights",
+          "bulb not working",
+          "change bulb",
+          "lighting"
+        ]
+      },
+      {
+        "value": "DIAGELECT",
+        "synonyms": [
+          "10020",
+          "electric",
+          "electrical",
+          "electronic",
+          "electronic card",
+          "electronic board",
+          "electrical component",
+          "electronic component",
+          "electrical system",
+          "electrical system diagnosis",
+          "switch problem"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10021",
+          "remote key",
+          "key fob",
+          "key car",
+          "car key",
+          "key replacement",
+          "key copy",
+          "cut key",
+          "program key",
+          "cut and program key",
+          "key cut",
+          "new key",
+          "lost key",
+          "lost my key",
+          "replacement key",
+          "Need a duplicate key",
+          "duplicate key"
+        ]
+      },
+      {
+        "value": "DIAGRADIO",
+        "synonyms": [
+          "10022",
+          "cd",
+          "dvd",
+          "Entertainment",
+          "Radio problem",
+          "communication problem",
+          "iPod problem",
+          "navigation problem",
+          "gps problem",
+          "bluetooth problem",
+          "wi-fi problem",
+          "wifi problem",
+          "audio problem",
+          "infotainment problem",
+          "touchscreen problem",
+          "problem with cd",
+          "problem with dvd",
+          "problem with entertainment",
+          "problem with radio",
+          "problem with communication",
+          "problem with ipod",
+          "problem with navigation",
+          "problem with gps",
+          "problem with bluetooth",
+          "problem with wi-fi",
+          "problem with wifi",
+          "problem with audio",
+          "problem with infotainment",
+          "problem with touchscreen",
+          "problem with touch screen",
+          "touch screen problem"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10023",
+          "software problem",
+          "patch problem",
+          "computer problem",
+          "problem with software",
+          "problem with patch",
+          "problem with computer"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10024",
+          "inspection",
+          "safety inspection",
+          "safety belt",
+          "multipoint inspection",
+          "multi point inspection",
+          "complete check-up",
+          "check up",
+          "timing belt",
+          "diagnostic",
+          "what is wrong"
+        ]
+      },
+      {
+        "value": "DIAGSUSP",
+        "synonyms": [
+          "10026",
+          "suspension",
+          "shock absorber",
+          "shock absorbers",
+          "tires suspension",
+          "shocks problem",
+          "spring problem"
+        ]
+      },
+      {
+        "value": "DIAGSTEER",
+        "synonyms": [
+          "10027",
+          "steering gear",
+          "tie rods",
+          "adaptive steering",
+          "steering wheel",
+          "heated steering wheel",
+          "power steering",
+          "steering problem",
+          "steering issue",
+          "problem with steering"
+        ]
+      },
+      {
+        "value": "DIAGBRAKE",
+        "synonyms": [
+          "10028",
+          "brake",
+          "brakes",
+          "front brake",
+          "front brakes",
+          "brake pad",
+          "brake pads",
+          "super duty pad",
+          "grinding from brakes",
+          "rattles from brakes",
+          "squeaks from brakes",
+          "brake line",
+          "brake lines",
+          "break pad",
+          "break pads",
+          "hoses problem",
+          "hoses issue",
+          "break",
+          "breaks",
+          "brake check",
+          "brake check light",
+          "break check",
+          "break check light"
+        ]
+      },
+      {
+        "value": "DAG",
+        "synonyms": [
+          "100281",
+          "brake inspection"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10029",
+          "rear brake",
+          "rear brakes"
+        ]
+      },
+      {
+        "value": "DIIAG",
+        "synonyms": [
+          "10030",
+          "fuel injector",
+          "fuel injectors",
+          "fuel line"
+        ]
+      },
+      {
+        "value": "CABIN",
+        "synonyms": [
+          "10031",
+          "air filter",
+          "air filters",
+          "cabin air filter",
+          "air cleaner filter",
+          "air intake",
+          "air intake filter",
+          "air intake filter element",
+          "engine air intake filter",
+          "engine air filter",
+          "engine air filters",
+          "in cabin",
+          "cabin air"
+        ]
+      },
+      {
+        "value": "DIAGGLASS",
+        "synonyms": [
+          "10032",
+          "window problem",
+          "window glass",
+          "windshield",
+          "windows problem",
+          "window tint",
+          "auto tint",
+          "sun roof",
+          "moon roof",
+          "problem with window",
+          "issue with window",
+          "window not",
+          "windows not",
+          "with window",
+          "with sunroof",
+          "with sun roof",
+          "sunroof problem",
+          "with moonroof",
+          "moonroof problem",
+          "with windshield",
+          "windshield problem"
+        ]
+      },
+      {
+        "value": "DAG",
+        "synonyms": [
+          "10033",
+          "accessory",
+          "accessories",
+          "antenna",
+          "with antenna",
+          "antenna problem",
+          "with accessory",
+          "accessory problem"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10034",
+          "emergency brake",
+          "drivetrain",
+          "turbo",
+          "drive axle",
+          "transfer case",
+          "tailpipe",
+          "drive train",
+          "tail pipe"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "100341",
+          "exhaust problem",
+          "muffler problem",
+          "problem with exhaust",
+          "problem with muffler"
+        ]
+      },
+      {
+        "value": "DIIAG",
+        "synonyms": [
+          "10035",
+          "starter problem",
+          "ignition problem",
+          "problem with starter",
+          "problem with ignition"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10036",
+          "camera problem",
+          "reverse camera",
+          "o2 sensor",
+          "airbag",
+          "air bag",
+          "problem with camera",
+          "backup camera",
+          "back camera"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10037",
+          "retractable",
+          "floor board",
+          "floor boards",
+          "glove box",
+          "glove compartment"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10038",
+          "opal problem",
+          "lipo problem",
+          "opal issue",
+          "lipo issue"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10039",
+          "burning odors",
+          "scraping noise"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10040",
+          "factory",
+          "technical"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10041",
+          "paint problem",
+          "undercoat problem",
+          "have a dent",
+          "seat problem",
+          "seats problem",
+          "upholstery",
+          "body works",
+          "moulding",
+          "carwash",
+          "car wash",
+          "door handle",
+          "door handles",
+          "front door",
+          "back door",
+          "backdoor",
+          "trunk latch",
+          "trunk latches",
+          "traction aid",
+          "fault hill descent",
+          "Glove box",
+          "glove compartment",
+          "body shop",
+          "rear end",
+          "accident",
+          "repair door",
+          "repair car doo",
+          "repairing drive,\"bumper",
+          "dashboard",
+          "seat issue",
+          "with seat",
+          "with trim",
+          "trim problem",
+          "trim issue",
+          "with door",
+          "door problem",
+          "with trunk",
+          "trunk problem",
+          "with dash",
+          "dash problem",
+          "with cover",
+          "cover problem",
+          "with dashboard",
+          "dash board",
+          "seat belt",
+          "seat belts",
+          "handbrake",
+          "windscreen",
+          "check horn"
+        ]
+      },
+      {
+        "value": "DIAGLEAK",
+        "synonyms": [
+          "10044",
+          "oil leak",
+          "engine leak",
+          "engine leaks",
+          "engine oil leak",
+          "fluid leak",
+          "fluid leaks",
+          "fluid exchange",
+          "drivetrain leaks",
+          "water pump",
+          "fluid levels",
+          "antifreeze",
+          "flush fluid",
+          "flush fluids",
+          "fuel pump",
+          "with hose",
+          "with leak",
+          "with leaks",
+          "with coolant",
+          "with level",
+          "with levels",
+          "check level",
+          "check levels",
+          "check fluid",
+          "check fluids",
+          "check leak",
+          "check leaks",
+          "check pump",
+          "check coolant",
+          "radiator coolant",
+          "brake fluid",
+          "power steering fluid",
+          "windshield washer fluid",
+          "clutch fluid",
+          "grearbox oil",
+          "differential fluid"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "100441",
+          "replace engine coolant",
+          "engine coolant"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "10046",
+          "take a drive",
+          "drive around",
+          "test drive",
+          "driveability test",
+          "complimentary driveability"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "20010",
+          "emission test",
+          "emission inspection",
+          "emission reinspection",
+          "inspection emission",
+          "emissions test",
+          "emissions inspection",
+          "smog inspection",
+          "Smog check",
+          "emission check",
+          "emissions check",
+          "with emission",
+          "with emissions",
+          "smog test",
+          "with smog"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "20020",
+          "front differential",
+          "rear differential"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "20021",
+          "differential system"
+        ]
+      },
+      {
+        "value": "DIAG",
+        "synonyms": [
+          "20022",
+          "axle"
+        ]
+      },
+      {
+        "value": "OCM",
+        "synonyms": [
+          "20030",
+          "map sensor"
+        ]
+      },
+      {
+        "value": "OCM",
+        "synonyms": [
+          "20040",
+          "knock sensor"
+        ]
+      },
+      {
+        "value": "OCM",
+        "synonyms": [
+          "20050",
+          "engine electrical"
+        ]
+      },
+      {
+        "value": "OCM",
+        "synonyms": [
+          "20060",
+          "steering problem",
+          "power steering",
+          "with steering",
+          "check steering"
+        ]
+      }
+    ],
+    "id": "0f103487-53d1-4829-9c6a-b5c26807f5ac",
+    "isOverridable": false
+  }

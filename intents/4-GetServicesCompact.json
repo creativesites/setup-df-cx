@@ -1,0 +1,177 @@
+{
+  "id": "1ec0c1e2-f0c9-40cd-afa3-2240e63ba167",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "4-GetServicesCompact",
+  "auto": true,
+  "contexts": [
+    "getSvc",
+    "config",
+    "compressed"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "otherSvc",
+          "lifespan": 0
+        },
+        {
+          "name": "otherSvcInput",
+          "lifespan": 0
+        },
+        {
+          "name": "maxOtherSvc",
+          "lifespan": 0
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c22d3787-ea50-4ae8-b73a-fc01624c075c",
+          "name": "service",
+          "required": true,
+          "dataType": "@serviceOptions",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003eThank you. Now, please tell me what service you would like, for example oil change?\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f16be134-88d4-4421-a5a7-12ad24059e7c",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2b10522d-45fc-43d7-b518-11095ac192a1",
+          "name": "days",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "7",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9dd2e5ad-a534-4583-99d4-761bfacfe890",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "35842ea6-5e5d-4e86-8e69-ec25f05e0baf",
+          "name": "wordsIssues",
+          "required": false,
+          "dataType": "@wordsIssues",
+          "value": "$wordsIssues",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "508b4cac-4b54-4938-aa6a-7b1b77c1dc14",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5248773c-2d63-49e0-afbe-2805327c3c94",
+          "name": "AAAa",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.userInput",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e#config.transportQuestion2\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

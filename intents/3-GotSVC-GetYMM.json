@@ -1,0 +1,158 @@
+{
+  "id": "fb8be1fc-3006-46ac-b3af-fccfc94e9805",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "3-GotSVC-GetYMM",
+  "auto": true,
+  "contexts": [
+    "gotSVCgetYMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "is_valid_year",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServices-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "otherSvc",
+          "lifespan": 0
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "1-Schedule-000-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d9a24105-f8f0-4b6f-8d84-2190ee716d27",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "afcd4170-c524-4ba2-9f2a-d1f581f11d59",
+          "name": "make1",
+          "required": false,
+          "dataType": "@carMake",
+          "value": "$make1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c45be570-4eb6-4f2e-acb2-c319579b31dd",
+          "name": "carYear",
+          "required": true,
+          "dataType": "@wordsCarYear",
+          "value": "$carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your vehicle\u0027s year\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "70a1034c-828d-4545-b453-e858872e1271",
+          "name": "carModel",
+          "required": true,
+          "dataType": "@carModels",
+          "value": "$carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your vehicle\u0027s model, for example, #config.example\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "142cb3b3-815b-4013-8af0-1698615dd531",
+          "name": "carModelRead",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Would you like any other services in addition to #config.serviceOriginal ? \u003c/prosody\u003e\u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

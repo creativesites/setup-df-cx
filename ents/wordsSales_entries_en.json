@@ -1,0 +1,38 @@
+[
+  {
+    "value": "sales",
+    "synonyms": [
+      "sales",
+      "sale",
+      "else",
+      "sales department",
+      "sex",
+      "sex department",
+      "talk to sales"
+    ]
+  },
+  {
+    "value": "new model",
+    "synonyms": [
+      "new model",
+      "how much",
+      "estimate",
+      "get an estimate",
+      "can you send me information about new model",
+      "model",
+      "models",
+      "what models do you have",
+      "How much is it?",
+      "what\u0027s the price",
+      "the price",
+      "price",
+      "What is the price"
+    ]
+  },
+  {
+    "value": "quotation",
+    "synonyms": [
+      "@wordsQuote"
+    ]
+  }
+]

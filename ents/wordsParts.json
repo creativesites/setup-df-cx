@@ -1,0 +1,9 @@
+{
+  "id": "07cba2fa-abe7-47cd-ad02-f7ad5413aef1",
+  "name": "wordsParts",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

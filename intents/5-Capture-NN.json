@@ -1,0 +1,75 @@
+{
+  "id": "0b7aa1e2-c3de-4ca2-9881-41be1908db1d",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-Capture-NN",
+  "auto": true,
+  "contexts": [
+    "getVM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "5-Capture-NN-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "5-Capture-NN-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7dbfd07b-8e83-4880-abf1-208523b921ec",
+          "name": "message",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$message",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/12.1_522.ogg\"\u003ePlease say your message and we will try to assist you.\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/firstAndLastName.ogg\"\u003e\nPlease say your first name and last name\n\u003c/audio\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

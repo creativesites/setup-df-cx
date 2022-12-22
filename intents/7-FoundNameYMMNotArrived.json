@@ -1,0 +1,110 @@
+{
+  "id": "e478bed5-c682-4bae-91ab-43dbf3e38819",
+  "parentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "rootParentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "7-FoundNameYMMNotArrived",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "Greeting-FoundName-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "statusNotArrived",
+          "lifespan": 99
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "37d49b63-9517-43c5-8386-14dcf7209412",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName #config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2be9142e-250e-4e9e-936d-9872dae591ef",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d6e468a4-bbb4-48f0-affe-84fd5028c19b",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.firstName #config.lastName #config.carYear #config.make #config.carModel #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Hello #config.customerNamePrefix #config.lastName .\u003c/prosody\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment .\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nI found your booking for #config.carYear #config.carModelRead .\n\u003c/prosody\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/HowCanIAssistYouToday.ogg”\u003e \nHow can I assist you today? \n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "FoundNameYMMNotArrived"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

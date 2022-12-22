@@ -1,0 +1,74 @@
+{
+  "id": "3ecb0617-a7f9-40b6-b2b4-090e7e778d9a",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "ListServices",
+  "auto": true,
+  "contexts": [
+    "listServices",
+    "config",
+    "adHoc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "21-GetYMM-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "50e8a620-518f-47c8-8f51-30c8322c7845",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Our services include; Recalls; Brake repair;  AC and Cabin Filter Replacement; Engine light, Battery and Electrical system; Windshield Wipers and Fluid; Tire repairs and changes; and Inspection ; Please say a service name, or NEXT for more options \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our services include;\nRecalls;\nBrake repair; \nAC and Cabin Filter Replacement;\nEngine light, Battery and Electrical system;\nWindshield Wipers and Fluid;\nTire repairs and changes;\nand Inspection ;\nPlease say a service name, or NEXT for more options"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

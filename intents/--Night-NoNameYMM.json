@@ -1,0 +1,176 @@
+{
+  "id": "54ac64c0-ad8b-4b54-9e27-aa07c16fd460",
+  "parentId": "3470a2b1-10d5-4c43-a0fa-b60b02b4a9d8",
+  "rootParentId": "12d69460-8977-4d7d-9a7b-3d705f147f6f",
+  "name": "--Night-NoNameYMM",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "night",
+          "lifespan": 99
+        },
+        {
+          "name": "NoName-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 99
+        },
+        {
+          "name": "awaitVerifyYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "wrongYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-010-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "changeYMM",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "31c3204a-590d-4e85-966b-86139d5ee540",
+          "name": "smsFromNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.enableTracking",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4e41759e-cf48-44a8-bc5c-17b7577cab8d",
+          "name": "smsPhoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "6506900634",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "315b17b4-e0d7-45bd-a7a8-c67c7f62e445",
+          "name": "smsMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "[#config.businessName]  \n#config.carYear\n#config.make\n#config.carModel\n#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "04d58d1a-8219-4ee3-a8a9-54cd0630a8a2",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Unknown",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b6180e48-e977-4fd9-ae70-6d18f85f1ce3",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4c54b2a7-975e-41c8-9055-ac840d90727c",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.carYear #config.make #config.carModel #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n#config.greeting \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA2.ogg\"\u003e \nwould you like to book an appointment for your \n\u003c/audio\u003e  \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \n#config.carYear #config.carModelRead ? \n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "NightNoNameYMM"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

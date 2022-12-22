@@ -1,0 +1,221 @@
+[
+  {
+    "id": "24396904-f09f-4bcd-af77-dd270fbf2e8b",
+    "data": [
+      {
+        "text": "vehicle ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10a35383-8221-465f-9d48-13f28f8b14e9",
+    "data": [
+      {
+        "text": "i want",
+        "meta": "@preamble",
+        "alias": "preamble",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5604df29-0346-4de4-b87c-aaf7b4e8dc63",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74552d40-129b-486d-8ef3-9c1c17e50c93",
+    "data": [
+      {
+        "text": "See ",
+        "userDefined": false
+      },
+      {
+        "text": "if",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "car is ready",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a392da0-ad45-4eb3-911c-8866c8b59c73",
+    "data": [
+      {
+        "text": "I might have a vehicle ",
+        "userDefined": false
+      },
+      {
+        "text": "in",
+        "userDefined": false
+      },
+      {
+        "text": " there getting ",
+        "userDefined": false
+      },
+      {
+        "text": "worked",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": ". ",
+        "userDefined": false
+      },
+      {
+        "text": "I\u0027m",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "just",
+        "userDefined": false
+      },
+      {
+        "text": " looking ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72b49b33-1e79-4bef-8317-663b696f6633",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@wordsVague",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@wordsVague",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54d1c474-7818-44f6-a4d8-8e6d02a2f30a",
+    "data": [
+      {
+        "text": "is vehicle ready",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

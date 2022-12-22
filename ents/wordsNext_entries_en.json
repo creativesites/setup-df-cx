@@ -1,0 +1,72 @@
+[
+  {
+    "value": "next",
+    "synonyms": [
+      "next",
+      "text",
+      "ext",
+      "nest",
+      "sex",
+      "next slots",
+      "next time slots",
+      "next dates",
+      "next times",
+      "next options"
+    ]
+  },
+  {
+    "value": "more",
+    "synonyms": [
+      "more",
+      "more options",
+      "next option",
+      "give me more",
+      "more slots",
+      "more time slots",
+      "more dates",
+      "more times"
+    ]
+  },
+  {
+    "value": "another",
+    "synonyms": [
+      "another",
+      "another preferred date",
+      "other",
+      "other slots",
+      "other time slots",
+      "other dates",
+      "other times",
+      "other options"
+    ]
+  },
+  {
+    "value": "after",
+    "synonyms": [
+      "after",
+      "sometime after",
+      "after this time"
+    ]
+  },
+  {
+    "value": "later",
+    "synonyms": [
+      "later",
+      "Anything later.",
+      "later time",
+      "later times"
+    ]
+  },
+  {
+    "value": "Snack",
+    "synonyms": [
+      "Snack"
+    ]
+  },
+  {
+    "value": "options",
+    "synonyms": [
+      "options"
+    ]
+  }
+]

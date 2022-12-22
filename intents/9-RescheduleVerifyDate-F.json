@@ -1,0 +1,47 @@
+{
+  "id": "4f719c5c-9785-43a7-91c2-ad91123f68ea",
+  "parentId": "4bc3e99f-ec15-4daf-bfdd-72611f4ec4db",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "9-RescheduleVerifyDate-F",
+  "contexts": [
+    "9-Reschedule-followup",
+    "9-RescheduleVerifyDate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_timeslots.9-RescheduleVerifyDate-fallback",
+      "affectedContexts": [
+        {
+          "name": "9-Reschedule-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003eWe could not find any availability on that day. Please say another date or say operator\u003c/prosody\u003e   \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

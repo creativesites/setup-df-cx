@@ -1,0 +1,9 @@
+{
+  "id": "3d1db9f2-12cd-48d8-afb5-8436de49b256",
+  "name": "FAQ",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

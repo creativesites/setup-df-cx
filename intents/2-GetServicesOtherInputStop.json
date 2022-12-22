@@ -1,0 +1,136 @@
+{
+  "id": "0558a5b0-a899-4a35-ba6d-2af524944e31",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherInputStop",
+  "auto": true,
+  "contexts": [
+    "config",
+    "otherSvcInput"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0a2057b6-fa5f-4071-80ef-41c25a470814",
+          "name": "service2",
+          "required": true,
+          "dataType": "@serviceOptions",
+          "value": "$service2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/SvcOtherSvc.ogg\"\u003e\nWhat other services would you like?\n\u003c/audio\u003e  \n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5dddb943-f187-4e58-9092-e30c55daaece",
+          "name": "serviceOriginal2",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service2.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6c24867d-d2a6-4159-8e9c-69ca2ba5a27d",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f9197d47-acbc-4815-af18-364d16ecd091",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e457d36f-8095-4168-8a04-825d492c8c68",
+          "name": "wordspre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordspre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

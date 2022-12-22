@@ -1,0 +1,321 @@
+[
+  {
+    "value": "ifineed",
+    "synonyms": [
+      "if i need"
+    ]
+  },
+  {
+    "value": "cost",
+    "synonyms": [
+      "cost of",
+      "quotation for",
+      "price of",
+      "how much",
+      "cost for an oil change",
+      "cost of an oil change",
+      "cost of oil change",
+      "estimate for",
+      "estimation for",
+      "estimates for",
+      "how much an oil change",
+      "how much for oil change",
+      "quote for",
+      "cost for",
+      "price for"
+    ]
+  },
+  {
+    "value": "don\u0027t want",
+    "synonyms": [
+      "i do not want",
+      "i do not want an appointment",
+      "no appointment",
+      "i did not want",
+      "i do not need",
+      "i Don\u0027t want"
+    ]
+  },
+  {
+    "value": "information on recall",
+    "synonyms": [
+      "information on recall",
+      "information on recalls",
+      "recall information",
+      "recalls information"
+    ]
+  },
+  {
+    "value": "other",
+    "synonyms": [
+      "director.",
+      "president.",
+      "other.",
+      "mother.",
+      "father.",
+      "Are there?",
+      "Weather.",
+      "another.",
+      "otter.",
+      "oter.",
+      "other",
+      "mother",
+      "father",
+      "weather",
+      "another",
+      "otter",
+      "oter"
+    ]
+  },
+  {
+    "value": "speak",
+    "synonyms": [
+      "speak to",
+      "can you",
+      "would like to ask",
+      "would like to ask if",
+      "talk to",
+      "information",
+      "C2 a person",
+      "i need to know",
+      "i need to know the dates",
+      "find out",
+      "find out about"
+    ]
+  },
+  {
+    "value": "switch",
+    "synonyms": [
+      "already have appointment",
+      "already have an appointment"
+    ]
+  },
+  {
+    "value": "test",
+    "synonyms": [
+      "test drive"
+    ]
+  },
+  {
+    "value": "waittime",
+    "synonyms": [
+      "waittime",
+      "Can you please tell me how long is the wait for oil change?",
+      "wait time"
+    ]
+  },
+  {
+    "value": "warranty",
+    "synonyms": [
+      "warranty."
+    ]
+  },
+  {
+    "value": "How much time",
+    "synonyms": [
+      "How much time",
+      "how much more",
+      "how long",
+      "what is the wait",
+      "what is the wait for",
+      "what is the wait time",
+      "what is wait time"
+    ]
+  },
+  {
+    "value": "have a ride home",
+    "synonyms": [
+      "have a ride home",
+      "ride home",
+      "need a ride",
+      "need a ride back"
+    ]
+  },
+  {
+    "value": "questionW",
+    "synonyms": [
+      "when was",
+      "when is",
+      "what is",
+      "who is",
+      "where is",
+      "why is",
+      "why was",
+      "what was",
+      "Got a question for service",
+      "question for",
+      "question for service",
+      "got questions for service",
+      "questions for",
+      "questions for service"
+    ]
+  },
+  {
+    "value": "lateForAppt",
+    "synonyms": [
+      "late for appointment",
+      "late for my appointment",
+      "late for the appointment",
+      "late for",
+      "late for my",
+      "Are you going to be late for my appointment?"
+    ]
+  },
+  {
+    "value": "operator",
+    "synonyms": [
+      "operator",
+      "Evaporator",
+      "Evaporator.",
+      "Operator."
+    ]
+  },
+  {
+    "value": "message",
+    "synonyms": [
+      "leave a message",
+      "leave message",
+      "take message",
+      "take a message",
+      "voicemail",
+      "message for",
+      "put message",
+      "a message",
+      "the message"
+    ]
+  },
+  {
+    "value": "something",
+    "synonyms": [
+      "something",
+      "something else",
+      "some thing"
+    ]
+  },
+  {
+    "value": "wordsNoAppointment",
+    "synonyms": [
+      "@wordsNoAppointment"
+    ]
+  },
+  {
+    "value": "noAppt",
+    "synonyms": [
+      "Not @wordsAppointment",
+      "no @wordsAppointment",
+      "not an @wordsAppointment",
+      "not an appointment",
+      "no appointment",
+      "not appointment"
+    ]
+  },
+  {
+    "value": "localwordsforvoicemail",
+    "synonyms": [
+      "@aWordsVoicemail"
+    ]
+  },
+  {
+    "value": "unhandled",
+    "synonyms": [
+      "@aWordsUnhandled"
+    ]
+  },
+  {
+    "value": "appointment confirmation",
+    "synonyms": [
+      "Confirm appointment",
+      "confirm my appointment",
+      "confirm booking",
+      "confirm my booking",
+      "confirm an appointment."
+    ]
+  },
+  {
+    "value": "agent",
+    "synonyms": [
+      "operator",
+      "live person",
+      "customer service",
+      "representative",
+      "human being",
+      "representatives",
+      "operator operator",
+      "Evaporator",
+      "receptionist",
+      "general manager",
+      "customer support",
+      "agent",
+      "customer service agent",
+      "manager",
+      "associate",
+      "Evaporator.",
+      "person",
+      "a person",
+      "technician",
+      "service advisor",
+      "service representative",
+      "service provider",
+      "service rep",
+      "service manager",
+      "service director",
+      "service supervisor",
+      "service department"
+    ]
+  },
+  {
+    "value": "annoying",
+    "synonyms": [
+      "annoying",
+      "what are you doing",
+      "especially annoying"
+    ]
+  },
+  {
+    "value": "Quick Lane",
+    "synonyms": [
+      "Quick Lane"
+    ]
+  },
+  {
+    "value": "transfer",
+    "synonyms": [
+      "transfer to",
+      "talk to",
+      "speak to",
+      "stop",
+      "transfer the line",
+      "connect me",
+      "transfer me"
+    ]
+  },
+  {
+    "value": "I want to know",
+    "synonyms": [
+      "I want to know",
+      "tell me",
+      "calling about"
+    ]
+  },
+  {
+    "value": "assistance",
+    "synonyms": [
+      "assistance",
+      "assistance."
+    ]
+  },
+  {
+    "value": "helpW",
+    "synonyms": [
+      "help"
+    ]
+  },
+  {
+    "value": "department",
+    "synonyms": [
+      "parts",
+      "finance department",
+      "collision center"
+    ]
+  }
+]

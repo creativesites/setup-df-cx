@@ -1,0 +1,97 @@
+[
+  {
+    "value": "yes",
+    "synonyms": [
+      "yeah",
+      "yep",
+      "yep that\u0027s right",
+      "yes I agree",
+      "yes i do",
+      "yes that\u0027s right",
+      "yup",
+      "yet",
+      "it\u0027s ok",
+      "sure why not",
+      "go ahead",
+      "I think so",
+      "yes agreed",
+      "yes, that\u0027s ok",
+      "ok i will",
+      "yes that\u0027s ok",
+      "yes",
+      "Oh, yes.",
+      "if",
+      "CVS."
+    ]
+  },
+  {
+    "value": "strongYes",
+    "synonyms": [
+      "absolutely",
+      "for sure",
+      "right",
+      "sure",
+      "yes you can do it",
+      "confirmation",
+      "i confirm",
+      "confirm",
+      "exactly",
+      "correct",
+      "perfect"
+    ]
+  },
+  {
+    "value": "weakYes",
+    "synonyms": [
+      "I guess",
+      "guess",
+      "it\u0027s fine",
+      "why not",
+      "death",
+      "noted",
+      "thank you"
+    ]
+  },
+  {
+    "value": "agreementWords",
+    "synonyms": [
+      "i agree",
+      "of course",
+      "alright",
+      "that\u0027s right",
+      "sounds good",
+      "good",
+      "i am good",
+      "agree",
+      "that works"
+    ]
+  },
+  {
+    "value": "bookIt",
+    "synonyms": [
+      "book it",
+      "book",
+      "bok it",
+      "look",
+      "lock it",
+      "booking",
+      "booklet",
+      "look it",
+      "hook it",
+      "nook it",
+      "duke it",
+      "bucket"
+    ]
+  },
+  {
+    "value": "okW",
+    "synonyms": [
+      "Ok",
+      "okay",
+      "o k",
+      "that\u0027s ok",
+      "ok i will",
+      "ok yes"
+    ]
+  }
+]

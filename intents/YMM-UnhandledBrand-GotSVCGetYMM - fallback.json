@@ -1,0 +1,52 @@
+{
+  "id": "9ad267f5-3550-48a3-bdb7-1373555abbe1",
+  "parentId": "3938f865-df3e-48eb-96aa-d2663ddf28d6",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-UnhandledBrand-GotSVCGetYMM - fallback",
+  "contexts": [
+    "YMM-UnhandledBrand-GotSVCGetYMM-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "YMM-UnhandledBrand-GotSVCGetYMM.YMM-UnhandledBrand-GotSVCGetYMM-fallback",
+      "affectedContexts": [
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand. \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

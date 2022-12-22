@@ -1,0 +1,47 @@
+{
+  "id": "d6b2d69b-7330-476b-85c8-28c06bc6b9be",
+  "parentId": "85b89f31-ee47-4bbd-9b73-1838a9470a31",
+  "rootParentId": "ae3ae8c2-c549-4e4f-a3af-de9778f0dfbd",
+  "name": "1-Schedule - F",
+  "contexts": [
+    "1-Schedule-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "1-Schedule.1-Schedule-fallback",
+      "affectedContexts": [
+        {
+          "name": "gotVehicleType",
+          "lifespan": 1
+        },
+        {
+          "name": "1-Schedule-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#1-Schedule-followup.vehicleType"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

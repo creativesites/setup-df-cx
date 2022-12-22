@@ -1,0 +1,9 @@
+{
+  "id": "2785aaf5-400f-432a-9164-1a157bef0509",
+  "name": "wordsExceptions",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

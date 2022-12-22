@@ -1,0 +1,9 @@
+{
+  "id": "a8a1cd8b-4234-40b7-a85b-5cdc0a392862",
+  "name": "wordsVague",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

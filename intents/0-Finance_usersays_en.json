@@ -1,0 +1,95 @@
+[
+  {
+    "id": "bb97b68e-a2cc-4485-afab-27854067be59",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " finance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56c84cec-d129-49c6-ac28-2111b0ac2480",
+    "data": [
+      {
+        "text": "finance ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01346ac3-4877-49b6-90ab-478758cff61e",
+    "data": [
+      {
+        "text": "finance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ac312ea-6764-4c39-b687-09c9655532eb",
+    "data": [
+      {
+        "text": "Tough to",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " finance ",
+        "userDefined": false
+      },
+      {
+        "text": "manager",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6fbb70a3-7f24-413b-9dd4-245c50dc0443",
+    "data": [
+      {
+        "text": "talk to finance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

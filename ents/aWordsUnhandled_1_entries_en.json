@@ -1,0 +1,36 @@
+[
+  {
+    "value": "confirm appointment",
+    "synonyms": [
+      "confirm appointment",
+      "confirm my appoinmtnet",
+      "verify my appointment",
+      "confirm my schedule",
+      "when is my appointment",
+      "when is",
+      "pending appointment",
+      "when is my"
+    ]
+  },
+  {
+    "value": "warrantyWords",
+    "synonyms": [
+      "warranty"
+    ]
+  },
+  {
+    "value": "helpWords",
+    "synonyms": [
+      "help"
+    ]
+  },
+  {
+    "value": "vehiclePickup",
+    "synonyms": [
+      "pick up",
+      "pick up my vehicle",
+      "concierge",
+      "valet"
+    ]
+  }
+]

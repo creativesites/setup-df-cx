@@ -1,0 +1,108 @@
+{
+  "id": "48042086-0507-419d-8ccf-4ac629ea3433",
+  "parentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "rootParentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "name": "0-Status",
+  "auto": true,
+  "contexts": [
+    "config",
+    "transferOperator",
+    "X"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "09258b06-e48f-4931-be94-cba04790eaa8",
+          "name": "wordsStatus",
+          "required": false,
+          "dataType": "@wordsStatus",
+          "value": "$wordsStatus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fdb2e55f-5ac2-4003-a02b-12de46df0ddf",
+          "name": "any",
+          "required": false,
+          "dataType": "@wordsVague",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "501ce232-88dc-45a4-afe1-632a7704e5ca",
+          "name": "preamble",
+          "required": false,
+          "dataType": "@preamble",
+          "value": "$preamble",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "55415f8c-4d81-4789-83d5-75f76313a235",
+          "name": "appointment",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "false",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Transferring call to an operator \u003c/prosody\u003e\u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Transferring call"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

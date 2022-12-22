@@ -1,0 +1,46 @@
+{
+  "id": "13fea511-40f7-4b44-9e58-63d828c52f89",
+  "parentId": "4ba681c5-0c71-4202-a8c0-ab6d7e1e147f",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "9-Cancel-F",
+  "contexts": [
+    "9-Cancel-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "search_appt.9-Cancel-fallback",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003eSorry I did not get that.. Please say cancel or operator\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

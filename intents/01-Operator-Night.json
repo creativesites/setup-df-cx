@@ -1,0 +1,126 @@
+{
+  "id": "f4dd4e19-b87a-4a7b-a62f-cef9d1c29436",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "01-Operator-Night",
+  "auto": true,
+  "contexts": [
+    "transferVM",
+    "night",
+    "adHoc",
+    "dropIn",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 0
+        },
+        {
+          "name": "getVM",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62afe01a-13f5-4aae-a53c-d1ed74a8d6de",
+          "name": "message",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$message",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWe are closed now. Please leave us a short message and our agents will follow up with you as soon as possible. \n\u003c/prosody\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e1938b83-7edf-4ce2-b35c-0fb6491c3619",
+          "name": "operator",
+          "required": false,
+          "dataType": "@wordsOperator",
+          "value": "$operator",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e43f7bf8-c3f2-4558-9872-f73e91f86812",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3604ec71-8328-4f04-ba5a-4879d99b3adf",
+          "name": "preMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.lastUserInput2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

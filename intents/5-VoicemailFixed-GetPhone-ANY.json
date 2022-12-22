@@ -1,0 +1,114 @@
+{
+  "id": "63ef0b22-7c4a-42f6-a3e9-376f3a69d2e6",
+  "parentId": "2770eacb-b5cd-4de2-9782-06707acfbb95",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-VoicemailFixed-GetPhone-ANY",
+  "auto": true,
+  "contexts": [
+    "5-VoicemailFixed-GetPhone-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6e73ceee-dea7-4db6-8777-05e981a8e95e",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "url\u003d\u0027https://voicemail.autoservice.ai/voicemail/\u0027,message\u003d\u0027Customer requested an agent: #config.message \u0027,caller_phone\u003d\u0027+1$customerPhone\u0027,advisor_phone\u003d\u0027+1#config.advisorNumber\u0027,caller_name\u003d\u0027$firstName $lastName\u0027,ok_text\u003d\u00270\u0027,type\u003d\u00272\u0027,delay_time\u003d\u0027600\u0027,status\u003d\u00270\u0027,alert_to_manager\u003d\u0027\u0027,replier_id\u003d\u0027\u0027,flag\u003d\u0027\u0027,caller_replied\u003d\u0027\u0027,call_detail_url\u003d\u0027\u0027,time\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c46da177-84ff-43a7-9702-caaed59c434d",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dstatus\u0026phoneNum\u003d$customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "09303e65-5920-422b-8bd4-690b3f57fcb4",
+          "name": "wordsno",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsno",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1ab1cf32-f706-4a78-a963-5cb3d8da0f68",
+          "name": "wordsyes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsyes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "57608eb1-b92f-45c4-8e85-9a0969d206d7",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nGreat. I have notified our agents, and they will follow up with you soon. Good bye. \n\u003c/prosody\u003e  \n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

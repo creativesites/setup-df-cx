@@ -1,0 +1,207 @@
+{
+  "id": "c29e1827-5f12-422f-a3af-9e9de73b4d8b",
+  "parentId": "5d8d7d97-c630-4335-9b50-fb8ceb90b71d",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "1-BookFNCompact-Verify",
+  "auto": true,
+  "contexts": [
+    "getTime",
+    "foundName",
+    "timeSlotSelected",
+    "foundNameYMM",
+    "verifyPhone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book_me",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "06ff937d-f45b-4b6b-a69d-db83bd7782e1",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4d444d06-b8b2-46ef-8544-ee7781be84a4",
+          "name": "yes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$yes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ea865b86-936d-432a-a466-0da774864ea9",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.ogg\"\u003eGreat. Please say your first name then spell it\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "877dd81b-cd31-49e3-a7c7-b7b59459539a",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "087b1c88-9fe7-4002-880b-c7be1c87c46a",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio\u003eWhat is your mobile phone number?\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e7f3e856-c84d-4b46-8164-929ec831af67",
+          "name": "testPreferredTime",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5af97200-8420-446b-9356-0573dc20eacc",
+          "name": "testService",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.service",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "22dd8b70-86ba-43c6-8d43-b26157fe3d99",
+          "name": "successMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Great. You are booked #config.currentOriginalDate , #config.preferredTime.original. at #config.businessName. Would you like me to text you the booking details?",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "63cf51ab-1e9c-4a9f-ba59-40f9a2875a3d",
+          "name": "sendSMS",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "from\u003d+1#config.businessPhone,to\u003d+1#config.customerPhone,message\u003d\u0027You are confirmed for service:\n#config.currentOriginalDate at #config.preferredTimeReadable for your #config.carYear #config.make #config.carModel\nThe #config.businessName team\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8c21aa06-1ff3-4fee-a159-b5755d726ad7",
+          "name": "sendEmail",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "fromEmail\u003d\u0027info@autoservice.ai\u0027,toEmail\u003d\u0027#config.advisorEmail\u0027,subject\u003d\u0027You got a booking\u0027,msg\u003d\u0027Booking Details:\n\nDate: #config.currentOriginalDate at #config.preferredTime.original\nFor: #config.carYear #config.make #config.carModel\nCustomer: #config.firstName #config.lastName Tel: #config.customerPhone\n#config.businessName \nService: #config.serviceOriginal\nTransportation: #config.transportation\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/50.ogg\"\u003e Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye. \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BookYes"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

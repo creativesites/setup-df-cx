@@ -1,0 +1,85 @@
+{
+  "id": "5506becb-fd46-4e5c-a7a8-b9601695962a",
+  "parentId": "9865412a-d13d-4024-b700-3df536f0881c",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "ScheduleServiceYMM-Recall - yes",
+  "auto": true,
+  "contexts": [
+    "2-GetServicesOtherNo-followup",
+    "ScheduleServiceYMM-Recall-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ScheduleServiceYMM-Recall.ScheduleServiceYMM-Recall-yes",
+      "affectedContexts": [
+        {
+          "name": "2-GetServicesOtherYes-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f553b020-a2e2-43b6-88b5-5e4e6d48dab8",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b0063c79-b52e-4409-8524-69e376bbc70b",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

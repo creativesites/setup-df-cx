@@ -1,0 +1,58 @@
+[
+  {
+    "value": "quote",
+    "synonyms": [
+      "quote for",
+      "quotation for",
+      "quote",
+      "quotation",
+      "quote on a",
+      "quote on an",
+      "get a quote",
+      "get a quotation"
+    ]
+  },
+  {
+    "value": "how much",
+    "synonyms": [
+      "how much",
+      "how much for",
+      "how much is",
+      "how much is it for",
+      "what is charge for",
+      "what is the charge for",
+      "what is a charge for",
+      "how much do you charge"
+    ]
+  },
+  {
+    "value": "cost",
+    "synonyms": [
+      "costs for",
+      "cost for",
+      "cost of",
+      "costs of",
+      "costing"
+    ]
+  },
+  {
+    "value": "price",
+    "synonyms": [
+      "price for",
+      "prices for",
+      "price of",
+      "prices of",
+      "pricing for",
+      "price for oil change."
+    ]
+  },
+  {
+    "value": "estimate",
+    "synonyms": [
+      "estimate for",
+      "estimate of",
+      "estimated for",
+      "estimation for"
+    ]
+  }
+]

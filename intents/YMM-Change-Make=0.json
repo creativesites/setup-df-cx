@@ -1,0 +1,165 @@
+{
+  "id": "b164a199-8b93-40dd-a527-61e5e1bc7e7c",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-Change-Make\u003d0",
+  "auto": true,
+  "contexts": [
+    "config",
+    "changeYMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "is_valid_year",
+      "affectedContexts": [
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "invalidYear",
+          "lifespan": 1
+        },
+        {
+          "name": "21-GetYMM-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c7955a29-0432-424f-aed5-909a4f62843b",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bfa3d59b-740f-4a23-b463-1cda99f2bc3f",
+          "name": "carYear",
+          "required": true,
+          "dataType": "@wordsCarYear",
+          "value": "$carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your car year, or if you do not know it, please say operator\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b9adb8b7-45c0-4349-8a34-2c5e82c608d0",
+          "name": "make1",
+          "required": false,
+          "dataType": "@carMake",
+          "value": "$make1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ea28be3a-1a6f-4649-901b-d731c70907ce",
+          "name": "carModel",
+          "required": true,
+          "dataType": "@carModels",
+          "value": "$carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your car model, for example, #config.example\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "49769c29-f205-441c-a6b9-d2d99e9a61ff",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a49e62d9-56a0-441b-917c-4391dc7c95d8",
+          "name": "carModelRead",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003e Thank you. Now, please tell me what service you would like, for example oil change? \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Now, please tell me what service you would like, for example oil change?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

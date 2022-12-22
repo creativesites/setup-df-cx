@@ -1,0 +1,255 @@
+{
+  "id": "54bdeaf7-468b-4f14-bed6-e8774ce36330",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "02-StatusFN",
+  "auto": true,
+  "contexts": [
+    "config",
+    "transferVM",
+    "foundName",
+    "makeAppt",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "af7d8aaa-5e22-4369-85d1-d82bdb9cb65c",
+          "name": "message",
+          "required": false,
+          "dataType": "@wordsStatus",
+          "value": "$message",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2295f5d0-f421-4e7a-bc9d-cd445d15e81b",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2a593109-4f70-4d94-99b7-3e3fa9a8e961",
+          "name": "delay_time",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "30",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0fee9cf1-d1f6-42e8-af55-675b1926bf81",
+          "name": "serviceOptions",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$serviceOptions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "375fe0b7-83cd-492b-bef9-59b6ee723470",
+          "name": "wordsStatus",
+          "required": false,
+          "dataType": "@wordsStatus",
+          "value": "$wordsStatus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "432a6e47-ca0f-408e-8dfd-8b6bb48f8a49",
+          "name": "carYear",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your vehicle\u0027s year\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "737dfc82-2c64-4705-b58e-c8253952e720",
+          "name": "carModel",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your vehicle\u0027s model, for example, #config.example\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "620e1519-2f5b-4f68-8520-ffdc24e08756",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "url\u003d\u0027https://voicemail.autoservice.ai/voicemail/\u0027,message\u003d\u0027Status Request\u0027,caller_phone\u003d\u0027+1#config.customerPhone\u0027,advisor_phone\u003d\u0027+1#config.advisorNumber\u0027,caller_name\u003d\u0027#config.firstName #config.lastName\u0027,ok_text\u003d\u00270\u0027,type\u003d\u00272\u0027,delay_time\u003d\u002730\u0027,status\u003d\u00270\u0027,alert_to_manager\u003d\u0027\u0027,replier_id\u003d\u0027\u0027,flag\u003d\u0027\u0027,caller_replied\u003d\u0027\u0027,call_detail_url\u003d\u0027\u0027,time\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2b200f71-b482-4590-abe7-c4e10fc298d8",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dvoicemail\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "227108fc-2943-4abe-a26f-16f1b66c11be",
+          "name": "anyURL2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dstatus\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ab1ea2f2-01d1-47ed-a8df-be2988e59683",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.1.mp3\"\u003ePlease say your first name then spell it\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bb628d25-adfa-4706-8cda-ca0682aa528d",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "db474535-1328-4f00-aedc-24d73d19785a",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nGreat. I have notified our agents, and they will follow up with you about your status for your $carYear $carModel. Good bye. \n\u003c/prosody\u003e  \n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

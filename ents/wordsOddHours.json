@@ -1,0 +1,9 @@
+{
+  "id": "aaa6495b-78e6-45b2-b8b3-ce0919268e7e",
+  "name": "wordsOddHours",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

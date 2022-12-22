@@ -1,0 +1,187 @@
+{
+  "id": "7a7f01dc-38c9-4d77-a8c0-16c3dc3cd97b",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "CheckTime",
+  "auto": true,
+  "contexts": [
+    "getTime",
+    "getAvail",
+    "config",
+    "YMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "check_time_and_book_else_SelectTimeSlot",
+      "affectedContexts": [
+        {
+          "name": "fromWebhookWhenTimeIsNotAccepted",
+          "lifespan": 1
+        },
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "timeSlotSelected",
+          "lifespan": 1
+        },
+        {
+          "name": "getPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b72d5f2d-c1fa-41b0-8382-aae09202da80",
+          "name": "preferredTime",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your preferred time?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "11634d5a-a734-46e5-821e-75203d58f128",
+          "name": "timeOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$preferredTime.original.",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1700363e-293c-467a-b48c-9410574a9373",
+          "name": "lastName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your last name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a9b8dec-2fde-4885-9260-bd62ba511cdc",
+          "name": "recall",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "0",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "245d9f4d-a21e-4f09-8b0f-2f30acc4690e",
+          "name": "successMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "ERROR",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9c667242-9981-4de3-a051-e0b60b308749",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "52c9e076-e5f7-45f7-a5c4-38ea79efeb10",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.ogg\"\u003e We have availability starting \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e $currentOriginalDate at $timeOptions \u003c/prosody\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8_522.ogg\"\u003e Please select a time followed by A M or PM, or say a date of your choice \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

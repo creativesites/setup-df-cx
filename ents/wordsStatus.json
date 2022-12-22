@@ -1,0 +1,9 @@
+{
+  "id": "bb443f61-b6f0-4300-a71c-55e34ee7369b",
+  "name": "wordsStatus",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

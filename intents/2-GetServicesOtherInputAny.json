@@ -1,0 +1,106 @@
+{
+  "id": "30bcc870-1a2c-48ec-8e26-2b88a308aab4",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherInputAny",
+  "auto": true,
+  "contexts": [
+    "otherSvcInput"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "maxOtherSvc",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ae1a5775-c7ad-4ef8-a941-a919900bb581",
+          "name": "serviceX",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$serviceX",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "051a7839-b92b-45ec-a4fe-43f1c26a47d8",
+          "name": "service2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.fallbackService",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cd854f67-5afa-45b8-ae5b-75b62574baaf",
+          "name": "serviceOriginal2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$serviceX.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

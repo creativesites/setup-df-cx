@@ -1,0 +1,71 @@
+{
+  "id": "62f2d634-6f4c-4960-8437-bb59cc045197",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "Repeat",
+  "auto": true,
+  "contexts": [
+    "3-ListAvailabilityDay-followup",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2596bdef-b5a6-4c7f-8770-a7d613751a16",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.1.ogg\"\u003eWe have availability\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n#config.currentOriginalDate at #config.timeOptions\n\u003c/prosody\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/selectTimeNextDate.ogg\"\u003e\nPlease select a time, say next, or say a date\n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

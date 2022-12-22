@@ -1,0 +1,95 @@
+{
+  "id": "037af58c-1667-4df0-b33e-044077d3b7a7",
+  "parentId": "785aeb97-6831-47b1-bcc6-99eb8ee5e1e3",
+  "rootParentId": "785aeb97-6831-47b1-bcc6-99eb8ee5e1e3",
+  "name": "--24-Emergency-Yes-8668645211",
+  "auto": true,
+  "contexts": [
+    "--24-Emergency--followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e26790bd-d82f-4203-b3be-6bc2565b0b22",
+          "name": "wordsyes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsyes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c7540dc8-ee41-47f3-b180-f455220bb9c6",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://6ge74zwfbf.execute-api.us-east-1.amazonaws.com/clientData?\"17438004488\",\"write”,”16174025457”,”18668645211\"",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "29ca7844-e409-4361-a542-3f99ea742852",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003doperator\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "15",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "phoneNumber": "+18668645211",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nTransferring call to roadside assistance?\n\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

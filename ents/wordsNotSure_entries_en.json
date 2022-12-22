@@ -1,0 +1,45 @@
+[
+  {
+    "value": "not sure",
+    "synonyms": [
+      "not sure",
+      "do not know",
+      "any date",
+      "any day",
+      "what is available",
+      "as soon as possible",
+      "as soon as you have any availability",
+      "soon"
+    ]
+  },
+  {
+    "value": "dontknow",
+    "synonyms": [
+      "dontknow",
+      "I do not know",
+      "i don\u0027t know",
+      "do not know",
+      "don\u0027t know",
+      "i both know",
+      "no idea"
+    ]
+  },
+  {
+    "value": "needSome",
+    "synonyms": [
+      "needSome",
+      "I need someone to take a look at it",
+      "i need someone to take a look",
+      "take a look"
+    ]
+  },
+  {
+    "value": "Donthave.",
+    "synonyms": [
+      "Don\u0027t have",
+      "i Don\u0027t have",
+      "do not have",
+      "i do not have"
+    ]
+  }
+]

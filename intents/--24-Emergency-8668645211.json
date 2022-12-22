@@ -1,0 +1,87 @@
+{
+  "id": "785aeb97-6831-47b1-bcc6-99eb8ee5e1e3",
+  "name": "--24-Emergency-8668645211",
+  "auto": true,
+  "contexts": [
+    "config",
+    "dropIn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "--24-Emergency--followup",
+          "lifespan": 2
+        },
+        {
+          "name": "config",
+          "lifespan": 0
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ac42b21a-bb4b-49a2-8e5b-ead898c46011",
+          "name": "wordsDropIn",
+          "required": false,
+          "dataType": "@wordsDropIn",
+          "value": "$wordsDropIn",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3da737f4-5cee-4a7f-9c96-500248c266ee",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWould you like me to transfer you to roadside assistance?\n\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

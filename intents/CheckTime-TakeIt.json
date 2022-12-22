@@ -1,0 +1,149 @@
+{
+  "id": "36e55257-4930-46d5-a358-5a654de5ba5f",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "CheckTime-TakeIt",
+  "auto": true,
+  "contexts": [
+    "getTime",
+    "getAvail",
+    "config",
+    "YMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "check_time_and_book_else_SelectTimeSlot",
+      "affectedContexts": [
+        {
+          "name": "fromWebhookWhenTimeIsNotAccepted",
+          "lifespan": 1
+        },
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "timeSlotSelected",
+          "lifespan": 1
+        },
+        {
+          "name": "getPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "92e9ea16-fb3c-4d9b-9ec3-53ff26e11307",
+          "name": "preferredTime",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstSlotRaw",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a20b0c4b-f4cc-4f10-8a10-a027dc17e9c9",
+          "name": "timeOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstSlot",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "72e4edd6-63ea-496f-9051-15c8d409471e",
+          "name": "recall",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "0",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b9ca710a-9403-4c27-a30c-c31cf39c194e",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "37f2f742-bf4b-4293-aca8-72b3092facc9",
+          "name": "wordsTakeIt",
+          "required": false,
+          "dataType": "@wordsTakeIt",
+          "value": "$wordsTakeIt",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.ogg\"\u003eWe have availability starting\u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.currentOriginalDate at #config.timeOptions \u003c/prosody\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8_522.ogg\"\u003ePlease select a time followed by A M or PM, or say a date of your choice\u003c/audio\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

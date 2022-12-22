@@ -1,0 +1,49 @@
+{
+  "id": "2a90f754-4fe9-41a4-81ff-726652c78141",
+  "parentId": "42c1a7cb-fddf-467a-a830-a8565a4675fd",
+  "rootParentId": "fa19a9d2-bb6c-4317-82d5-1b29d6540336",
+  "name": "8-Confirm - Delivery - no",
+  "auto": true,
+  "contexts": [
+    "8-Confirm-Delivery-followup",
+    "orderTaken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "8-Confirm.8-Confirm-custom.8-Confirm-Delivery-no",
+      "affectedContexts": [
+        {
+          "name": "orderTaken",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Good bye"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,241 @@
+{
+  "id": "42c1a7cb-fddf-467a-a830-a8565a4675fd",
+  "parentId": "09dfae20-d729-424e-b642-275f2399e99a",
+  "rootParentId": "fa19a9d2-bb6c-4317-82d5-1b29d6540336",
+  "name": "8-Confirm - Delivery",
+  "auto": true,
+  "contexts": [
+    "pickupOrDelivery",
+    "8-Confirm-followup",
+    "orderTaken",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "8-Confirm.8-Confirm-custom",
+      "affectedContexts": [
+        {
+          "name": "8-Confirm-Delivery-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "orderTaken",
+          "lifespan": 1
+        },
+        {
+          "name": "orderInit",
+          "lifespan": 99
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "84ecb230-6d75-4e90-849c-e30db71c85a8",
+          "name": "phoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.phoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please say your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cb7d8abc-a8b9-4f37-b8e6-03b7b505e6bc",
+          "name": "paymentMethod",
+          "required": false,
+          "dataType": "@paymentMethod",
+          "value": "$paymentMethod",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you like to pay cash or credit?"
+            },
+            {
+              "lang": "en",
+              "value": "What payment method would you like? cash or credit?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d56b1b9c-f41f-424c-849c-dabfedba5502",
+          "name": "zip",
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "value": "$zip",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the zip code for your delivery?"
+            },
+            {
+              "lang": "en",
+              "value": "Please say your zip code"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9975ea3b-3957-457b-9745-9411cd158a68",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the street address for your delivery?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "af933afb-db93-43bc-bec9-957fd517b26b",
+          "name": "day",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$day",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day do you want your delivery?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "45692894-abaa-4a65-be91-771e1dd2de7b",
+          "name": "time",
+          "required": false,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2a8da7f6-3d7f-4935-81ed-7ab8bf8a3830",
+          "name": "orderID",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#8-Confirm-followup.orderId",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "78fa8be1-6b91-4964-8228-95b4a7e8eea1",
+          "name": "total",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#8-Confirm-followup.total",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "89e295f6-00e6-4f90-b697-00be35312e2d",
+          "name": "successMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Great! Your confirmation code is $orderID. Our delivery agent will contact you shortly. Would you like to receive a confirmation SMS on your phone?",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "af5f1315-f938-4c24-8790-92d91ee510b5",
+          "name": "number2",
+          "required": false,
+          "dataType": "@number2",
+          "value": "$number2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! Your confirmation code is $orderID. Our delivery agent will contact you shortly. Would you like to receive a confirmation SMS on your phone?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

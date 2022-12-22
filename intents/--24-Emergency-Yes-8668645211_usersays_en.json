@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ac380516-867f-4bed-91fb-4d89b1cf81dc",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

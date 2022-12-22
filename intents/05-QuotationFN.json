@@ -1,0 +1,279 @@
+{
+  "id": "a8242662-580e-40e8-be1d-846b7ea8031a",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "05-QuotationFN",
+  "auto": true,
+  "contexts": [
+    "transferVM",
+    "foundName",
+    "config",
+    "adHoc",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8cd38700-3143-459f-970f-8741b3d8b375",
+          "name": "delay_time",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "30",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "47063273-77d8-4a79-b424-6ee38347ca3e",
+          "name": "price",
+          "required": false,
+          "dataType": "@wordsQuote",
+          "value": "$price",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9b41c7b2-3da0-4f64-8538-e0640284fc63",
+          "name": "quote",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$quote",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nWhat service or part do you need a quotation for?\n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "67aa371b-34dd-4540-942f-ab08bd4e55c5",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9e6a788e-4e19-44e4-a509-c5ee3f2c54db",
+          "name": "carYear",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "value": "#config.carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nWhat is the year of your vehicle?\n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2ea534da-7d46-4bf2-a940-ba0e780a5e68",
+          "name": "make1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$make1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nWhat is the make?\n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "56589ade-f1c9-401b-8a9c-5eda28675a4c",
+          "name": "carModel",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nWhat is the model?\n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3ed488a7-d3bd-4368-a1b4-55fc5334e091",
+          "name": "quoteOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$quote.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f2854097-3024-4b64-af46-6fae4b08d9e7",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "url\u003d\u0027https://voicemail.autoservice.ai/voicemail/\u0027,message\u003d\u0027Quotation Request: $quote.original for $carYear $carModel\u0027,caller_phone\u003d\u0027+1#config.customerPhone\u0027,advisor_phone\u003d\u0027+1#config.advisorNumber\u0027,caller_name\u003d\u0027#config.firstName #config.lastName\u0027,ok_text\u003d\u00270\u0027,type\u003d\u00272\u0027,delay_time\u003d\u002730\u0027,status\u003d\u00270\u0027,alert_to_manager\u003d\u0027\u0027,replier_id\u003d\u0027\u0027,flag\u003d\u0027\u0027,caller_replied\u003d\u0027\u0027,call_detail_url\u003d\u0027\u0027,time\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "612a2214-ff5c-45bd-a16c-02ab92f9e989",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dvoicemail\u0026phoneNum\u003d#config.customerPhone\u0026eventInfoStr\u003dquote for $carYear $carModel\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "31a1a0f6-d0ca-452f-8527-0f87f14e8bf5",
+          "name": "anyURL2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dquote\u0026phoneNum\u003d#config.customerPhone\u0026eventInfoStr\u003dquote for $carYear $carModel\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "afa0d8c0-10bf-467a-b8fb-5a267224b0cb",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.1.mp3\"\u003ePlease say your first name then spell it\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f77473e4-0764-4694-8d07-09294a597a33",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dac09d4f-0763-4f40-99d5-7a9ae81a29fe",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nGreat. I have notified our agents, and they will follow up with you about your $quote.original quotation for your $carYear $carModel. Good bye. \n\u003c/prosody\u003e  \n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

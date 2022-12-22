@@ -1,0 +1,70 @@
+{
+  "id": "48286adc-c8b6-4d33-9a37-a578e87f0266",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "SelectTimeSlot",
+  "auto": true,
+  "contexts": [
+    "3-ListAvailabilityDay-followup",
+    "config",
+    "getTime",
+    "getAvail"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "getPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "SelectTimeSlot-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/BB0.ogg\"\u003e Please select a time slot from the following list \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.timeOptions, say next, or say another date \u003c/prosody\u003e   \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SelectTimeSlot"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

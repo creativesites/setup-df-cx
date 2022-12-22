@@ -1,0 +1,136 @@
+{
+  "id": "ea1183a7-2046-4d21-afb8-76db221868f6",
+  "parentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-000",
+  "auto": true,
+  "contexts": [
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-Schedule-000-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1504cf43-b527-4896-bad0-a0101be73a5d",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "924cb9c1-b9ae-4159-8b9f-82fa982d0e55",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d3302f99-781d-4562-9065-151ec72ebb2a",
+          "name": "wordsAppointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsAppointment",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7929ac2d-28f4-451b-957d-56f74ec8b1de",
+          "name": "wordsRepair",
+          "required": false,
+          "dataType": "@wordsRepair",
+          "value": "$wordsRepair",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "487046f6-ad7b-446e-a7bc-1390a0dfeae4",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0be4ec0a-7236-49fe-97ff-a1920cd3ed42",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dbookIntent\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/3_522.ogg\"\u003e Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model \u003c/audio\u003e \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

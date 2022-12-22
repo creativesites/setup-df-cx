@@ -1,0 +1,56 @@
+[
+  {
+    "value": "DROPOFF",
+    "synonyms": [
+      "drop off",
+      "no transportation",
+      "I have a ride",
+      "have a ride",
+      "top off",
+      "drop",
+      "drop it",
+      "drop it off",
+      "off",
+      "yes"
+    ]
+  },
+  {
+    "value": "WAITER",
+    "synonyms": [
+      "wait",
+      "I\u0027ll wait at the dealership",
+      "wait at the dealership",
+      "will wait",
+      "waiting",
+      "plan to wait",
+      "want to wait",
+      "wait at the lounge",
+      "Weight",
+      "where",
+      "dealership",
+      "Way to the dealership.",
+      "way",
+      "kuwait",
+      "weigh",
+      "@wordsNo"
+    ]
+  },
+  {
+    "value": "SHUTTLE",
+    "synonyms": [
+      "shuttle",
+      "selltle",
+      "take the shuttle",
+      "shut le",
+      "settle",
+      "lift",
+      "lyft",
+      "uber",
+      "rideshare",
+      "ride",
+      "need a ride",
+      "right",
+      "right?"
+    ]
+  }
+]

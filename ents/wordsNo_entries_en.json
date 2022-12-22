@@ -1,0 +1,96 @@
+[
+  {
+    "value": "no1",
+    "synonyms": [
+      "don\u0027t need",
+      "don\u0027t need it",
+      "know",
+      "no",
+      "no need",
+      "no no",
+      "no thank you",
+      "no thanks",
+      "no way",
+      "noo",
+      "nope",
+      "now",
+      "No, I don\u0027t need.",
+      "no i do not need",
+      "no no need",
+      "No, I don\u0027t need a ride",
+      "No, no ride.",
+      "I don\u0027t think i\u0027ll need it",
+      "i don\u0027t want it",
+      "I don\u0027t need it",
+      "I don\u0027t think I need it",
+      "I don\u0027t think I want it",
+      "I don\u0027t want",
+      "not",
+      "I don\u0027t",
+      "nah",
+      "not interested",
+      "thanks but no",
+      "no don\u0027t",
+      "not at all",
+      "never",
+      "don\u0027t",
+      "i don\u0027t think so",
+      "no no don\u0027t",
+      "i can\u0027t",
+      "not really",
+      "no that\u0027s okay",
+      "no we are good",
+      "no that\u0027s fine",
+      "not sure",
+      "I am not sure",
+      "not this time",
+      "may be not",
+      "lo low",
+      "snow",
+      "nothing",
+      "not now",
+      "not for now",
+      "nada",
+      "NO.",
+      "none",
+      "skip",
+      "nono",
+      "not right now"
+    ]
+  },
+  {
+    "value": "no2",
+    "synonyms": [
+      "wrong car",
+      "incorrect",
+      "wrong",
+      "incorrect car",
+      "wrong vehicle",
+      "incorrect vehicle",
+      "wrong model",
+      "incorrect model",
+      "wrong year",
+      "incorrect year",
+      "I do not have",
+      "i don\u0027t have",
+      "my other car"
+    ]
+  },
+  {
+    "value": "no3",
+    "synonyms": [
+      "Basically, that\u0027s it.",
+      "that\u0027s it",
+      "that is it",
+      "that\u0027s all",
+      "that is all"
+    ]
+  },
+  {
+    "value": "no4",
+    "synonyms": [
+      "already have",
+      "already"
+    ]
+  }
+]

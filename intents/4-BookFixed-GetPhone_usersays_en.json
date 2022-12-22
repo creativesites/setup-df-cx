@@ -1,0 +1,195 @@
+[
+  {
+    "id": "8001e5fd-63b3-4ba1-8a04-a4fea8969d10",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "534-454-5543",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a35d15d-979d-4b82-b09d-e87cebf9a5d0",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5344545543",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e7283e7-7582-444d-88c0-176e4673583e",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5344545543",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29a80b8b-f06a-4ec8-b585-70bb66ba7971",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5344545543",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d432ddef-e3f6-4536-870a-c7103e3e0bae",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "650-660-4444",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7322e059-faa4-4fd7-aece-102af76b466c",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "650-660-4444",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce298f07-87aa-4c69-962e-6ff0ae99644e",
+    "data": [
+      {
+        "text": "650-660-4444",
+        "meta": "@sys.phone-number",
+        "alias": "customerPhone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

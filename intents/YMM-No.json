@@ -1,0 +1,96 @@
+{
+  "id": "e805c0fd-e441-4fd7-9714-1ff5b56abfdf",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-No",
+  "auto": true,
+  "contexts": [
+    "config",
+    "YMM",
+    "wrongYMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "YMM",
+          "lifespan": 0
+        },
+        {
+          "name": "changeYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1cf66887-2363-4eaf-bf9f-73da42fcd9a8",
+          "name": "wordsNo",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsNo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "12497805-16aa-44e4-a76f-27f78e9ca32f",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e    \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/3_522.1.ogg\"\u003ePlease say your vehicle year, make and model\u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e    \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/YMMorOther.ogg\"\u003ePlease say your vehicle year, make and model\u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

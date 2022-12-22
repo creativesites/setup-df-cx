@@ -1,0 +1,55 @@
+[
+  {
+    "id": "eef81a0f-dd68-4bef-a491-9d00c27cc06a",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsYes",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7081294b-00f6-4ff8-9713-c3861443a915",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsYes",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "047b8889-bcdf-4480-b367-f7910602f6d4",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsYes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

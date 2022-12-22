@@ -1,0 +1,149 @@
+{
+  "id": "0bc5dedd-b101-4d8f-b87e-27f4ed823169",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-MileServiceOther",
+  "auto": true,
+  "contexts": [
+    "otherSvcInput",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "maxOtherSvc",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "23de1591-213b-446e-a287-c28b2f884a65",
+          "name": "serviceX",
+          "required": false,
+          "dataType": "@serviceOptions000",
+          "value": "$serviceX",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6364ab86-d973-4596-b7aa-2945480c9952",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "025b88fd-ea6e-4187-85b8-2307c10d0109",
+          "name": "service2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "000",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cda03e96-8bc7-49e9-8360-63dba2021b2f",
+          "name": "serviceOriginal2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$serviceX.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "38180c62-3b10-4426-a9b9-7256736457e1",
+          "name": "want",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$want",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ac576778-ec80-4e3b-a52a-a3375ec5a15f",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

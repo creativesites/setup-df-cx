@@ -1,0 +1,9 @@
+{
+  "id": "0b917fde-270d-4fe2-ad13-e081b490fe18",
+  "name": "wordsAfternoon",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

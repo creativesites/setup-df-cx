@@ -1,0 +1,101 @@
+{
+  "id": "3938f865-df3e-48eb-96aa-d2663ddf28d6",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-UnhandledBrand-GotSVCGetYMM",
+  "auto": true,
+  "contexts": [
+    "gotSVCgetYMM",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "YMM-UnhandledBrand-GotSVCGetYMM-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bce9bfea-7702-4348-aa7c-20fb9a7307cb",
+          "name": "year",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "$year",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "280d589a-d66b-4097-bc30-3d2022eb8ade",
+          "name": "unhandledBrand",
+          "required": false,
+          "dataType": "@carMakeAllLessCurrent",
+          "value": "$unhandledBrand",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8938e732-a57d-4e2c-a7e3-add80cbc3bc6",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand. \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your car."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

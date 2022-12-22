@@ -1,0 +1,117 @@
+[
+  {
+    "value": "serviceOption",
+    "synonyms": [
+      "maintenance service",
+      "brakes service",
+      "valve adjustment"
+    ]
+  },
+  {
+    "value": "appointment",
+    "synonyms": [
+      "appointment",
+      "service appointment",
+      "schedule",
+      "book",
+      "booking",
+      "schedule appointment",
+      "schedule service",
+      "schedule service appointment",
+      "book appointment",
+      "book service",
+      "book service appointment",
+      "make appointment",
+      "scheduling",
+      "schedule repair",
+      "repair appointment",
+      "book repair",
+      "Can I have an appointment",
+      "appointment to check my car",
+      "my vehicle looked at",
+      "vehicle looked at",
+      "I need apppointment.",
+      "need appointment",
+      "get appointment",
+      "get an appointment",
+      "book an appointment",
+      "schedule an appointment",
+      "appointment for"
+    ]
+  },
+  {
+    "value": "other",
+    "synonyms": [
+      "assignment",
+      "apartment",
+      "unemployment",
+      "disappointment",
+      "employment"
+    ]
+  },
+  {
+    "value": "longSentence",
+    "synonyms": [
+      "bring my car for service"
+    ]
+  },
+  {
+    "value": "Service",
+    "synonyms": [
+      "I need service on my car.",
+      "need service",
+      "want service",
+      "bring my car for service",
+      "service car",
+      "service my car",
+      "service for my car",
+      "have my car service",
+      "have my car serviced",
+      "have service for my car",
+      "have service for car",
+      "have service for my vehicle",
+      "have service for vehicle"
+    ]
+  },
+  {
+    "value": "repairCar",
+    "synonyms": [
+      "repair car",
+      "Need a repair done on my vehicle.",
+      "repair done on my vehicle",
+      "repair my vehicle",
+      "repair on my vehicle",
+      "vehicle repair",
+      "repair my car"
+    ]
+  },
+  {
+    "value": "Express service",
+    "synonyms": [
+      "Express service",
+      "Express services"
+    ]
+  },
+  {
+    "value": "carproblems",
+    "synonyms": [
+      "Car problems",
+      "car problem",
+      "problem with car",
+      "problem with engine",
+      "engine problem",
+      "window problem",
+      "door problem"
+    ]
+  },
+  {
+    "value": "check",
+    "synonyms": [
+      "check leak",
+      "check brakes",
+      "check engine light",
+      "check engine",
+      "Diagnostic check"
+    ]
+  }
+]

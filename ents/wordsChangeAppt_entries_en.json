@@ -1,0 +1,51 @@
+[
+  {
+    "value": "chngAppt",
+    "synonyms": [
+      "Change appointment",
+      "change service date",
+      "change service appointment",
+      "change an",
+      "change a service appointment",
+      "change appointment date",
+      "exchange appointment",
+      "exchange appointment date",
+      "exchange service date",
+      "change my appointment",
+      "change my service appointment",
+      "exchange my appointment",
+      "change my date",
+      "adjust appointment",
+      "adjust service",
+      "adjust my appointment",
+      "adjust my service",
+      "change booking",
+      "change my booking",
+      "modify an appointment",
+      "modify appointment",
+      "modify service",
+      "modify my appointment"
+    ]
+  },
+  {
+    "value": "reschAppt",
+    "synonyms": [
+      "reschedule appointment",
+      "I need to reschedule a service.",
+      "reschedule service",
+      "reschedule a service",
+      "Reschedule service.",
+      "reschedule a service.",
+      "reschedule my appointment",
+      "reschedule my service"
+    ]
+  },
+  {
+    "value": "updtAppt",
+    "synonyms": [
+      "update appointment",
+      "update my appointment",
+      "reset  appointment"
+    ]
+  }
+]

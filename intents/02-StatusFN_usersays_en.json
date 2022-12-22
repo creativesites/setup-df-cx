@@ -1,0 +1,840 @@
+[
+  {
+    "id": "93dab368-be7f-47cc-bb4c-fc4b2ae433bd",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f16961c4-7930-4478-a6b7-3f081ec3706c",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebae7deb-4fa0-4b1c-97bd-f9dd7f68d0e7",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "933b53e0-eeca-4578-81c5-412e7665b557",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1b04588-e6c1-45c5-bda4-48c1aa2d312b",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c2aa045-6237-4b2b-b26a-0933dbd56776",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b9bf45d-33c4-4900-bae1-8afea1f54948",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "770e6bf7-4c98-4ea6-bb2e-c1c8fba54144",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "190fdbb6-070a-4f06-bb81-0f9699e4dcfa",
+    "data": [
+      {
+        "text": "Confirm an appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "685c118a-de1b-412c-ab15-02bfec177c40",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " Confirm my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d5804c2-1493-42eb-87ca-6c3ca7c3a171",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " Confirm my appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59c19a80-7129-46a8-85ee-22da0e19b81a",
+    "data": [
+      {
+        "text": "Confirm my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "05e9c943-6ed8-4cf4-ac4f-62eb42b1281c",
+    "data": [
+      {
+        "text": "Confirm my appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c39d2aa-af6f-4bd0-b929-e964192fa148",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " confirm appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ccee2b0-c2f4-4af6-b864-63d7430d8adb",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " confirm appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0399f36f-1741-45b8-a5a3-9a761d8549af",
+    "data": [
+      {
+        "text": "confirm appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2f16bb63-54a5-4a91-bb73-7eea79d8d1ba",
+    "data": [
+      {
+        "text": "confirm appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c20fb5a-1440-41b1-832a-ecdc22fcca22",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " check on ",
+        "userDefined": false
+      },
+      {
+        "text": "my car",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d583bc06-5a24-45ad-aa13-068807174564",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " update on ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f12af6b4-2424-46b9-8f32-6455ba2bb154",
+    "data": [
+      {
+        "text": "update on ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbc2058f-0922-4dc5-a148-bcd65964b275",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      },
+      {
+        "text": " update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1810d2c0-c6a9-467f-b845-dcba2be12244",
+    "data": [
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af145c3f-c659-4a19-bc1c-2ee7cfcdbc0e",
+    "data": [
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsStatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c12d9d0b-c1ae-4db0-beea-aa955749b0b0",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c5c9fbe-d182-43e2-be7b-b1a17f11509e",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceOptions",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a45a785a-b84f-4c55-8134-ab7517adfa17",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93237e1e-3bbd-45f5-8294-736b6728d418",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbd492cb-11b3-4985-83cc-195f9fbf7793",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c28c96c-2f7d-4eda-b1c6-fcc7f0b23c2c",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "551362fc-293b-4aae-910c-bb6b8db3c8b9",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0199004c-e631-4dd5-8317-a79031c73234",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26e4d165-8c64-45fa-9a25-010dd13c7f2a",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "message",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

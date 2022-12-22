@@ -1,0 +1,257 @@
+[
+  {
+    "id": "e79bfaca-0608-4e90-804c-9bc6298c8d6d",
+    "data": [
+      {
+        "text": "Another day.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95ccdf23-4a33-4230-b63d-66721c10ae5c",
+    "data": [
+      {
+        "text": "availability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e61fc400-9127-4005-bb5d-7d4dd471087d",
+    "data": [
+      {
+        "text": "what",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b578dd35-3fbd-4974-9ee9-81df54469734",
+    "data": [
+      {
+        "text": "wrong date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e42b35ca-16a1-4c28-aa4f-02f285432f46",
+    "data": [
+      {
+        "text": "different",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ecfccdb6-fb5c-4dd0-ba9f-f16e3297710d",
+    "data": [
+      {
+        "text": "change date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "92272b3b-bc15-417b-ac97-4b391c5c61b1",
+    "data": [
+      {
+        "text": "change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a8d0f38-a969-4fca-b293-6381e3ce3495",
+    "data": [
+      {
+        "text": "what day works for you?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26527d37-f7e5-430a-9785-7bcae045e800",
+    "data": [
+      {
+        "text": "Do you have ",
+        "userDefined": false
+      },
+      {
+        "text": "anything",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " earlier?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cd7de84-5444-4666-947b-dd2523276908",
+    "data": [
+      {
+        "text": "3rd Strike ",
+        "userDefined": false
+      },
+      {
+        "text": "next week",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cfb5e94a-86ef-47a0-96fe-82308581d575",
+    "data": [
+      {
+        "text": "Another date. ",
+        "userDefined": false
+      },
+      {
+        "text": "I would like it with Dana, please.",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52768e16-4c4f-4bdb-8800-3c8c02867e3d",
+    "data": [
+      {
+        "text": "now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ca09232-7108-4290-9dc1-899e068a5aee",
+    "data": [
+      {
+        "text": "any day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13185dac-5d2a-4028-8a01-b599ff3a49b7",
+    "data": [
+      {
+        "text": "any date",
+        "meta": "@wordsNotSure",
+        "alias": "wordsNotSure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91765e2c-6a0e-4e81-9d6a-7e21b6c87a3c",
+    "data": [
+      {
+        "text": "anytime ",
+        "userDefined": false
+      },
+      {
+        "text": "at 7",
+        "meta": "@sys.time",
+        "alias": "timeInput",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd825516-c946-402f-b042-786ff3b3e10f",
+    "data": [
+      {
+        "text": "as soon as you have any availability",
+        "meta": "@wordsNotSure",
+        "alias": "wordsNotSure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad040e33-d02d-4e5c-9e3b-330225813cf8",
+    "data": [
+      {
+        "text": "not sure",
+        "meta": "@wordsNotSure",
+        "alias": "wordsNotSure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

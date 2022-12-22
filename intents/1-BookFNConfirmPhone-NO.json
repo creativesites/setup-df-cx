@@ -1,0 +1,88 @@
+{
+  "id": "d272660d-59ef-41a1-af2a-4712d7bb64d5",
+  "parentId": "5d8d7d97-c630-4335-9b50-fb8ceb90b71d",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "1-BookFNConfirmPhone-NO",
+  "auto": true,
+  "contexts": [
+    "getTime",
+    "foundName",
+    "timeSlotSelected",
+    "compressed",
+    "1-BookFNConfirmPhone-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "1-BookFNConfirmPhone.1-BookFNConfirmPhone-custom",
+      "affectedContexts": [
+        {
+          "name": "1-BookFNConfirmPhone-NO-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "1-BookFNConfirmPhone-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "4-BookFixed-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "53e35854-6691-49a9-8439-452d73af4ee4",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a0432656-c242-4239-a27c-f517ba513cb7",
+          "name": "wordsno",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsno",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

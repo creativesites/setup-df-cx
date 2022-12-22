@@ -1,0 +1,53 @@
+{
+  "id": "d6c0e44d-8cf2-4f91-aede-b4f8c24eb929",
+  "parentId": "2d39cf74-3fcf-4dc2-9ba4-99612449a58a",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "5-BookConfirm-F",
+  "contexts": [
+    "5-BookConfirm-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "wantSMS",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Ok. Good bye \u003c/prosody\u003e\u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok. Good bye"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

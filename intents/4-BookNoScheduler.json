@@ -1,0 +1,251 @@
+{
+  "id": "e7eb0538-9b45-4a90-afdb-acc5e85170ee",
+  "parentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "4-BookNoScheduler",
+  "auto": true,
+  "contexts": [
+    "config",
+    "fixedLine",
+    "timeSlotSelected",
+    "getPhoneNum",
+    "noScheduler"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "format_name",
+      "affectedContexts": [
+        {
+          "name": "book",
+          "lifespan": 99
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "nameFromUser",
+          "lifespan": 99
+        },
+        {
+          "name": "invalidPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "4-BookNoScheduler-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "awaitingFLNameConfirm",
+          "lifespan": 1
+        },
+        {
+          "name": "changeBookDate",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8c9cac40-7b33-40ea-8009-e4e79699ff8e",
+          "name": "preferredDate",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$preferredDate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your preferred date?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3f122c49-cd13-4064-a765-ebbd23f4abd6",
+          "name": "preferredTime",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Now Please say your preferred time followed by A.M. or P.M."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1fa730b8-6fae-4ee4-9514-006dff3e2ead",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Thank you. Please say your first name then spell it"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8719bc0c-3785-4617-ac85-c1df3cc6f371",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Now, Please say your last name then spell it"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "77bb7d18-9370-4ae3-88c4-d0263d5b3374",
+          "name": "recall",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "0",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e0aaf4ce-659f-4c41-b4a8-49f7c084e98f",
+          "name": "currentOriginalDate",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$preferredDate.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ea783868-3596-4805-ae3a-6fbde7442ac3",
+          "name": "preferredDate2",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$preferredDate2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6548b624-468e-4d0c-9610-346d48cc436e",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please say your 10 digit phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "093b6c8a-63b1-422e-a627-2d4a11327e95",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "81def036-0be4-4152-88a2-5d7f941b9a5c",
+          "name": "time-period",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "value": "$time-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Please say yes to confirm you would like to bring your car #config.preferredDate.original at  #config.preferredTime.original \u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say yes to confirm you would like to bring your car #config.preferredDate.original at  #config.preferredTime.original"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BookYes_ask_for_phone"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "value": "carWonStart",
+    "synonyms": [
+      "won\u0027t start",
+      "does not move",
+      "does not work",
+      "will not start",
+      "does not start",
+      "won\u0027t move",
+      "will not work",
+      "won\u0027t work"
+    ]
+  },
+  {
+    "value": "batteryDead",
+    "synonyms": [
+      "battery is dead",
+      "battery died",
+      "dead battery",
+      "battery dead"
+    ]
+  },
+  {
+    "value": "accidentWord",
+    "synonyms": [
+      "accident"
+    ]
+  },
+  {
+    "value": "towW",
+    "synonyms": [
+      "tow",
+      "towed"
+    ]
+  },
+  {
+    "value": "Urgent service.",
+    "synonyms": [
+      "Urgent service.",
+      "right now"
+    ]
+  },
+  {
+    "value": "roadside assistant",
+    "synonyms": [
+      "roadside assistant",
+      "emergency",
+      "urgent",
+      "urgency",
+      "accident",
+      "driver assistance",
+      "collision repair",
+      "tow"
+    ]
+  }
+]

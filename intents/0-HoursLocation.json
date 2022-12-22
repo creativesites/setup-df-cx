@@ -1,0 +1,94 @@
+{
+  "id": "074fd945-477b-41d0-914f-71a21300df27",
+  "parentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "rootParentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "0-HoursLocation",
+  "auto": true,
+  "contexts": [
+    "config",
+    "adHoc",
+    "dropIn",
+    "compressed"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "transferVM",
+          "lifespan": 0
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d020b131-0a75-4423-9b86-e47e2762492f",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c316e1b3-7ccc-4d94-9420-e04c3deb6b14",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dvoicemail\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.hoursLocation . What else can I help you with?\u003c/prosody\u003e\u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#config.hoursLocation . What else can I help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

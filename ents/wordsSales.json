@@ -1,0 +1,9 @@
+{
+  "id": "1013f143-58e9-40e6-8a59-1c3a5e3b89a6",
+  "name": "wordsSales",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

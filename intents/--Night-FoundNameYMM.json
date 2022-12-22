@@ -1,0 +1,188 @@
+{
+  "id": "116bc0ec-42ba-47ec-8e3d-3d156d7e89f6",
+  "parentId": "3a42c41b-ac66-495a-83d6-4a1df359e891",
+  "rootParentId": "12d69460-8977-4d7d-9a7b-3d705f147f6f",
+  "name": "--Night-FoundNameYMM",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "checkWrongName",
+          "lifespan": 1
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "night",
+          "lifespan": 99
+        },
+        {
+          "name": "Greeting-FoundName-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 99
+        },
+        {
+          "name": "awaitVerifyYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "wrongYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-010-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "changeYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "foundNameYMM",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2f4535b1-6ed7-4ed1-b1d0-2e7bb7ddd6ba",
+          "name": "smsFromNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.enableTracking",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fbf1ded4-3e3a-42a5-aa6d-1d6034bcee59",
+          "name": "smsPhoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "6506900634",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9909a596-1fe6-46d8-9a07-a1c7c7dac4ec",
+          "name": "smsMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "[#config.businessName]  \n#config.firstName #config.lastName\n#config.customerPhone #config.carYear #config.readModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cdc8a731-2c56-43ef-a408-59f51085cec0",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName #config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e551f6e9-7b8c-489a-b14c-068b7261a2bc",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e799811d-7d85-4678-a875-8c818e7a3bf2",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.firstName #config.lastName #config.carYear #config.make #config.carModel #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Hello #config.customerNamePrefix #config.lastName \n\u003c/prosody\u003e  \n\n#config.greeting \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA2.ogg\"\u003e \nwould you like to book an appointment for your \n\u003c/audio\u003e  \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \n#config.carYear #config.carModelRead ? \n\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Night_FoundYMM"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

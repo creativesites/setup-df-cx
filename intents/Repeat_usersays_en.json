@@ -1,0 +1,195 @@
+[
+  {
+    "id": "f1c350e2-9641-4881-97c0-cfd9399f4a96",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " repeat ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e013ed8d-8099-4241-b9d6-a800b2faf0ca",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " repeat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "638e8fa7-02c4-45ec-a1dc-9daad416b70d",
+    "data": [
+      {
+        "text": "please repeat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b502099-fe60-4e2d-bf97-9c418ffd84c3",
+    "data": [
+      {
+        "text": "repeat ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9eb1df76-63d7-47d1-be4a-c9ef4874b7bb",
+    "data": [
+      {
+        "text": "repeat the times",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efbf1c13-35e3-4942-9f9d-8732789ecab8",
+    "data": [
+      {
+        "text": "Repeat the schedule please.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a78ea37-5197-4f92-88a3-9b956e0c434f",
+    "data": [
+      {
+        "text": "Repeat the schedule.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1feacd5b-0302-4d46-ae62-bc3bc16e28c3",
+    "data": [
+      {
+        "text": "Say that again, please.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c15cbb7-8439-451e-bf59-636cfa5bd8f5",
+    "data": [
+      {
+        "text": "repeat please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66063f4f-e256-460a-9983-e9966baca2ef",
+    "data": [
+      {
+        "text": "another time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16b4f618-bf8c-48fa-b081-2b556edba2de",
+    "data": [
+      {
+        "text": "say that again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6da555a-07b4-48cd-be14-1d775fec8f41",
+    "data": [
+      {
+        "text": "again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8c07fb6f-9df9-426e-a82f-0931135f6c2b",
+    "data": [
+      {
+        "text": "repeat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

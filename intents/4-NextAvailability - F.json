@@ -1,0 +1,50 @@
+{
+  "id": "ab45779f-53e0-4902-9bff-0282b61b8b0f",
+  "parentId": "d7cedd2e-38bc-49e0-974c-841f1554a748",
+  "rootParentId": "8c08f280-62f5-476f-b37d-3157f256a48e",
+  "name": "4-NextAvailability - F",
+  "contexts": [
+    "4-NextAvailability-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "4-NextAvailability.4-NextAvailability-fallback",
+      "affectedContexts": [
+        {
+          "name": "4-NextAvailability-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotSlots",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our next availability is #config.date1 . We have open slots at #config.time1 ;  #config.time2 ; and #config.time3 . Which time is convenient for you?."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

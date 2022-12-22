@@ -1,0 +1,65 @@
+{
+  "id": "59de40f6-0e97-4657-a39c-fa85741d108b",
+  "parentId": "50af2eab-32b5-4840-93c4-dca402478add",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "Next-F",
+  "contexts": [
+    "3-ListAvailabilityDay-followup",
+    "Next-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "next_timeslots.Next-fallback",
+      "affectedContexts": [
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "Next-followup-2",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Our next openings are #config.next_OriginalDate at #config.next_timeOptions. Please select a time, or say Next \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our next openings are #config.next_OriginalDate at #config.next_timeOptions. Please select a time, or say Next"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "1500227f-687a-4f17-9283-c67be0adf411",
+  "parentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "rootParentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "6-FoundNameYMMInProgress",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "Greeting-FoundName-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "inService",
+          "lifespan": 99
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cb4c2976-9ddc-41f0-8623-cf0926ead3e8",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName #config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6d9c41f4-e3ad-4227-b2b0-b7c43f8c2103",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "61caeec6-969c-4755-bf91-cb6e34c5b3ad",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.firstName #config.lastName #config.carYear #config.make #config.carModel #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Hello #config.customerNamePrefix #config.lastName .\u003c/prosody\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment .\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nYour #config.carYear #config.carModelRead is still in service and should be ready #config.completionDate at #config.completionTime .\n\u003c/prosody\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/HowCanIAssistYouToday.ogg”\u003e \nHow can I assist you today? \n\u003c/audio\u003e\n\n\u003c/speak\u003e",
+            "\u003cspeak\u003e \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Hello #config.customerNamePrefix #config.lastName .\u003c/prosody\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment .\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nYour #config.carYear #config.carModelRead is still in service .\n\u003c/prosody\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/HowCanIAssistYouToday.ogg”\u003e \nHow can I assist you today? \n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "FoundNameYMMInProgress"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

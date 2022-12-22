@@ -1,0 +1,9 @@
+{
+  "id": "9e067141-1872-44db-ae23-db9d8b76dc26",
+  "name": "wordsService",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

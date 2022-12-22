@@ -1,0 +1,131 @@
+{
+  "id": "0a9d75e8-b0a2-4377-bd8a-0e7d2fcffdcf",
+  "parentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "2-GetServiceOtherYesRecall",
+  "auto": true,
+  "contexts": [
+    "otherSvc",
+    "processRecall"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServicesOtherYes-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f4046dd1-e51d-4c4d-aedb-e2be814ddf72",
+          "name": "recall",
+          "required": false,
+          "dataType": "@wordsRecall",
+          "value": "$recall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f370dbc8-ea57-4aae-b001-b6dc6a2f6133",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8d61869b-4da8-4e39-8392-b4c16a66a50e",
+          "name": "service2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.fallbackService",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "729552ec-cfe3-4e87-84bf-3df60d39791a",
+          "name": "serviceOriginal2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.fallbackService",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c3b25c6a-34b5-4723-ad59-29228dac9c66",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e  Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking\u003c/prosody\u003e  #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,240 @@
+{
+  "id": "c86ba8cb-8117-47ba-86e0-315ba9b641bf",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "04-Exceptions",
+  "auto": true,
+  "contexts": [
+    "transferVM",
+    "foundName",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 0
+        },
+        {
+          "name": "getVM",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "checkAppt2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d22ad3c2-05fd-4843-80d8-6aac19df9fe9",
+          "name": "message",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$message",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease leave us a short message and our agents will follow up with you as soon as possible. \n\u003c/prosody\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "be8d51d6-834f-4a9e-8a0b-2f02f8f544e1",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cf9dda8a-2b8f-436e-808b-8a12d04a9fbb",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ec836107-3f5a-4eab-8f1a-76ebf812f027",
+          "name": "delay_time",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "30",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2c002991-5a71-4ccb-9b9d-7527c6fa5653",
+          "name": "wordsNoAppointment",
+          "required": false,
+          "dataType": "@wordsNoAppointment",
+          "value": "$wordsNoAppointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "890ef86b-8d52-4b76-b57c-b757d6284af7",
+          "name": "firstName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.ogg\"\u003eGreat. Please say your first name then spell it\n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4538590c-3268-446d-8364-3a7fbe24617b",
+          "name": "lastName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "614e3246-74ad-430c-b578-7c8642b62923",
+          "name": "customerPhone",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5780a79e-675c-45a4-845e-90b6966d7bfb",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "url\u003d\u0027https://voicemail.autoservice.ai/voicemail/\u0027,message\u003d\u0027User said: #config.lastUserInput2 - $message\u0027,caller_phone\u003d\u0027+1$customerPhone\u0027,advisor_phone\u003d\u0027+1#config.advisorNumber\u0027,caller_name\u003d\u0027$firstName $lastName\u0027,ok_text\u003d\u00270\u0027,type\u003d\u00272\u0027,delay_time\u003d\u0027600\u0027,status\u003d\u00270\u0027,alert_to_manager\u003d\u0027\u0027,replier_id\u003d\u0027\u0027,flag\u003d\u0027\u0027,caller_replied\u003d\u0027\u0027,call_detail_url\u003d\u0027\u0027,time\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bfca9fbd-f6a1-48b9-872c-4bdd9926dce5",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dstatus\u0026phoneNum\u003d$customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9762cfee-b82f-49a3-9efe-7a3495b8cad9",
+          "name": "preMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.lastUserInput2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease leave us a short message and our agents will follow up with you as soon as possible. \n\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

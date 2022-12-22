@@ -1,0 +1,144 @@
+{
+  "id": "eee93bb8-9267-4a7d-875e-413917af9b5b",
+  "parentId": "0b7aa1e2-c3de-4ca2-9881-41be1908db1d",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-Capture-NN-getName-Night",
+  "auto": true,
+  "contexts": [
+    "night",
+    "5-Capture-NN-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e27b8e4c-ded0-4baa-b943-c5e91d22c14c",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/firstAndLastName.ogg\"\u003e\nPlease say your first name and last name\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b594113a-0dd8-4979-892b-b1c79f1a9be7",
+          "name": "lastName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "A",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4fab6bd8-85d3-47fa-9692-e68127c7b43c",
+          "name": "customerPhone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b1c11166-cdba-4877-a4c4-a9876b29d518",
+          "name": "okToText",
+          "required": true,
+          "dataType": "@wordsYesNo",
+          "value": "$okToText",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/13_522.ogg\"\u003e\nIs it ok to text you?\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b09bd260-663c-48d6-8978-161d822d071a",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "url\u003d\u0027https://voicemail.autoservice.ai/voicemail/\u0027,message\u003d\u0027Night Call: #config.message\u0027,caller_phone\u003d\u0027+1#config.customerPhone\u0027,advisor_phone\u003d\u0027+1#config.advisorNumber\u0027,caller_name\u003d\u0027$firstName\u0027,ok_text\u003d\u0027$okToText\u0027,type\u003d\u00272\u0027,delay_time\u003d\u002730\u0027,status\u003d\u00270\u0027,alert_to_manager\u003d\u0027\u0027,replier_id\u003d\u0027\u0027,flag\u003d\u0027\u0027,caller_replied\u003d\u0027\u0027,call_detail_url\u003d\u0027\u0027,time\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f7d35954-d056-47ea-b616-1faf67d329b9",
+          "name": "anyURL1",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dvoicemail\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nGreat. Our agents will follow up with you the following business day. Goodbye. \n\u003c/prosody\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

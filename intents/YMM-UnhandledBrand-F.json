@@ -1,0 +1,52 @@
+{
+  "id": "1469b6ba-0e3d-4da6-a6c7-35bf1daaa32f",
+  "parentId": "c341a8a6-f1d2-4ac2-b031-3df056b42085",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-UnhandledBrand-F",
+  "contexts": [
+    "YMM-UnhandledBrand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "YMM-UnhandledBrand.YMM-UnhandledBrand-fallback",
+      "affectedContexts": [
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand. \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

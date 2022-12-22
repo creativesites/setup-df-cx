@@ -1,0 +1,64 @@
+{
+  "id": "232135f3-5595-47c5-a24d-ee1845ca838b",
+  "parentId": "89c8a3ad-91d4-4dc7-b90b-6b22ff88062b",
+  "rootParentId": "89c8a3ad-91d4-4dc7-b90b-6b22ff88062b",
+  "name": "0-Transport-Any",
+  "auto": true,
+  "contexts": [
+    "transportAny",
+    "config",
+    "NO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "3-Transport-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "87bf45e0-c7de-42e3-a46a-c7e38b30b2e2",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Please say yes to get our next availability  \u003c/prosody\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

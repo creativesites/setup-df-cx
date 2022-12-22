@@ -1,0 +1,125 @@
+{
+  "id": "bee9a72e-9892-440a-a0a8-269bec23dd19",
+  "parentId": "42c1a7cb-fddf-467a-a830-a8565a4675fd",
+  "rootParentId": "fa19a9d2-bb6c-4317-82d5-1b29d6540336",
+  "name": "8-Confirm - Delivery - yes",
+  "auto": true,
+  "contexts": [
+    "8-Confirm-Delivery-followup",
+    "orderTaken",
+    "orderInit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "8-Confirm.8-Confirm-custom.8-Confirm-Delivery-yes",
+      "affectedContexts": [
+        {
+          "name": "orderTaken",
+          "lifespan": 99
+        },
+        {
+          "name": "orderInit",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "afcc726e-8e89-44fd-9cc1-e291d78e7082",
+          "name": "smsFromNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "6507708825",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "442363d9-84b5-4097-bcf9-682bc0d945fa",
+          "name": "smsPhoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#orderInit.initPhoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bb860185-0eb1-4408-9bd5-e31de8d978db",
+          "name": "smsMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Thank you for your delivery order # #orderTaken.orderID with:                                                                    #orderTaken.orderListText.                       \n                                                   Our agent will reach out shortly to confirm. #orderInit.businessName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8bfaaca7-14c0-450b-a489-eae4a8718b5a",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2897140d-d71b-43a6-a070-0157290f883a",
+          "name": "orderID",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#8-Confirm-Delivery-followup.orderID",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your confirmation message is sent to your phone. Good bye."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

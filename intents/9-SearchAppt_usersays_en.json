@@ -1,0 +1,231 @@
+[
+  {
+    "id": "9b1dc83a-b200-4ec0-bfb5-f51272c92537",
+    "data": [
+      {
+        "text": "find appointment .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "391ff307-7b9d-4037-8072-3481a11d2aff",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84238a36-9e72-4a8b-9be5-8a3c08fd5c17",
+    "data": [
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dac3d2c0-0405-42e3-8b7b-0f72c8d87c7b",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bad137bb-a141-4348-af68-0cab1294f0d8",
+    "data": [
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ca8b6a5-6905-401e-be4e-33b49b7d86cb",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d348b89e-cbfb-4c48-b61d-1f848db362ff",
+    "data": [
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "537ed54e-c9e1-4688-a14c-d781518a7f25",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf54c11f-7b13-4031-b4a3-9cb25ae48bd0",
+    "data": [
+      {
+        "text": "findAppt",
+        "meta": "@wordsSearchAppt",
+        "alias": "wordsSearchAppt",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

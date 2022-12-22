@@ -1,0 +1,9 @@
+{
+  "id": "56e6636a-46f6-41d1-9c77-e64fed1c545c",
+  "name": "wordsNo",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

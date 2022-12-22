@@ -1,0 +1,85 @@
+{
+  "id": "d73c1da6-469c-4509-9abd-6e6882151b27",
+  "parentId": "9865412a-d13d-4024-b700-3df536f0881c",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "ScheduleServiceYMM-Recall - no",
+  "auto": true,
+  "contexts": [
+    "2-GetServicesOtherNo-followup",
+    "ScheduleServiceYMM-Recall-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ScheduleServiceYMM-Recall.ScheduleServiceYMM-Recall-no",
+      "affectedContexts": [
+        {
+          "name": "YMM",
+          "lifespan": 0
+        },
+        {
+          "name": "changeYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1dc123e5-772a-4eaf-8a6d-bfb7df29e879",
+          "name": "wordsNo",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsNo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2ac694b7-a568-4b0d-b85c-3964ff44434e",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e No worries. Please say your vehicle year, make and model, #config.example \u003c/prosody\u003e   \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

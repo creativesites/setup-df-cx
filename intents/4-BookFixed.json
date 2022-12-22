@@ -1,0 +1,142 @@
+{
+  "id": "5bcaff6f-61c1-46af-8077-5343a3ed2e99",
+  "parentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "4-BookFixed",
+  "auto": true,
+  "contexts": [
+    "config",
+    "timeSlotSelected",
+    "getPhoneNum",
+    "fixedLine"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "format_name",
+      "affectedContexts": [
+        {
+          "name": "book",
+          "lifespan": 99
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "nameFromUser",
+          "lifespan": 99
+        },
+        {
+          "name": "4-BookFixed-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6f37aa80-07e8-40e0-83bc-ca5c21ad61ce",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nThank you, your requested time slot is available. Please say your first name then spell it\n\u003c/prosody\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5a9d4946-71bf-498b-b237-f3d002f5041d",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "#config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease say your last name then spell it\n\u003c/prosody\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d02fc91c-07e2-44bc-9c7b-b985bef05501",
+          "name": "recall",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "0",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "054f3392-b8cd-44b4-8ce6-088ea7342c2a",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BookYes_ask_for_phone"
+    },
+    {
+      "name": "BookYes"
+    },
+    {
+      "name": "BOOK"
+    },
+    {
+      "name": "BOOKYES_EVENT_NAME_ASK_FOR_PHONE"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "1acc02c9-7e79-463f-87e5-0a9b57505112",
+  "name": "wordsRepair",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

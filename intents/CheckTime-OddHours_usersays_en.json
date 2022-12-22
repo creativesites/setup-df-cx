@@ -1,0 +1,36 @@
+[
+  {
+    "id": "69a74049-cf60-4079-ae91-914db6a5179d",
+    "data": [
+      {
+        "text": "oddhour",
+        "meta": "@wordsOddHours",
+        "alias": "preferredTime",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fbe5e7d8-3d6a-4ccf-85af-ff00555fcdf2",
+    "data": [
+      {
+        "text": "oddhour",
+        "meta": "@wordsOddHours",
+        "alias": "preferredTime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

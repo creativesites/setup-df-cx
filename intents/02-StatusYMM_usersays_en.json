@@ -1,0 +1,702 @@
+[
+  {
+    "id": "91242f14-0073-4ec5-ab2e-9f026f28de36",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ac9aa60-706c-4c7a-b289-1cbe21500c00",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f31f3c4a-2175-42bc-adc7-7c527cb265a3",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd862607-3d17-48cb-97d4-1c50d4be5490",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "089fbdf4-119a-4040-9083-c4c78da85bde",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb241ec0-c453-4fa5-9f7d-5f8d2edc6ad3",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f356a790-3aab-4308-aa0a-960244a6fae0",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2400412a-48ea-40bb-b7f1-83111da3167d",
+    "data": [
+      {
+        "text": "Confirm an ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "366b937c-69eb-4a8f-a899-4e2bcb2f895d",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " Confirm my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a5fc684-6564-4dd6-8531-4aaa87b69ee3",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " Confirm my appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a2f865b-d3f8-4447-b7bf-0f908b78e44f",
+    "data": [
+      {
+        "text": "Confirm my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf248177-d6ca-463d-a636-ddbd6baed853",
+    "data": [
+      {
+        "text": "Confirm my appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b725f50-d90d-4ce8-9a63-7471a17c6e3b",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " confirm appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "038cd5cc-d6af-4ced-9055-5ec65c262291",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " confirm appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "643daea9-2c59-49fa-920a-31e63a937eac",
+    "data": [
+      {
+        "text": "confirm appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00e2aac9-c0e9-4507-803a-e26dcf6aea08",
+    "data": [
+      {
+        "text": "confirm appointment.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24c5865c-5e8c-458b-b08d-d2b0ba752e35",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " check on my car .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd65eeba-3919-4678-a8cc-26dec52dd4cf",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68cb485e-d91c-46a8-bdcc-27b5b75cffa1",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " update on ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41f7d113-bb09-43a6-9a19-818c0b79a6b4",
+    "data": [
+      {
+        "text": "update on ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3aec82f-6f9a-480d-bd6b-5547d8683518",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      },
+      {
+        "text": " update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "393f1fbb-0c4a-4f56-bd5b-1a19cf04b3b6",
+    "data": [
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c975d61-80e1-41be-b87b-f5b2ca84ecec",
+    "data": [
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c20876f0-8a8a-420a-b7f0-c167e99bdd81",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0861ac8a-c565-4807-9ca0-39282e88cc8c",
+    "data": [
+      {
+        "text": "serviceo",
+        "meta": "@serviceOptions",
+        "alias": "serviceoptions",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "statuso",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "377cde9a-f3a4-4ace-86bc-140341603ebb",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " status ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3c2d7bc-d1d8-4464-9d7b-eb2d26ee4ef2",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a3ae143-592f-4616-9b1d-865512368bad",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@wordsStatus",
+        "alias": "wordsstatus",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

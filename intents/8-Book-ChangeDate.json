@@ -1,0 +1,96 @@
+{
+  "id": "be0de664-14ce-45b4-9d8a-5cacfe0f0634",
+  "parentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "8-Book-ChangeDate",
+  "auto": true,
+  "contexts": [
+    "changeBookDate",
+    "config",
+    "book"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "8-Book-ChangeDate-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14187c65-f4b5-49da-8239-f723ee5a224d",
+          "name": "wordsNo",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsNo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "89ea30d9-09a4-4524-b0b6-588fe06ad5ff",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0474a169-1218-4219-a508-4ec55bd4bd5b",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/70.ogg\"\u003e Please say a preferred date and time \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

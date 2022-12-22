@@ -1,0 +1,85 @@
+{
+  "id": "1a13ee6e-5c9c-4faa-8654-88d44589280d",
+  "parentId": "550f8605-e375-4257-ba3d-4fd9c8316968",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-011 - yes",
+  "auto": true,
+  "contexts": [
+    "config",
+    "1-Schedule-011-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2.1-Schedule-011-yes",
+      "affectedContexts": [
+        {
+          "name": "gotTransp",
+          "lifespan": 5
+        },
+        {
+          "name": "getNextAvail",
+          "lifespan": 5
+        },
+        {
+          "name": "1-Schedule-011-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ad94275b-c1d9-4d58-8b61-fd40c45f5f7a",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "379ddd65-06b8-419a-abd5-4f3dafb42e28",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e #config.transportQuestion2 \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

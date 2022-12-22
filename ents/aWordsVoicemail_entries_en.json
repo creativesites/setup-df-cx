@@ -1,0 +1,15 @@
+[
+  {
+    "value": "operatorW",
+    "synonyms": [
+      "@wordsOperator",
+      "@aWordsOperator"
+    ]
+  },
+  {
+    "value": "unhandeledW",
+    "synonyms": [
+      "@aWordsUnhandled"
+    ]
+  }
+]

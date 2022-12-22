@@ -1,0 +1,249 @@
+[
+  {
+    "value": "I am interested in",
+    "synonyms": [
+      "I am interested in",
+      "interested"
+    ]
+  },
+  {
+    "value": "I need assistance with",
+    "synonyms": [
+      "I need assistance with",
+      "assistance with",
+      "need assistance"
+    ]
+  },
+  {
+    "value": "I want to",
+    "synonyms": [
+      "I want to",
+      "want",
+      "want to",
+      "we want",
+      "we want to"
+    ]
+  },
+  {
+    "value": "I want to learn about",
+    "synonyms": [
+      "I want to know about",
+      "I want to learn about"
+    ]
+  },
+  {
+    "value": "I would like to",
+    "synonyms": [
+      "I would like to",
+      "Would like",
+      "we would like",
+      "we would like to",
+      "would like",
+      "i\u0027d like to",
+      "i\u0027d like to see",
+      "i\u0027d like to see if"
+    ]
+  },
+  {
+    "value": "I\u0027m calling about",
+    "synonyms": [
+      "Calling about",
+      "I am calling about",
+      "I want to talk to",
+      "I\u0027m calling about",
+      "we are calling about"
+    ]
+  },
+  {
+    "value": "Please",
+    "synonyms": [
+      "Please"
+    ]
+  },
+  {
+    "value": "help with",
+    "synonyms": [
+      "I am looking for help",
+      "I am looking for help with",
+      "I need help with",
+      "I want help",
+      "I want help with",
+      "I would like help",
+      "I would like help with",
+      "We want help with",
+      "We would like help with",
+      "help with",
+      "looking for help"
+    ]
+  },
+  {
+    "value": "i want",
+    "synonyms": [
+      "i want"
+    ]
+  },
+  {
+    "value": "looking to",
+    "synonyms": [
+      "I am looking for",
+      "I am looking to",
+      "I look for",
+      "I look to",
+      "look for",
+      "look to",
+      "looking for",
+      "looking to",
+      "we are looking for",
+      "we are looking to",
+      "we look for",
+      "we look to"
+    ]
+  },
+  {
+    "value": "need",
+    "synonyms": [
+      "I have a need for",
+      "I need",
+      "need",
+      "needing",
+      "we are needing",
+      "we have a need for",
+      "we need"
+    ]
+  },
+  {
+    "value": "ready to",
+    "synonyms": [
+      "ready for",
+      "ready to"
+    ]
+  },
+  {
+    "value": "request",
+    "synonyms": [
+      "I would like to request",
+      "request",
+      "requesting",
+      "we would like to request"
+    ]
+  },
+  {
+    "value": "stop your",
+    "synonyms": [
+      "stop your"
+    ]
+  },
+  {
+    "value": "i would like to bring it",
+    "synonyms": [
+      "i would like to bring it",
+      "bring my car",
+      "bring car",
+      "i would like to",
+      "i\u0027d like to"
+    ]
+  },
+  {
+    "value": "I have",
+    "synonyms": [
+      "I have",
+      "i do have"
+    ]
+  },
+  {
+    "value": "i know",
+    "synonyms": [
+      "i know",
+      "I\u0027d like to know",
+      "i want to know"
+    ]
+  },
+  {
+    "value": "i think",
+    "synonyms": [
+      "i think",
+      "think",
+      "I believe",
+      "believe"
+    ]
+  },
+  {
+    "value": "i am",
+    "synonyms": [
+      "i am",
+      "i am not",
+      "i\u0027m",
+      "i\u0027m not"
+    ]
+  },
+  {
+    "value": "come",
+    "synonyms": [
+      "bring car",
+      "bring my car"
+    ]
+  },
+  {
+    "value": "in",
+    "synonyms": [
+      "in",
+      "with",
+      "to"
+    ]
+  },
+  {
+    "value": "what is",
+    "synonyms": [
+      "what is",
+      "what is the"
+    ]
+  },
+  {
+    "value": "offer",
+    "synonyms": [
+      "do you offer",
+      "do you guys offer",
+      "do you have",
+      "can you offer"
+    ]
+  },
+  {
+    "value": "I have to",
+    "synonyms": [
+      "I have to",
+      "i got to",
+      "have to",
+      "got to"
+    ]
+  },
+  {
+    "value": "just a",
+    "synonyms": [
+      "just a",
+      "simply a",
+      "i want just a"
+    ]
+  },
+  {
+    "value": "whatINeedIs",
+    "synonyms": [
+      "what i want is",
+      "what i need is"
+    ]
+  },
+  {
+    "value": "thisiswhatineed",
+    "synonyms": [
+      "this is what i want",
+      "this is what i need",
+      "this is my need need"
+    ]
+  },
+  {
+    "value": "helpmewith",
+    "synonyms": [
+      "help me with",
+      "please help me with"
+    ]
+  }
+]

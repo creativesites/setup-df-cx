@@ -1,0 +1,9 @@
+{
+  "id": "42a04f89-6612-43ed-ad26-c10a26bff0ae",
+  "name": "aWordsUnhandled",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

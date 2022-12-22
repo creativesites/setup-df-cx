@@ -1,0 +1,72 @@
+{
+  "id": "c9336ab2-2061-4ec0-8524-8fcbbabddbab",
+  "parentId": "550f8605-e375-4257-ba3d-4fd9c8316968",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-011 - no",
+  "auto": true,
+  "contexts": [
+    "config",
+    "1-Schedule-011-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2.1-Schedule-011-no",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be27b11a-6ce2-4d78-85f0-5d3ea94046e2",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "33b16097-b578-4335-b942-a549828e8376",
+          "name": "wordsNo",
+          "required": false,
+          "dataType": "@wordsNo",
+          "value": "$wordsNo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e No worries. Please say your vehicle year, make and model, #config.example \u003c/prosody\u003e   \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

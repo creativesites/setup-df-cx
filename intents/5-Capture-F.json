@@ -1,0 +1,50 @@
+{
+  "id": "e8fddc28-bbb3-4aec-8ac0-790de7bcebce",
+  "parentId": "042b0a98-81da-477e-b1ca-b9f0178e89b3",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-Capture-F",
+  "contexts": [
+    "5-Capture-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2.5-Capture-fallback",
+      "affectedContexts": [
+        {
+          "name": "getVM",
+          "lifespan": 1
+        },
+        {
+          "name": "foundName",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/12.1_522.ogg\"\u003ePlease say your message and we will try to assist you.\u003c/audio\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,126 @@
+{
+  "id": "9d0623fe-7070-4b7a-946a-485321203489",
+  "parentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-001",
+  "auto": true,
+  "contexts": [
+    "config",
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "wrongYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-001-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b365cda-214d-42fc-9e2a-7aa76e702669",
+          "name": "service",
+          "required": true,
+          "dataType": "@serviceOptions",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003eThank you. Now, please tell me what service you would like, for example oil change?\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ad9d6569-55b1-4490-a499-3aaacc582347",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9a5962cb-2cdc-438a-813a-05d56015c18d",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "058f1b22-d1b2-4a2d-acb2-a56a8ad99fae",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/3_522.ogg\"\u003e Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

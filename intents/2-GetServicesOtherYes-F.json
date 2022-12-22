@@ -1,0 +1,47 @@
+{
+  "id": "358e6e16-fc51-4cb4-ac00-2f6886d507e5",
+  "parentId": "e18c6870-fa41-46e3-9bd1-98b7f75ca0f7",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherYes-F",
+  "contexts": [
+    "otherSvcInput",
+    "2-GetServicesOtherYes-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "2-GetServicesOtherYes.2-GetServicesOtherYes-fallback",
+      "affectedContexts": [
+        {
+          "name": "otherSvcInput",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWhat other services would you like?\n\u003c/prosody\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

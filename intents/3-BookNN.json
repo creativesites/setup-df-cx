@@ -1,0 +1,170 @@
+{
+  "id": "92fc2ef6-99dd-4bb8-99d9-ab2055f99353",
+  "parentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "3-BookNN",
+  "auto": true,
+  "contexts": [
+    "config",
+    "getTime",
+    "timeSlotSelected"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "format_name",
+      "affectedContexts": [
+        {
+          "name": "book",
+          "lifespan": 20
+        },
+        {
+          "name": "awaitingFLNameConfirm",
+          "lifespan": 1
+        },
+        {
+          "name": "42-BookNN-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "changeBookDate",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "nameFromUser",
+          "lifespan": 99
+        },
+        {
+          "name": "getPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "invalidPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1bf5fc2d-5e9f-4c1b-85ea-e1e5464eb91d",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e43c4d50-ccf6-434d-8e19-3336367ca852",
+          "name": "firstName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$firstName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/30.ogg\"\u003eGreat. Please say your first name then spell it\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ebd55424-9aca-4bfe-81b3-44285f2fe8a2",
+          "name": "lastName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/31.ogg\"\u003ePlease say your last name then spell \n\u003c/audio\u003e\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b3d21418-1505-4357-b700-a1772612892a",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "418b10b1-4bca-419d-a983-f9f6cf05d0b8",
+          "name": "testPreferredTime",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8.3.2.ogg\"\u003e Please say yes to book \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.currentOriginalDate at #config.preferredTimeReadable  \u003c/prosody\u003e    \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BookYes"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "251d1338-6e4e-4fc2-97f9-09eb9c48fe7e",
+    "data": [
+      {
+        "text": "de ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0569d47-95f7-47cf-9a6e-3e785ca70429",
+    "data": [
+      {
+        "text": "ce ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae61d3a6-e950-41a5-abee-7d27da7c48b4",
+    "data": [
+      {
+        "text": "be ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f57e4a0-e2aa-4810-b10e-826b00921c44",
+    "data": [
+      {
+        "text": "60000",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c07ac1e1-7ca9-4daf-9acf-9b9b76ed98f3",
+    "data": [
+      {
+        "text": "D",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80069123-d34c-4b8a-b1ea-3a1549de71a4",
+    "data": [
+      {
+        "text": "C",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9cdd5f4-bc99-4f0c-be2d-1daf39592c2e",
+    "data": [
+      {
+        "text": "B",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ceee87a2-8e34-4fbb-9c32-ea01085a5dd4",
+    "data": [
+      {
+        "text": "A",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      },
+      {
+        "text": " service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f29b97a-7fe2-4e8e-8a89-13643dd14e37",
+    "data": [
+      {
+        "text": "D",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d1a8c63-da9c-4b0c-aa31-6593a20e53d7",
+    "data": [
+      {
+        "text": "C",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3364f56f-1478-49a1-a89e-7bced425a11b",
+    "data": [
+      {
+        "text": "A",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbd907dc-e0cd-4b24-bc70-1e03204a202a",
+    "data": [
+      {
+        "text": "B",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "meta": "@sys.number",
+        "alias": "num",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

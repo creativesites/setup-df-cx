@@ -1,0 +1,170 @@
+{
+  "id": "48523bb5-6412-4543-b02e-059025fcf71f",
+  "parentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "RecallAfterVM",
+  "auto": true,
+  "contexts": [
+    "processRecall",
+    "checkAppt",
+    "checkAppt2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "1-Schedule-001-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "40d54d73-83e4-439c-b35e-239c947108b7",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "88f1e27c-da9a-4d2f-bcfa-df1ff6f9f61d",
+          "name": "wordsrecall",
+          "required": false,
+          "dataType": "@wordsRecall",
+          "value": "$wordsrecall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5e7b7684-27b5-4179-b5a7-c0da70657858",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5fa0d6b8-6374-412c-8eb2-3c40a9a85cd6",
+          "name": "recall",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$recall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1583cec8-e029-4b54-b0e1-f1503685b59d",
+          "name": "service",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.fallbackService",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "84ce4581-b018-42a9-afa7-527442334b15",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Recall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b030a5dd-33fb-4961-bb7e-1eca1a290525",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003drecall\u0026phoneNum\u003d#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f58109cc-a04d-4a14-a568-e27282098ef0",
+          "name": "wordsYes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsYes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/recallInfo.ogg\"\u003e\nThank you. Glad to help you with your recall appointment. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. \n\u003c/audio\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/ymm.ogg\"\u003e\nPlease say your vehicle year, make and model\n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

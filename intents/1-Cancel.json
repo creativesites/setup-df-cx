@@ -1,0 +1,37 @@
+{
+  "id": "859b93b8-a0b6-4323-8ff1-eed1ee9c1aab",
+  "parentId": "4ba681c5-0c71-4202-a8c0-ab6d7e1e147f",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Cancel",
+  "auto": true,
+  "contexts": [
+    "9-Cancel-followup",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "search_appt.9-Cancel-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

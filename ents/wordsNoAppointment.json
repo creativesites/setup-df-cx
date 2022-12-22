@@ -1,0 +1,9 @@
+{
+  "id": "82c01aaa-e795-423b-87e6-13fb8eecf4a0",
+  "name": "wordsNoAppointment",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

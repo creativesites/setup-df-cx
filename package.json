@@ -1,0 +1,26 @@
+{
+  "name": "setup-df-cx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativesites/setup-df-cx.git"
+  },
+  "author": "Winston Zulu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creativesites/setup-df-cx/issues"
+  },
+  "homepage": "https://github.com/creativesites/setup-df-cx#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.2.1",
+    "@google-cloud/dialogflow-cx": "^3.1.1",
+    "fs": "^0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "uuid": "^9.0.0"
+  }
+}

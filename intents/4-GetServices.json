@@ -1,0 +1,152 @@
+{
+  "id": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "4-GetServices",
+  "auto": true,
+  "contexts": [
+    "getSvc",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServices-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "otherSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "otherSvcInput",
+          "lifespan": 1
+        },
+        {
+          "name": "maxOtherSvc",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8e4cea0e-c83d-4021-a3c0-3052200c0677",
+          "name": "service",
+          "required": true,
+          "dataType": "@serviceOptions",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003eThank you. Now, please tell me what service you would like, for example oil change?\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "28bd9120-54fd-41ba-b930-8c266c14aa11",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9808ad9b-9ae0-4b36-9a68-1f45c5c81d69",
+          "name": "days",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "7",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "63004dcf-f35b-43af-93b3-c2dd2bcd1692",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6abf7ef2-4ead-4c47-9fc9-0ede904c657e",
+          "name": "wordsIssues",
+          "required": false,
+          "dataType": "@wordsIssues",
+          "value": "$wordsIssues",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "23edb7f8-e3d2-445a-851b-0741869e93ab",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/5_522.ogg\"\u003e Would you like any other services? \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

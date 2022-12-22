@@ -1,0 +1,118 @@
+{
+  "id": "e8fac9fe-f6aa-4705-b388-624f52a8aebb",
+  "parentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "9-SearchAppt",
+  "auto": true,
+  "contexts": [
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "search_appt",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "80ca7925-e9a1-474f-921f-bbae60f96ba0",
+          "name": "wordsSearchAppt",
+          "required": false,
+          "dataType": "@wordsSearchAppt",
+          "value": "$wordsSearchAppt",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "825aac21-537d-477a-ba55-58f2ecdee642",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dcdcbadf-b241-4aa2-897d-7b1c96cb82e5",
+          "name": "ApptFound",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003eI found your appointment for #config.appt_date #config.appt_time , Please say reschedule, or cancel\u003c/prosody\u003e\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2fd49575-8992-47f2-94f6-07ecd35325f8",
+          "name": "ApptNotFound",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003eI did not find any appointment under this phone number.. Please say operator or other.\u003c/prosody\u003e\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "13b3946e-9ba5-455e-bc0f-520fdb7762a3",
+          "name": "service",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.service",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I did not find any appointment under this phone number.. Please say operator or other."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

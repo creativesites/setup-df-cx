@@ -1,0 +1,591 @@
+[
+  {
+    "id": "8bfdf6e0-b633-4cfa-be09-ead00fa4a19a",
+    "data": [
+      {
+        "text": "service please .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "564f7b10-fcdb-4984-b0b5-09412b2cc7d3",
+    "data": [
+      {
+        "text": "service place .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ec6c852-73fb-411b-a741-a35c97a8cd73",
+    "data": [
+      {
+        "text": "service .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65d2f7d2-6ced-4bd2-bc8b-8ad2dda71c34",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "05c4f109-4075-4e30-ac2f-831749e072f7",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55fdfcef-a0bf-4aca-8dd4-c03b5889a316",
+    "data": [
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb4b36d1-e541-4589-8f27-49443af8345d",
+    "data": [
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27b88b50-bb23-457c-9823-a318df6c91fb",
+    "data": [
+      {
+        "text": "service needed .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41f4723e-89d5-495e-8a1b-eb7fcb5636fd",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "book",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14b2b1bd-3cec-4032-a456-a92e9e950c3b",
+    "data": [
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " for service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71ac5274-782c-4053-aaee-823d8a2f1398",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6738a5a-ed63-4b8b-80fb-14c7e14c6461",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c1c89d1-46a9-4358-82dd-fb42226045f6",
+    "data": [
+      {
+        "text": "give me",
+        "meta": "@wordsPre",
+        "alias": "wordsPre",
+        "userDefined": true
+      },
+      {
+        "text": " service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9a4b6c9-f73a-4d20-861e-4c9abd1dd353",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "check",
+        "meta": "@wordsRepair",
+        "alias": "wordsRepair",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "my car",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "204a6cd0-3e8c-4995-8c2d-5ab6da018747",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "check",
+        "meta": "@wordsRepair",
+        "alias": "wordsRepair",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "my car",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35f19a9a-981f-42bc-bf67-b6e7504e4269",
+    "data": [
+      {
+        "text": "continue ",
+        "userDefined": false
+      },
+      {
+        "text": "booking",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c11525a6-1d2f-4abe-a82b-74faa1cb4816",
+    "data": [
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1aff40df-23ed-4255-8734-3e6b3c1fdf46",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95f6e675-2bb3-45b8-8718-ad50f5c2281b",
+    "data": [
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47c13ba2-3b1a-48fa-b610-e7353a0b2a52",
+    "data": [
+      {
+        "text": "want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "appointment",
+        "meta": "@wordsAppointment",
+        "alias": "wordsAppointment",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6622b0ff-ea66-4856-b4ac-49f891482503",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsYes",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

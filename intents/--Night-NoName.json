@@ -1,0 +1,178 @@
+{
+  "id": "474d1548-8759-48e7-b233-54dd83f8daf7",
+  "parentId": "183c13a1-a747-4c08-9613-2e480450e94b",
+  "rootParentId": "12d69460-8977-4d7d-9a7b-3d705f147f6f",
+  "name": "--Night-NoName",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "NoName-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "night",
+          "lifespan": 99
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 0
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 99
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52a01c8a-fc07-4efa-ab74-328becd4a1c9",
+          "name": "smsFromNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.enableTracking",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3ff139d4-6308-4c06-9f24-31a2e283b8b3",
+          "name": "smsPhoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "6506900634",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0a69f9a0-2b02-4d5a-9c44-cfc7067f60d1",
+          "name": "smsMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "[#config.businessName] \n#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6dfd80e8-8812-4896-a089-2bac357f6655",
+          "name": "sendSMS",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "from\u003d\u0027+1#config.enableTracking\u0027,to1\u003d\u0027+16506900634\u0027,to2\u003d\u0027\u0027,to3\u003d\u0027\u0027,message1\u003d\u0027Test1\u0027,message2\u003d\u0027\u0027,message3\u003d\u0027\u0027",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d8c417a6-5dba-4ed8-9c55-1f124d7d01e2",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Unknown",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "168dd874-f67d-42ef-b9e2-3d042b1155c8",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d96d3cda-c27b-4454-9a1f-1ef4793455fe",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n#config.greeting \n\n#config.askYMM \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Night_NoName"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

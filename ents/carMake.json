@@ -1,0 +1,9 @@
+{
+  "id": "094610b3-31a5-4305-8bb2-6f3346df4bbc",
+  "name": "carMake",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

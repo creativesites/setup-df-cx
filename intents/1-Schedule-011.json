@@ -1,0 +1,145 @@
+{
+  "id": "550f8605-e375-4257-ba3d-4fd9c8316968",
+  "parentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-011",
+  "auto": true,
+  "contexts": [
+    "config",
+    "makeAppt",
+    "YMM",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "GotSVCYMM-GetOtherSVC",
+          "lifespan": 0
+        },
+        {
+          "name": "wrongYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-001-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "awaitVerifyYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "changeYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-Schedule-010-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7bae38f7-9e51-41c4-8ca9-787248493cab",
+          "name": "service",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5acbcf73-fff0-4646-9186-439a6eb9f126",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$service.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "591c1b15-29d4-43cc-8b7b-c209d7fe2ad3",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b6b26aad-f854-4d69-b28f-12ac43b3a33a",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c9ee2f1d-b443-495b-a02a-18271dcac8e0",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dbookIntent\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA1.ogg\"\u003e Thank you \u003c/audio\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA2.ogg\"\u003e would you like to book an appointment for your \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.carYear #config.carModelRead ? \u003c/prosody\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

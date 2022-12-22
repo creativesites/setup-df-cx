@@ -1,0 +1,9 @@
+{
+  "id": "e17e1198-208b-4165-9601-5838953587fd",
+  "name": "carMakeAll",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

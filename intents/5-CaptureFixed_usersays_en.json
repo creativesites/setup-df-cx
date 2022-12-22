@@ -1,0 +1,32 @@
+[
+  {
+    "id": "88e6b7ff-9eea-4f75-8234-2ab5ecb3f367",
+    "data": [
+      {
+        "text": "change appointment",
+        "meta": "@wordsChangeAppt",
+        "alias": "wordsChangeAppt",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30c97492-f08b-497c-8371-23131a624d5f",
+    "data": [
+      {
+        "text": "xyz",
+        "meta": "@sys.any",
+        "alias": "message",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

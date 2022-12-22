@@ -1,0 +1,66 @@
+[
+  {
+    "value": "if possible",
+    "synonyms": [
+      "if possible",
+      "possibly",
+      "preferably",
+      "I prefer",
+      "may be"
+    ]
+  },
+  {
+    "value": "any",
+    "synonyms": [
+      "anytime",
+      "any time",
+      "anything",
+      "any day",
+      "any"
+    ]
+  },
+  {
+    "value": "do not know",
+    "synonyms": [
+      "do not know",
+      "i don\u0027t know",
+      "i do not know"
+    ]
+  },
+  {
+    "value": "as soon as",
+    "synonyms": [
+      "as soon as"
+    ]
+  },
+  {
+    "value": "whenever",
+    "synonyms": [
+      "whenever"
+    ]
+  },
+  {
+    "value": "yes",
+    "synonyms": [
+      "yes",
+      "yep"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no"
+    ]
+  },
+  {
+    "value": "other",
+    "synonyms": [
+      "other",
+      "other date",
+      "not other date",
+      "no another date",
+      "another date",
+      "or other"
+    ]
+  }
+]

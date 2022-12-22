@@ -1,0 +1,106 @@
+{
+  "id": "2f0d04db-bb38-48e5-8072-a35744fadecd",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2.3-Misc",
+  "auto": true,
+  "contexts": [
+    "getSvc",
+    "config",
+    "NO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "2-GetServices-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "otherSvc",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ca18b490-9e5d-4353-b17c-b57d153e8932",
+          "name": "num",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$num",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "47b54b9f-c354-4d69-bc50-ab049dbf7dc8",
+          "name": "service",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "000",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "630dfb8b-060c-45e0-a758-103ef3d27f38",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Maintenance",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/5_522.ogg\"\u003e Would you like any other services? \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like any other services?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

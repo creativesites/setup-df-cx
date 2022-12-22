@@ -1,0 +1,56 @@
+{
+  "id": "4a97bff3-bd21-4c6c-b4e0-ce3e9b6bb117",
+  "parentId": "9d0623fe-7070-4b7a-946a-485321203489",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-001-F",
+  "contexts": [
+    "1-Schedule-001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal.1-Schedule-001-fallback",
+      "affectedContexts": [
+        {
+          "name": "wrongYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/3_522.ogg\"\u003e Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

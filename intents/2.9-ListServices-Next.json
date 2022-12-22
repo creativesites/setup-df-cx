@@ -1,0 +1,58 @@
+{
+  "id": "f825984c-895b-465d-9640-53f5e4988171",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2.9-ListServices-Next",
+  "auto": true,
+  "contexts": [
+    "config",
+    "21-GetYMM-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "29-ListServices.29-ListServices-custom",
+      "affectedContexts": [
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "21-GetYMM-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Our next services include; Accessories; Body works;  Pulling and Noises; Sensor replacement; Transmission;  Steering;  Ignition system; And Muffler ; Please say a service name \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our next services include;\nAccessories;\nBody works; \nPulling and Noises;\nSensor replacement;\nTransmission; \nSteering; \nIgnition system;\nAnd Muffler ;\nPlease say a service name"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

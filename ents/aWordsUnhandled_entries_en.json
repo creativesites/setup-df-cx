@@ -1,0 +1,31 @@
+[
+  {
+    "value": "warrantyWords",
+    "synonyms": [
+      "warranty"
+    ]
+  },
+  {
+    "value": "helpWords",
+    "synonyms": [
+      "help"
+    ]
+  },
+  {
+    "value": "vehiclePickup",
+    "synonyms": [
+      "pick up",
+      "pick up my vehicle",
+      "concierge",
+      "valet"
+    ]
+  },
+  {
+    "value": "other",
+    "synonyms": [
+      "other",
+      "mother",
+      "father"
+    ]
+  }
+]

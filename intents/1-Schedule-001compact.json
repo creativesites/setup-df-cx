@@ -1,0 +1,140 @@
+{
+  "id": "1ff75228-90f9-4751-b1cf-3a87cadf2bd0",
+  "parentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-001compact",
+  "auto": true,
+  "contexts": [
+    "compressed",
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "wrongYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-001-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "gotSVCgetYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 0
+        },
+        {
+          "name": "1-Schedule-000-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c0a97561-f0ff-4c27-992c-d8971e3af59c",
+          "name": "service",
+          "required": true,
+          "dataType": "@serviceOptions",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003eThank you. Now, please tell me what service you would like, for example oil change?\n\u003c/audio\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1911ddb8-420f-4b75-8894-160e13211811",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@serviceOptions",
+          "value": "$service.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dd88cabd-316f-4287-b8b9-e3f7efa9a5be",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2d1dc1b8-482d-46ab-ba75-b038b694d44c",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ada53c6b-76e9-41f2-bd82-e601f18e7d29",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dbookIntent\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/ymm.ogg\"\u003e Please say your vehicle year, make and model \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

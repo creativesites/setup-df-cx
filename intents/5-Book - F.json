@@ -1,0 +1,52 @@
+{
+  "id": "5b6dd361-223f-454d-9782-ceb4527ceb46",
+  "parentId": "6572cdd6-1b66-4801-bd96-4f99245a82a7",
+  "rootParentId": "085d0790-8731-4009-82ce-41d851653ba6",
+  "name": "5-Book - F",
+  "contexts": [
+    "3-Book-followup",
+    "wantSMS",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "3-Book.3-Book-fallback",
+      "affectedContexts": [
+        {
+          "name": "wantSMS",
+          "lifespan": 1
+        },
+        {
+          "name": "3-Book-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#3-Book-followup.successMessage"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

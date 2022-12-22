@@ -1,0 +1,120 @@
+{
+  "id": "2ac18c78-a6f1-4022-8d54-435ace0f2839",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-FixYear",
+  "auto": true,
+  "contexts": [
+    "getSvc",
+    "config",
+    "21-GetYMM-followup",
+    "invalidYear"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "21-GetYMM.21-GetYMM-custom",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "listServices",
+          "lifespan": 1
+        },
+        {
+          "name": "21-GetYMM-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9fe9b458-c0b9-49cd-854f-aec1fa1df661",
+          "name": "carYear",
+          "required": true,
+          "dataType": "@wordsCarYear",
+          "value": "$carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nPlease provide the car year one more time\n\u003c/prosody\u003e \n\u003c/speak\u003e"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bb00f003-2932-478b-8e6f-a9b93ee1f59d",
+          "name": "testMake",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.make",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "68fadba3-4e64-44d9-88c6-797a63bad90b",
+          "name": "testModel",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4_522.ogg\"\u003e Thank you. Now, please tell me what service you would like, for example oil change? \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Now, please tell me what service you would like, for example oil change?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "YEAR_IS_NOT_VALID"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

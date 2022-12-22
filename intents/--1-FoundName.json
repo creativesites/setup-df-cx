@@ -1,0 +1,174 @@
+{
+  "id": "1b1ea3c4-efe8-4bd9-be99-c1d96b4f69dc",
+  "parentId": "12d69460-8977-4d7d-9a7b-3d705f147f6f",
+  "rootParentId": "12d69460-8977-4d7d-9a7b-3d705f147f6f",
+  "name": "--1-FoundName",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "Greeting-FoundName-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "checkWrongName",
+          "lifespan": 1
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b8ba2633-bd22-4e98-870f-f8530406867b",
+          "name": "smsFromNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "#config.enableTracking",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7f19f94c-32fb-4850-b98a-37a04d05502e",
+          "name": "smsPhoneNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "6506900634",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "40463275-31f7-4ffb-a1a5-4d4078077b18",
+          "name": "smsMessage",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "[#config.businessName] \n#config.firstName #config.lastName\n#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8224e493-f03a-4341-8bb5-20a2b4dbab68",
+          "name": "customerNamePrefix",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerNamePrefix",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "09709407-41ec-419e-96cc-891d6bea8b81",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName #config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "80f3efb3-16b4-4210-8c95-f0f6a4cb14fc",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "afea0407-761a-414a-b744-8b20fffa233d",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.firstName #config.lastName #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nHello #config.customerNamePrefix #config.lastName \n\u003c/prosody\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment\n\u003c/audio\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin2.ogg\"\u003e\nPlease tell me the year, make and model of the vehicle you would like serviced\n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "FoundName"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

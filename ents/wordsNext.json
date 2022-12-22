@@ -1,0 +1,9 @@
+{
+  "id": "f6998a12-6b2b-4337-84c4-e905c0374c17",
+  "name": "wordsNext",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

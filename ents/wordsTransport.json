@@ -1,0 +1,9 @@
+{
+  "id": "5742aef7-8b8c-4f75-99f0-b3a8ab496fe4",
+  "name": "wordsTransport",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

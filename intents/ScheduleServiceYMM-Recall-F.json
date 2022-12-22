@@ -1,0 +1,57 @@
+{
+  "id": "35a977de-8859-4154-9fe4-a771058b0527",
+  "parentId": "9865412a-d13d-4024-b700-3df536f0881c",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "ScheduleServiceYMM-Recall-F",
+  "contexts": [
+    "2-GetServicesOtherNo-followup",
+    "ScheduleServiceYMM-Recall-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ScheduleServiceYMM-Recall.ScheduleServiceYMM-Recall-fallback",
+      "affectedContexts": [
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "ScheduleServiceYMM-Recall-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA2.ogg\"\u003e would you like to book an appointment for your \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e recall on the #config.carYear #config.carModel ? \u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "would you like to book an appointment for your recall on the #config.carYear #config.carModel ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

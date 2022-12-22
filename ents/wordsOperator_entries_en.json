@@ -1,0 +1,121 @@
+[
+  {
+    "value": "agent",
+    "synonyms": [
+      "operator",
+      "live person",
+      "customer service",
+      "representative",
+      "human being",
+      "representatives",
+      "operator operator",
+      "Evaporator",
+      "receptionist",
+      "general manager",
+      "customer support",
+      "agent",
+      "customer service agent",
+      "manager",
+      "associate",
+      "Evaporator.",
+      "person",
+      "a person",
+      "technician",
+      "service advisor",
+      "service rep",
+      "service manager",
+      "service director",
+      "service supervisor",
+      "service department"
+    ]
+  },
+  {
+    "value": "annoying",
+    "synonyms": [
+      "annoying",
+      "what are you doing",
+      "especially annoying"
+    ]
+  },
+  {
+    "value": "spanish",
+    "synonyms": [
+      "spanish",
+      "espagnol",
+      "espanol"
+    ]
+  },
+  {
+    "value": "Quick Lane",
+    "synonyms": [
+      "Quick Lane"
+    ]
+  },
+  {
+    "value": "transfer",
+    "synonyms": [
+      "transfer to",
+      "talk to",
+      "speak to",
+      "stop",
+      "transfer the line",
+      "connect me",
+      "transfer me"
+    ]
+  },
+  {
+    "value": "I want to know",
+    "synonyms": [
+      "I want to know",
+      "tell me",
+      "calling about"
+    ]
+  },
+  {
+    "value": "assistance",
+    "synonyms": [
+      "assistance",
+      "assistance."
+    ]
+  },
+  {
+    "value": "localwordsforoperator",
+    "synonyms": [
+      "@aWordsOperator"
+    ]
+  },
+  {
+    "value": "a ride home",
+    "synonyms": [
+      "a ride home",
+      "have a ride home"
+    ]
+  },
+  {
+    "value": "helpW",
+    "synonyms": [
+      "help"
+    ]
+  },
+  {
+    "value": "cost",
+    "synonyms": [
+      "cost",
+      "I would like to know how much it cost.",
+      "how much"
+    ]
+  },
+  {
+    "value": "wordsVoicemail",
+    "synonyms": [
+      "@wordsVoicemail"
+    ]
+  },
+  {
+    "value": "department",
+    "synonyms": [
+      "parts",
+      "finance department"
+    ]
+  }
+]

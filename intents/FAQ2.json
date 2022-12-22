@@ -1,0 +1,81 @@
+{
+  "id": "9fe78e83-0072-4599-a326-77dd692417d8",
+  "parentId": "ae6e0980-dcf1-41b2-a2ee-1cf886f5f9b2",
+  "rootParentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "FAQ2",
+  "auto": true,
+  "contexts": [
+    "config",
+    "foundName"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "0-FAQ-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ad9a3306-8cb6-4dca-a248-1479b8f4121f",
+          "name": "response",
+          "required": false,
+          "dataType": "@FAQ",
+          "value": "$response",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5b4a2f86-f33d-43d9-a18c-e61f41a1094b",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e $response \u003c/prosody\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

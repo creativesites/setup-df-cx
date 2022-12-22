@@ -1,0 +1,9 @@
+{
+  "id": "8d24ac4f-abab-4fcc-b5d8-fd27c3c503f1",
+  "name": "wordsDept",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "7b69b19b-0dec-40cc-bf59-7f74e29bc20b",
+  "parentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "09-Voicemail-F",
+  "contexts": [
+    "5-Voicemail-FN-Operator-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "5-Voicemail-FN-Operator.5-Voicemail-FN-Operator-fallback",
+      "affectedContexts": [
+        {
+          "name": "getVM",
+          "lifespan": 1
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 1
+        },
+        {
+          "name": "quickLane",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/12_522.ogg\"\u003e Great. Please say your message and we will try to assist you. \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great. Please say your message and we will try to assist you."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

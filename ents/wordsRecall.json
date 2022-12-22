@@ -1,0 +1,9 @@
+{
+  "id": "9043c254-55c8-4160-b859-497cd6501bc2",
+  "name": "wordsRecall",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

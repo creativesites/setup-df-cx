@@ -1,0 +1,375 @@
+{
+  "id": "4a45ade0-7821-4844-a869-d7911f30e48e",
+  "name": "--0-GalpinHonda",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_name_ymm_advisor",
+      "affectedContexts": [
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "transferOperator",
+          "lifespan": 99
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 99
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 99
+        },
+        {
+          "name": "processRecall",
+          "lifespan": 99
+        },
+        {
+          "name": "adHoc",
+          "lifespan": 99
+        },
+        {
+          "name": "galpin",
+          "lifespan": 1
+        },
+        {
+          "name": "dropIn",
+          "lifespan": 99
+        },
+        {
+          "name": "compressed",
+          "lifespan": 99
+        },
+        {
+          "name": "verifyPhone",
+          "lifespan": 99
+        },
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-ScheduleService-followup-2",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "997ad1c9-708c-4c4a-8d33-2df23c1810f3",
+          "name": "customerPhone",
+          "required": false,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e478d17b-7093-41a1-b23f-dc927ed59baf",
+          "name": "advisorNumber",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "value": "333",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "06dc1682-01b3-4e98-a1fa-2c2ebc141457",
+          "name": "advisorEmail",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "booking@allio.io",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5be432f5-4c6c-462c-a3fe-be2cd897279a",
+          "name": "businessName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Galpin Honda",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "df91476f-7b56-48b0-9c9a-449f276af619",
+          "name": "make",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Honda",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1877d513-cc6c-4b6d-b96f-b06fef92d879",
+          "name": "example",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Civic",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "31aaa50e-4ea7-47e9-9e1c-538b89f8b748",
+          "name": "welcomeFile",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "NOTUSED",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3bf4e961-6b34-4a2b-a3bd-838a5e5071ac",
+          "name": "greeting",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment\n\u003c/audio\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "633ec0ec-1fda-42b3-8513-b98e309797c7",
+          "name": "prompt",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/S-PleaseSayMakeApptOrOther.ogg\"\u003e\nPlease say make appointment or say other\u003c/audio\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "97d98e16-43d0-4ce4-8371-0847f826e2d1",
+          "name": "fallbackService",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "DIAG",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4ac4313f-4fd6-4290-a487-fc2fa50eb6ce",
+          "name": "recallService",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "RECALL",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3c1f3653-cec3-47cd-8490-2522de0c2b17",
+          "name": "transportQuestion2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/dropOffWaitorRide.ogg\"\u003eWould you like to drop off your vehicle, wait at the dealership, or would you need a ride?\u003c/audio\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "82388fbf-7195-456e-a764-4aa4fe629398",
+          "name": "check_url",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://q86ie2fe40.execute-api.us-west-2.amazonaws.com/xtime/check?id\u003dGALPINHONDA\u0026brand\u003dHONDA\u0026dealer\u003dhus20160627165641208424xx1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a54713f2-2981-40da-a443-0caca8366ea6",
+          "name": "book_url",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://sz9m33psn0.execute-api.us-east-1.amazonaws.com/xtime/book?id\u003dGALPINHONDA\u0026address\u003d11151 Laurel Canyon Blvd\u0026city\u003dMission Hills\u0026state\u003dCA\u0026zip\u003d 91340\u0026dealer\u003dhus20160627165641208424xx1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4bb2ee1c-caea-4614-b3fe-2acaf1e54347",
+          "name": "WeekOpenCloseSatOpenClose",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "7:00,18:00,8:00,17:00",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ca335bd5-c55d-489d-87ac-88bfe2631e2c",
+          "name": "hoursLocation",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "We located at 11151 LAUREL CANYON BLVD.\nMISSION HILLS, CA. Our service department is open 7 AM to 6 PM Monday through Friday; 8 AM to 5 PM on Saturday",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d09079fd-451b-46b6-9ef8-667440f31e99",
+          "name": "apiName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "apiDoesNoRequireCustomerName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fd48c870-398b-4ccc-84fe-cbc6b6fea5d1",
+          "name": "askYMM",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin2.ogg\"\u003e\nPlease tell me the year, make and model of the vehicle you would like serviced\n\u003c/audio\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "14960855-fb12-4ebc-a809-b869e93b582d",
+          "name": "timeSlots",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "MTWTF,START,08:00,END,15:00,PERIOD,60,S,START,08:00,END,13:00,PERIOD,60,SKIPHR-336",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9a64c87a-1702-4d2f-afcc-c0b1e70d90f6",
+          "name": "badNum",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "8188376100",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n#config.greeting \n\n#config.askYMM \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

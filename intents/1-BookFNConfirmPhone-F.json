@@ -1,0 +1,59 @@
+{
+  "id": "0a4a2b45-3283-45cb-846a-cb6cb65e1655",
+  "parentId": "5d8d7d97-c630-4335-9b50-fb8ceb90b71d",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "1-BookFNConfirmPhone-F",
+  "contexts": [
+    "1-BookFNConfirmPhone-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "1-BookFNConfirmPhone.1-BookFNConfirmPhone-fallback",
+      "affectedContexts": [
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "foundName",
+          "lifespan": 1
+        },
+        {
+          "name": "timeSlotSelected",
+          "lifespan": 1
+        },
+        {
+          "name": "compressed",
+          "lifespan": 1
+        },
+        {
+          "name": "1-BookFNConfirmPhone-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nWould you like to book under phone number #config.readPhoneNum ?\n\u003c/prosody\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

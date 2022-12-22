@@ -1,0 +1,121 @@
+{
+  "id": "887e1460-2e75-4417-abd0-5e438f43e4cf",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "CheckTime-OddHours",
+  "auto": true,
+  "contexts": [
+    "getTime",
+    "getAvail",
+    "config",
+    "YMM"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "check_time_and_book_else_SelectTimeSlot",
+      "affectedContexts": [
+        {
+          "name": "fromWebhookWhenTimeIsNotAccepted",
+          "lifespan": 1
+        },
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        },
+        {
+          "name": "timeSlotSelected",
+          "lifespan": 1
+        },
+        {
+          "name": "getPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "63672a01-861e-44ce-a983-7c079089b6f9",
+          "name": "preferredTime",
+          "required": false,
+          "dataType": "@wordsOddHours",
+          "value": "$preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a77ea5e6-3897-4cf1-99e5-1c5df2cbd7e1",
+          "name": "timeOriginal",
+          "required": false,
+          "dataType": "@wordsOddHours",
+          "value": "$preferredTime.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5061818d-398b-496c-8bf2-94478a0e89ae",
+          "name": "recall",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "0",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.ogg\"\u003eWe have availability starting\u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.currentOriginalDate at #config.timeOptions \u003c/prosody\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8_522.ogg\"\u003ePlease select a time followed by A M or PM, or say a date of your choice\u003c/audio\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

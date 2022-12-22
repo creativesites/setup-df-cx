@@ -1,0 +1,51 @@
+[
+  {
+    "value": "morning",
+    "synonyms": [
+      "morning",
+      "morning at",
+      "early morning",
+      "early in the day",
+      "before noon",
+      "before lunch"
+    ]
+  },
+  {
+    "value": "evening",
+    "synonyms": [
+      "evening",
+      "evening at",
+      "late evening",
+      "late in the day",
+      "end of day",
+      "close of day",
+      "by close of day"
+    ]
+  },
+  {
+    "value": "afternoon",
+    "synonyms": [
+      "afternoon",
+      "after noon",
+      "late afternoon"
+    ]
+  },
+  {
+    "value": "at",
+    "synonyms": [
+      "at"
+    ]
+  },
+  {
+    "value": "after",
+    "synonyms": [
+      "after"
+    ]
+  },
+  {
+    "value": "before",
+    "synonyms": [
+      "before"
+    ]
+  }
+]

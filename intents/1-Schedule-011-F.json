@@ -1,0 +1,54 @@
+{
+  "id": "96687835-84f2-4760-b920-986b2575f915",
+  "parentId": "550f8605-e375-4257-ba3d-4fd9c8316968",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "1-Schedule-011-F",
+  "contexts": [
+    "1-Schedule-011-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2.1-Schedule-011-fallback",
+      "affectedContexts": [
+        {
+          "name": "GotSVCYMM-GetOtherSVC",
+          "lifespan": 0
+        },
+        {
+          "name": "wrongYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "1-Schedule-011-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/AA2.ogg\"\u003e would you like to book an appointment for your \u003c/audio\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e #config.carYear #config.carModel ? \u003c/prosody\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

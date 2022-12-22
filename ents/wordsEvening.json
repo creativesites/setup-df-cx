@@ -1,0 +1,9 @@
+{
+  "id": "97063eb7-99dc-424d-b146-76f6b644d1f1",
+  "name": "wordsEvening",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

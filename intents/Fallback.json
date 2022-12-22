@@ -1,0 +1,123 @@
+{
+  "id": "56d7c498-528e-4881-b59d-a0c76251c55c",
+  "parentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "rootParentId": "d9fe73a6-ece6-4a97-b0a7-406a24f16ffa",
+  "name": "Fallback",
+  "auto": true,
+  "contexts": [
+    "fromWebhookWhenTimeIsNotAccepted",
+    "3-ListAvailabilityDay-followup",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "confirm_timeslot_and_redirect",
+      "affectedContexts": [
+        {
+          "name": "getTime",
+          "lifespan": 1
+        },
+        {
+          "name": "3-ListAvailabilityDay-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0872b8a1-79c2-4b44-a990-c78e5f22a908",
+          "name": "preferredTime",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select one of the following options, #config.timeOptions"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dd2d1c11-5b3d-4824-a9a1-22ebda3d81d6",
+          "name": "timeOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$preferredTime.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1e8b9029-beb8-4df5-ba81-aa43077c3c61",
+          "name": "success",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.currentOriginalDate at $preferredTime.original is available. Would you like to book it?",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4223c4d3-3d9a-43e1-ad52-d6af972e4002",
+          "name": "failure",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Our apologies. This times slot is not available. Please say your preferred date and time followed by A.M. or P.M. or say operator",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e We could not find any availability on that day. Please say a future date or say operator \u003c/prosody\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SelectTimeSlot"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "value": "takeitW",
+    "synonyms": [
+      "take it",
+      "i\u0027ll take it",
+      "take"
+    ]
+  },
+  {
+    "value": "willWork",
+    "synonyms": [
+      "will work",
+      "that will work",
+      "that will work for me",
+      "works for me",
+      "works",
+      "will do"
+    ]
+  },
+  {
+    "value": "good",
+    "synonyms": [
+      "good for me"
+    ]
+  },
+  {
+    "value": "bookit",
+    "synonyms": [
+      "book it",
+      "book"
+    ]
+  },
+  {
+    "value": "confirmit",
+    "synonyms": [
+      "confirm",
+      "i confirm",
+      "confirmed"
+    ]
+  },
+  {
+    "value": "wantit",
+    "synonyms": [
+      "want"
+    ]
+  }
+]

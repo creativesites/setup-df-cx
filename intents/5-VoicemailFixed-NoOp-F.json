@@ -1,0 +1,52 @@
+{
+  "id": "fe77c0b5-f847-4fc2-beb0-219b019eb806",
+  "parentId": "ccc7cc04-b505-443b-bcd9-09c97e886fe0",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-VoicemailFixed-NoOp-F",
+  "contexts": [
+    "5-VoicemailFixed-NoOp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "format_name.5-VoicemailFixed-NoOp-fallback",
+      "affectedContexts": [
+        {
+          "name": "5-VoicemailFixed-NoOp-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say your 10 digit phone number"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

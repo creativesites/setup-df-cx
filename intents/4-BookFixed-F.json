@@ -1,0 +1,52 @@
+{
+  "id": "97431473-ad62-468e-a66e-daf909c34165",
+  "parentId": "5bcaff6f-61c1-46af-8077-5343a3ed2e99",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "4-BookFixed-F",
+  "contexts": [
+    "4-BookFixed-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "4-BookFixed.4-BookFixed-fallback",
+      "affectedContexts": [
+        {
+          "name": "4-BookFixed-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/72.ogg\"\u003ePlease say your 10 digit phone number \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say your 10 digit phone number"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

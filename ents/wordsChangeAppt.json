@@ -1,0 +1,9 @@
+{
+  "id": "ae69a8b7-9079-43c9-aeca-2f803071449c",
+  "name": "wordsChangeAppt",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

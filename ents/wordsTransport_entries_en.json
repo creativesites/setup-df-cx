@@ -1,0 +1,26 @@
+[
+  {
+    "value": "pickup",
+    "synonyms": [
+      "pick up",
+      "user service",
+      "pickup",
+      "arrange pickup",
+      "arrange for a pickup",
+      "arrange a pickup"
+    ]
+  },
+  {
+    "value": "loaner",
+    "synonyms": [
+      "loaner",
+      "lunar"
+    ]
+  },
+  {
+    "value": "valet",
+    "synonyms": [
+      "valet"
+    ]
+  }
+]

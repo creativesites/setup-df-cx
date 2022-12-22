@@ -1,0 +1,58 @@
+[
+  {
+    "id": "34eb1d1d-dc44-443b-a2b1-684e67d8e36d",
+    "data": [
+      {
+        "text": "yes .",
+        "meta": "@wordsYes",
+        "alias": "wordsyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54c43e3f-9b98-4333-a4cd-0ae49c979270",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "04698cdc-b9d4-4911-9e51-015c40943a64",
+    "data": [
+      {
+        "text": "cancel .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56664a90-0ecd-4e93-b63a-afe7e342a8c8",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

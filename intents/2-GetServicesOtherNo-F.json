@@ -1,0 +1,46 @@
+{
+  "id": "15c038b2-52ef-4b9b-90dc-6cfc96d3b558",
+  "parentId": "0e8b895c-25b0-4f0e-8c29-6040beefe241",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherNo-F",
+  "contexts": [
+    "2-GetServicesOtherNo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "2-GetServicesOtherNo.2-GetServicesOtherNo-fallback",
+      "affectedContexts": [
+        {
+          "name": "transportAny",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e      \n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nSorry I did not hear that.  \n\u003c/prosody\u003e  \n\n#config.transportQuestion2   \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

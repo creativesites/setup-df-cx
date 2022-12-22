@@ -1,0 +1,73 @@
+[
+  {
+    "value": "Yes we offer car rentals. Please say make appointment or say operator",
+    "synonyms": [
+      "do you offer loaner service?",
+      "do you have a loaner?",
+      "do you have loaners?",
+      "do you have any loaner?",
+      "do you offer owner service?",
+      "do you have a owner?",
+      "do you have owners?",
+      "do you have any owner?",
+      "do you have loner service?",
+      "do you offer loner service?",
+      "do you offer rental service?",
+      "do you offer car rental service?",
+      "i need a loaner",
+      "I need a loaner for service.",
+      "request a rental",
+      "do you offer loaners?",
+      "loaner service?",
+      "A loner.",
+      "a rental car",
+      "a rental vehicle",
+      "a loner vehicle"
+    ]
+  },
+  {
+    "value": "At the moment, we do not offer rental service.  Please say operator or say make appointment",
+    "synonyms": [
+      "xxx"
+    ]
+  },
+  {
+    "value": "Yes.  for services over 2 hours, we offer complimentary shuttle services to and from our dealership. Please say make appointment or other.",
+    "synonyms": [
+      "do you offer shuttle service?",
+      "do you have shuttle service?",
+      "do you have shuttle?",
+      "do you have rideshare service?",
+      "i want to order shuttle",
+      "i want to book shuttle"
+    ]
+  },
+  {
+    "value": "At the moment, we do not offer shuttle service.  Please say operator or say make appointment",
+    "synonyms": [
+      "xxx"
+    ]
+  },
+  {
+    "value": "At the moment, We do not offer pickup and delivery service.  Please say operator or say make appointment",
+    "synonyms": [
+      "do you offer pickup service?",
+      "do you have pickup service?",
+      "do you do pickup service?"
+    ]
+  },
+  {
+    "value": "We offer a pickup and delivery service.  Please say operator or say make appointment",
+    "synonyms": [
+      "XXX"
+    ]
+  },
+  {
+    "value": "Please contact the Honda care Roadside Assistance at 1-800-594 -7400",
+    "synonyms": [
+      "urgent",
+      "emergency",
+      "accident"
+    ]
+  }
+]

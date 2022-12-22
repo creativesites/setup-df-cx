@@ -1,0 +1,58 @@
+{
+  "id": "6c4b7f15-7b2c-4904-9f05-43595464a688",
+  "parentId": "33135274-fd36-4149-8ace-3704ce7f74f7",
+  "rootParentId": "0a852499-00a9-4bd6-9e2f-f756214c92e2",
+  "name": "5-Capture-Night-F",
+  "contexts": [
+    "5-Capture-Night-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "my_tools2.5-Capture-Night-fallback",
+      "affectedContexts": [
+        {
+          "name": "getvm",
+          "lifespan": 1
+        },
+        {
+          "name": "config",
+          "lifespan": 99
+        },
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "night",
+          "lifespan": 99
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/12.1_522.ogg\"\u003ePlease say your message and we will try to assist you.\u003c/audio\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

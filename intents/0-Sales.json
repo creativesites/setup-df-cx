@@ -1,0 +1,51 @@
+{
+  "id": "84993020-628e-412e-b68e-a24d7f7f6dc6",
+  "parentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "rootParentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "name": "0-Sales",
+  "auto": true,
+  "contexts": [
+    "config",
+    "transferOperator",
+    "XXX"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Transferring call to the sales department \u003c/prosody\u003e\u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Transferring call"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

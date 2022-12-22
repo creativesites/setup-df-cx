@@ -1,0 +1,9 @@
+{
+  "id": "184a4862-3a5f-46c6-bfc5-a7fd90c61bd4",
+  "name": "carMakeAllLessCurrent",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

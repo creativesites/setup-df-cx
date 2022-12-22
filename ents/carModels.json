@@ -1,0 +1,9 @@
+{
+  "id": "b7b6ffb5-34bd-4ab1-8ef6-2e5a30889b63",
+  "name": "carModels",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

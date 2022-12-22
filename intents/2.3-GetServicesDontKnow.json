@@ -1,0 +1,102 @@
+{
+  "id": "eb62fe34-630f-492f-be67-803f7af66912",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2.3-GetServicesDontKnow",
+  "auto": true,
+  "contexts": [
+    "getSvc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dontKnowService",
+          "lifespan": 1
+        },
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "listServices",
+          "lifespan": 1
+        },
+        {
+          "name": "23-GetServicesDontKnow-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e4b3be1f-e1db-4358-a435-1132f2d8c2e5",
+          "name": "wordsNotSure",
+          "required": false,
+          "dataType": "@wordsNotSure",
+          "value": "$wordsNotSure",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b44533d3-2878-452b-8e3a-c73afd0807e8",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cb0d3a1d-196b-403a-93a3-94e771ee69f0",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4.2_523.ogg\"\u003e Please say a service name such as oil change  or say list services \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

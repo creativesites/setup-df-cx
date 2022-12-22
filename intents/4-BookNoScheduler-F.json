@@ -1,0 +1,68 @@
+{
+  "id": "de3c251e-5ff1-4a0d-b910-5b7a2989b6fd",
+  "parentId": "e7eb0538-9b45-4a90-afdb-acc5e85170ee",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "4-BookNoScheduler-F",
+  "contexts": [
+    "4-BookNoScheduler-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "format_name.4-BookNoScheduler-fallback",
+      "affectedContexts": [
+        {
+          "name": "book",
+          "lifespan": 1
+        },
+        {
+          "name": "nameFromUser",
+          "lifespan": 1
+        },
+        {
+          "name": "invalidPhoneNum",
+          "lifespan": 1
+        },
+        {
+          "name": "awaitingFLNameConfirm",
+          "lifespan": 1
+        },
+        {
+          "name": "changeBookDate",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Please say yes to confirm you would like to bring your car #config.preferredDate.original at  #config.preferredTime.original\u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say yes to confirm you would like to bring your car #config.preferredDate.original at  #config.preferredTime.original"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

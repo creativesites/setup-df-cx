@@ -1,0 +1,74 @@
+{
+  "id": "756de46d-23b1-47f2-9368-0577656664a8",
+  "parentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "rootParentId": "26ed55e2-ebc5-4849-8055-85f9ac4fc5af",
+  "name": "0-Parts",
+  "auto": true,
+  "contexts": [
+    "config",
+    "transferOperator",
+    "NO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "TransferCall",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "53d4e097-cb51-4aab-927d-9eafe3049519",
+          "name": "wordsParts",
+          "required": false,
+          "dataType": "@wordsParts",
+          "value": "$wordsParts",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "60999ec3-69ea-466e-98de-fe5ec9b8dbf5",
+          "name": "wordsPre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordsPre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/75.ogg\"\u003eTransferring call to an attendant\u003c/audio\u003e\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

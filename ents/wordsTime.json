@@ -1,0 +1,9 @@
+{
+  "id": "ddb3a0f8-602c-4321-96f9-b9e007ef809e",
+  "name": "wordsTime",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,389 @@
+[
+    {
+        "trainingPhrases": [
+            {
+                "parts": [
+                    {
+                        "text": "just going to say hi",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "38ce896a-b89d-4a08-9721-40a116b20b22",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "heya",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "1731c311-6e4e-4fe5-b96f-302f9b5d3524",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hello hi",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "5969b5be-6ebb-4568-8890-c7cdfe62fbd8",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "howdy",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "28129004-da79-4b85-a59d-94087c5c02fe",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hey there",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "cee4c369-c1a0-4db6-b306-9ee627818fa1",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hi there",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "9a9b1d0c-48a5-4591-bd51-8ed5abded447",
+                "repeatCount": 3
+            },
+            {
+                "parts": [
+                    {
+                        "text": "greetings",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "375b7155-ec77-4b99-92f8-6c2a439a7093",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hey",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "df2a27e4-a3e8-49cf-95e6-71b9c92b4201",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "long time no see",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "66e7d261-e35b-4d28-96a2-3d253effd044",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hello",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "238dc836-8887-4342-a46f-2923de6190ad",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "lovely day isn't it",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "72cf1161-a57e-4ab8-915f-e1edcd6afe78",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "I greet you",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "a3384f07-9c27-4093-b1f3-8ee6292d5c91",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hello again",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "705e6221-eab3-4fb2-9310-a4670ec31d74",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hi",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "25fa2023-fc72-4708-b8b8-8c49c019dc61",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "hello there",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "fb5492fe-9d9c-490c-bdc9-cec92ca333e9",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "a good day",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "09f65d9c-47f6-4b2c-ac6b-3d79e261294f",
+                "repeatCount": 1
+            }
+        ],
+        "parameters": [],
+        "labels": {},
+        "name": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/intents/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Welcome Intent",
+        "priority": 500000,
+        "isFallback": false,
+        "description": ""
+    },
+    {
+        "trainingPhrases": [],
+        "parameters": [],
+        "labels": {},
+        "name": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/intents/00000000-0000-0000-0000-000000000001",
+        "displayName": "Default Negative Intent",
+        "priority": 500000,
+        "isFallback": true,
+        "description": ""
+    },
+    {
+        "trainingPhrases": [
+            {
+                "parts": [
+                    {
+                        "text": "appointment for",
+                        "parameterId": "wordsappointment"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "service",
+                        "parameterId": "serviceoptions000"
+                    },
+                    {
+                        "text": ".",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "book",
+                        "parameterId": "wordsyesno"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "appointment",
+                        "parameterId": "wordsappointment"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "service",
+                        "parameterId": "serviceoptions000"
+                    },
+                    {
+                        "text": " place",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "service",
+                        "parameterId": "serviceoptions000"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "please",
+                        "parameterId": "wordspre"
+                    },
+                    {
+                        "text": " .",
+                        "parameterId": ""
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "appointment",
+                        "parameterId": "wordsappointment"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "appointment",
+                        "parameterId": "wordsappointment"
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            },
+            {
+                "parts": [
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "appointment",
+                        "parameterId": "wordsappointment"
+                    },
+                    {
+                        "text": " ",
+                        "parameterId": ""
+                    },
+                    {
+                        "text": "any",
+                        "parameterId": "any"
+                    }
+                ],
+                "id": "",
+                "repeatCount": 1
+            }
+        ],
+        "parameters": [
+            {
+                "id": "wordsappointment",
+                "entityType": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/entityTypes/0ecb752d-4fde-42e8-84d5-ed91a511ff51",
+                "isList": false,
+                "redact": false
+            },
+            {
+                "id": "any",
+                "entityType": "projects/-/locations/-/agents/-/entityTypes/sys.any",
+                "isList": false,
+                "redact": false
+            },
+            {
+                "id": "serviceoptions000",
+                "entityType": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/entityTypes/7ecf027f-38e2-4bef-8d1a-56706947d5ca",
+                "isList": false,
+                "redact": false
+            },
+            {
+                "id": "wordspre",
+                "entityType": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/entityTypes/e9715b2a-1d60-4d3b-9604-51d63722cab1",
+                "isList": false,
+                "redact": false
+            },
+            {
+                "id": "wordsyesno",
+                "entityType": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/entityTypes/a62ef77e-b22c-4893-929e-f0292527fcd1",
+                "isList": false,
+                "redact": false
+            }
+        ],
+        "labels": {
+            "sys-contextual": "sys-contextual"
+        },
+        "name": "projects/allio100-urc9/locations/global/agents/a5d03e75-bd18-41e6-a535-49021194af78/intents/f54857b8-5310-4c8a-92e3-079affe40e00",
+        "displayName": "1-Schedule-000",
+        "priority": 500000,
+        "isFallback": false,
+        "description": "book appointment if no customer details and YMM"
+    }
+]

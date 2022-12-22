@@ -1,0 +1,48 @@
+{
+  "id": "2dbd332b-efc5-4112-864b-ec1eac76f155",
+  "parentId": "89352be4-3aac-4340-b590-7d8559f2ad40",
+  "rootParentId": "ae3ae8c2-c549-4e4f-a3af-de9778f0dfbd",
+  "name": "2-GetAvailability - F",
+  "contexts": [
+    "2-GetAvailability-followup",
+    "gotSlots"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "1-Schedule.1-Schedule-custom.2-GetAvailability-fallback",
+      "affectedContexts": [
+        {
+          "name": "2-GetAvailability-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "gotSlots",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We have availability #gotSlots.date1 at  #gotSlots.time1; #gotSlots.time2; #gotSlots.time3; and #gotSlots.time4 . please say the time that is most convenient for you; or say 5 for next availability."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

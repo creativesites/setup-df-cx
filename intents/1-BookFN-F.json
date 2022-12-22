@@ -1,0 +1,60 @@
+{
+  "id": "4398884f-fc1b-4ded-a30f-9a964d291ccf",
+  "parentId": "7af5146c-4b65-400b-88e4-a9de1862b23f",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "1-BookFN-F",
+  "contexts": [
+    "1-BookFN-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book_me.1-BookFN-fallback",
+      "affectedContexts": [
+        {
+          "name": "awaitingFLNameConfirm",
+          "lifespan": 1
+        },
+        {
+          "name": "changeName",
+          "lifespan": 1
+        },
+        {
+          "name": "1-BookFN-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Please say yes to confirm you are #config.firstName #config.lastName \u003c/prosody\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say yes to confirm you are #config.firstName #config.lastName"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "c341a8a6-f1d2-4ac2-b031-3df056b42085",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-UnhandledBrand",
+  "auto": true,
+  "contexts": [
+    "getYMM",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getYMM",
+          "lifespan": 1
+        },
+        {
+          "name": "YMM-UnhandledBrand-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8abfe035-fc0c-4b1a-b170-33836467ca82",
+          "name": "unhandledBrand",
+          "required": false,
+          "dataType": "@carMakeAllLessCurrent",
+          "value": "$unhandledBrand",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9e79602a-062b-4807-9723-a557c4701bf0",
+          "name": "carYear2",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$carYear2",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "29ca40e9-c9ad-4e0a-9343-3c42ee075675",
+          "name": "carModel2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$carModel2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand. \u003c/prosody\u003e   \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Our automated service only handles #config.make models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

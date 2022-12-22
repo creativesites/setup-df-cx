@@ -1,0 +1,9 @@
+{
+  "id": "0a515e31-bf3b-4a79-8d78-488614a5b28a",
+  "name": "wordsTakeIt",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

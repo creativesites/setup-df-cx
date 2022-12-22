@@ -1,0 +1,139 @@
+{
+  "id": "9865412a-d13d-4024-b700-3df536f0881c",
+  "parentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "rootParentId": "ab470e81-819d-4b33-b175-53714282ea3e",
+  "name": "1-Schedule-011-Recall",
+  "auto": true,
+  "contexts": [
+    "YMM",
+    "processRecall",
+    "makeAppt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getServiceOriginal",
+      "affectedContexts": [
+        {
+          "name": "ScheduleServiceYMM-Recall-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "2-GetServicesOtherNo-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "transferVM",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b184b312-9eda-4a30-a210-d9b1c0655c4b",
+          "name": "service",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.fallbackService",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "75bdb5c0-5707-4859-9a43-682e46e8d2ae",
+          "name": "serviceOriginal",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Recall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "853055cb-c8bb-499c-8fe3-7f310928f4ff",
+          "name": "recall",
+          "required": false,
+          "dataType": "@wordsRecall",
+          "value": "$recall",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e0e59514-67c1-492e-8dd6-b210933840f4",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "56f82480-0e36-425e-b6fc-351eec737c76",
+          "name": "wordsappointment",
+          "required": false,
+          "dataType": "@wordsAppointment",
+          "value": "$wordsappointment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9cbe3543-1769-4839-a9d2-1dfd044de907",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003drecall\u0026phoneNum\u003d#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/recallInfo.ogg\"\u003e\nThank you. Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of the booking. \n\u003c/audio\u003e  \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e \nwould you like to book an appointment for your \n#config.carYear #config.carModelRead ? \n\u003c/prosody\u003e  \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

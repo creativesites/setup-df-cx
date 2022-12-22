@@ -1,0 +1,9 @@
+{
+  "id": "7708c496-1595-4407-bc35-4045557cd9f4",
+  "name": "wordsSearchAppt",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,110 @@
+{
+  "id": "af2584e3-81f8-44e2-9549-6745b19606aa",
+  "parentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "rootParentId": "6ab3a0d0-a1a6-42cb-aa44-23e39bd47d4f",
+  "name": "8-FoundNameYMMComplete",
+  "auto": true,
+  "contexts": [
+    "galpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "foundName",
+          "lifespan": 99
+        },
+        {
+          "name": "YMM",
+          "lifespan": 99
+        },
+        {
+          "name": "Greeting-FoundName-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "statusComplete",
+          "lifespan": 99
+        },
+        {
+          "name": "fixedLine",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c9d0164a-cd81-44e2-88a1-25d9d2c4c08a",
+          "name": "customerName",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.firstName #config.lastName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "385b538a-ee69-4f47-a48c-112fc069f2bf",
+          "name": "customerPhone2",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b6fa8ca1-0981-4e3e-9d18-0f6cb6f93067",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.data.mongodb-api.com/app/application-2-febnp/endpoint/sendSlackNotification?channel\u003daibdc\u0026message\u003d#config.businessName: #config.firstName #config.lastName #config.carYear #config.make #config.carModel #config.customerPhone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e \n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Hello #config.customerNamePrefix #config.lastName .\u003c/prosody\u003e  \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/Galpin1.ogg\"\u003e\nThank you for using the Galpin Honda Digital Assistant, my name is Allio and I can book your service appointment .\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nYour #config.carYear #config.carModelRead is ready .\n\u003c/prosody\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/HowCanIAssistYouToday.ogg”\u003e \nHow can I assist you today? \n\u003c/audio\u003e\n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "FoundNameYMMComplete"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

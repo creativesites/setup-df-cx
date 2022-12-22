@@ -1,0 +1,88 @@
+{
+  "id": "01bff992-72ab-4209-8b9b-baebaeb9ebea",
+  "parentId": "4bc3e99f-ec15-4daf-bfdd-72611f4ec4db",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "9-RescheduleVerifyDateReschedule",
+  "auto": true,
+  "contexts": [
+    "9-Reschedule-followup",
+    "reschedule",
+    "9-RescheduleVerifyDate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reschedule_appt",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "de47cbc5-e43c-4854-bbae-af6b9834db94",
+          "name": "wordsvague",
+          "required": false,
+          "dataType": "@wordsVague",
+          "value": "$wordsvague",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "43491dbf-61b4-4d87-b23b-8dba46dca852",
+          "name": "wordsyes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsyes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1bceb894-a93c-4981-b99f-fa81374592c5",
+          "name": "anyURL",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "https://eu-west-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/application-2-febnp/service/LogEvent/incoming_webhook/createEventInSql?agent\u003d#config.businessName\u0026eventName\u003dcancellation\u0026phoneNum\u003d#config.customerPhone\u0026agentID2\u003d+1#config.advisorNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e Great. I have rescheduled your appointment. Good bye \u003c/prosody\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

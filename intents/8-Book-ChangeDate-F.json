@@ -1,0 +1,52 @@
+{
+  "id": "227fb1cc-229d-4b64-8cae-c95a097b5cce",
+  "parentId": "be0de664-14ce-45b4-9d8a-5cacfe0f0634",
+  "rootParentId": "7e551bbe-1ff1-4897-84c9-f3d7220a2200",
+  "name": "8-Book-ChangeDate-F",
+  "contexts": [
+    "8-Book-ChangeDate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "8-Book-ChangeDate.8-Book-ChangeDate-fallback",
+      "affectedContexts": [
+        {
+          "name": "getAvail",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/70.ogg\"\u003e Please say a preferred date and time \u003c/audio\u003e  \u003c/speak\u003e",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say a preferred date and time"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

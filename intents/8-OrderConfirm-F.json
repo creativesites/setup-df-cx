@@ -1,0 +1,51 @@
+{
+  "id": "61e0149f-a13b-420f-bd81-d3eabe6dd60b",
+  "parentId": "09dfae20-d729-424e-b642-275f2399e99a",
+  "rootParentId": "fa19a9d2-bb6c-4317-82d5-1b29d6540336",
+  "name": "8-OrderConfirm-F",
+  "contexts": [
+    "8-OrderConfirm-followup",
+    "8-Confirm-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "8-OrderConfirm.8-OrderConfirm-fallback",
+      "affectedContexts": [
+        {
+          "name": "8-OrderConfirm-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "8-Confirm-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#8-OrderConfirm-followup.txtFormatFallback"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

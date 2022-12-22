@@ -1,0 +1,694 @@
+[
+  {
+    "id": "66c6a503-6020-4ca7-9e64-34c7c0d00c48",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0baccd91-ec9b-4cdd-b701-603d05b61cc8",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1133282-1195-411d-a370-2d5568e91a0a",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64b5c626-3f84-4a82-b37d-85e5bfc20cb2",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5783fc4c-8972-4240-a646-9d2e8d86253c",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c35e85a-c4a9-4070-9e57-d8e4d565be19",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a72ed213-7557-4272-9f5b-f928c5fa28af",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d438fe73-eac9-4cb5-8b61-2a60654400df",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3ef8afa-73f5-4390-91ca-e547a2549172",
+    "data": [
+      {
+        "text": "How much",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " for an ",
+        "userDefined": false
+      },
+      {
+        "text": "oil change",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bfb4693-fc92-4254-a609-f875a34152af",
+    "data": [
+      {
+        "text": "How much",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "oil change",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b7b25e0-a0c6-4bce-ada6-3e7dd591c2a5",
+    "data": [
+      {
+        "text": "How much",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " is an ",
+        "userDefined": false
+      },
+      {
+        "text": "oil",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": false
+      },
+      {
+        "text": " change?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d68771f7-b14e-411b-af5c-0998078924cb",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9fc3096e-97c3-4b74-b87c-16c1f597a3be",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0038f16-549e-41ec-830f-3b37b7cc9ab9",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2445d1af-6e3d-4127-a402-3d77bc099ae1",
+    "data": [
+      {
+        "text": "quotation",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30bc91bb-3db6-49d7-8f93-342e58811a91",
+    "data": [
+      {
+        "text": "how much",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca379cca-05ef-4699-ab3d-18368dfa55a9",
+    "data": [
+      {
+        "text": "What is the",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " cost ",
+        "userDefined": false
+      },
+      {
+        "text": "for an",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2006 Honda Ridgeline",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8d57f55-7a9a-4bb0-b4b4-6dc9c6828a3e",
+    "data": [
+      {
+        "text": "i want",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "price",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": false
+      },
+      {
+        "text": " quotation for ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8fa1e7a-10e0-46a3-b442-edd912d8d781",
+    "data": [
+      {
+        "text": "price of",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f4e0cc5-92fd-433d-8215-732387583ecb",
+    "data": [
+      {
+        "text": "price of",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01d77269-30bd-4f64-9511-b47c00a73c2f",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "price of",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91c29310-1a76-4333-9a4e-0dfd401ff62f",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "price of",
+        "meta": "@wordsQuote",
+        "alias": "price",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "serviceo",
+        "meta": "@sys.any",
+        "alias": "quote",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

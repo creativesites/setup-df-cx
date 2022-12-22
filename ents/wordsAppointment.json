@@ -1,0 +1,9 @@
+{
+  "id": "4ee870e0-db13-4413-ac34-f1ececaea924",
+  "name": "wordsAppointment",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

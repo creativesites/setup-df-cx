@@ -1,0 +1,54 @@
+{
+  "id": "2600f3a0-d7f8-49a5-aa61-8076c7c625c5",
+  "parentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "rootParentId": "8dc2f731-45a8-44f4-8cef-273e4461a53c",
+  "name": "YMM-F",
+  "contexts": [
+    "21-GetYMM-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "report_unknown_service",
+      "affectedContexts": [
+        {
+          "name": "getSvc",
+          "lifespan": 1
+        },
+        {
+          "name": "listServices",
+          "lifespan": 1
+        },
+        {
+          "name": "dontKnowService",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e  \u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/4.2_523.ogg\"\u003e Please say a service name such as oil change \u003c/audio\u003e  \u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

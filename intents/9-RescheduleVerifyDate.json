@@ -1,0 +1,267 @@
+{
+  "id": "4bc3e99f-ec15-4daf-bfdd-72611f4ec4db",
+  "parentId": "8960724d-b354-459a-afa1-3cbd496ec524",
+  "rootParentId": "bc316b8d-06c3-45b9-a1d7-2cfa3aee2825",
+  "name": "9-RescheduleVerifyDate",
+  "auto": true,
+  "contexts": [
+    "9-Reschedule-followup",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_timeslots_reschedule",
+      "affectedContexts": [
+        {
+          "name": "9-Reschedule-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "reschedule",
+          "lifespan": 1
+        },
+        {
+          "name": "9-RescheduleVerifyDate-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e9424dde-30f7-464c-8402-a7290aed7c4e",
+          "name": "preferredTime",
+          "required": false,
+          "dataType": "@sys.time",
+          "value": "$preferredTime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0495d93d-376e-4ab7-b80d-1c4ec49c7715",
+          "name": "preferredDate",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$preferredDate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c0d6e590-ef11-47c4-8d7b-cc6085970606",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "81bfc612-9932-4415-8a46-19d2abad2850",
+          "name": "preferredIsAvailable",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8.2.ogg\"\u003e\nGreat\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n$currentOriginalDate at $timeOptions is available\n\u003c/prosody\u003e \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/8.3.ogg\"\u003e\nPlease say YES to reschedule your appointment\n\u003c/audio\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "297b8a8b-195e-4e20-b537-c289ed2687c2",
+          "name": "preferredIsNotAvailable",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/FirstAvailability.ogg\"\u003eOur first availability is\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n$currentOriginalDate at $timeOptions\n\u003c/prosody\u003e   \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/SelectTime.ogg\"\u003e\nPlease say a different date and time\u003c/audio\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d5e78264-4359-403f-b4a8-971d84793768",
+          "name": "preferredIsNotAvailableDiff",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/noAvailOnDay.ogg\"\u003e\nWe do not have any availability on that day\n\u003c/audio\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/7_522.ogg\"\u003e\nWe have availability starting\n\u003c/audio\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\n$currentOriginalDate at $timeOptions\n\u003c/prosody\u003e \n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/selectTimeNextDate.ogg\"\u003e\nPlease say a different date and time\n\u003c/audio\u003e\n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2e4a76ef-487c-4d43-a8c4-e1b31f18f93b",
+          "name": "failure",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\nMy apologies, I was not able to handle your request at this time. Please say a day you would like to bring your car, or say operator to transfer to an agent\n\u003c/prosody\u003e   \n\n\u003c/speak\u003e",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "33461c12-b3d7-4658-b963-bf0aaf792492",
+          "name": "currentOriginalDate",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$preferredDate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "55294a00-e113-4576-89fe-0a947d9bd045",
+          "name": "testService",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.service",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6e785019-58a2-42c5-a130-bf536bf8d1db",
+          "name": "testServOrig",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.serviceOriginal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "91300ab2-64d4-4b2b-951e-29dbcdeaedbf",
+          "name": "testCatYear",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.carYear",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "84797935-d332-406d-b716-10850fc7953b",
+          "name": "testMake",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.make",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f05e3653-efa8-4f6a-9fb9-3d4106a63789",
+          "name": "testModel",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.carModel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7ffb0af2-00dd-4922-a1ba-39903daa63d7",
+          "name": "testTransportation",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.transportation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c4c598f9-a437-4f27-ac0e-3238d5e9d1f7",
+          "name": "timeOptions",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "#config.timeOptions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003eWe could not find any availability on that day. What day and time would you like to bring your car?\u003c/prosody\u003e   \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

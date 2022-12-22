@@ -1,0 +1,81 @@
+{
+  "id": "e18c6870-fa41-46e3-9bd1-98b7f75ca0f7",
+  "parentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "rootParentId": "cf585f0a-bf55-4ae9-803c-ab69053b0ad3",
+  "name": "2-GetServicesOtherYes",
+  "auto": true,
+  "contexts": [
+    "otherSvc",
+    "config"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "otherSvcInput",
+          "lifespan": 1
+        },
+        {
+          "name": "2-GetServicesOtherYes-followup-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "afe21968-046b-4bb8-9039-5ca02fdb3829",
+          "name": "wordsyes",
+          "required": false,
+          "dataType": "@wordsYes",
+          "value": "$wordsyes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a2507e01-cba5-4060-a554-73e7e085ccd6",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\n\u003caudio soundLevel\u003d\"+15dB\" src\u003d\"https://storage.googleapis.com/autoserviceai/0-DF/SvcListAdditionSvc.ogg\"\u003e\nPlease list any additional services you may need or say no\n\u003c/audio\u003e  \n\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

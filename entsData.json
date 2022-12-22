@@ -1,0 +1,6082 @@
+[
+    {
+        "name": "carMakeAll",
+        "entries": [
+            {
+                "value": "M G",
+                "synonyms": [
+                    "M G"
+                ]
+            },
+            {
+                "value": "Peterbilt",
+                "synonyms": [
+                    "Peterbilt"
+                ]
+            },
+            {
+                "value": "acura",
+                "synonyms": [
+                    "acura"
+                ]
+            },
+            {
+                "value": "alfa romeo",
+                "synonyms": [
+                    "alfa romeo"
+                ]
+            },
+            {
+                "value": "aston martin",
+                "synonyms": [
+                    "aston martin"
+                ]
+            },
+            {
+                "value": "audi",
+                "synonyms": [
+                    "audo"
+                ]
+            },
+            {
+                "value": "bentley",
+                "synonyms": [
+                    "bentley"
+                ]
+            },
+            {
+                "value": "bmw",
+                "synonyms": [
+                    "b m w",
+                    "bmw"
+                ]
+            },
+            {
+                "value": "buick",
+                "synonyms": [
+                    "buick"
+                ]
+            },
+            {
+                "value": "cadillac",
+                "synonyms": [
+                    "cadillac"
+                ]
+            },
+            {
+                "value": "chevrolet",
+                "synonyms": [
+                    "chevrolet"
+                ]
+            },
+            {
+                "value": "chevy",
+                "synonyms": [
+                    "chevy",
+                    "shevy"
+                ]
+            },
+            {
+                "value": "chrysler",
+                "synonyms": [
+                    "chrysler"
+                ]
+            },
+            {
+                "value": "dodge",
+                "synonyms": [
+                    "dodge"
+                ]
+            },
+            {
+                "value": "ferrari",
+                "synonyms": [
+                    "ferrari"
+                ]
+            },
+            {
+                "value": "fiat",
+                "synonyms": [
+                    "fiat"
+                ]
+            },
+            {
+                "value": "ford",
+                "synonyms": [
+                    "ford"
+                ]
+            },
+            {
+                "value": "freighliner",
+                "synonyms": [
+                    "freighliner"
+                ]
+            },
+            {
+                "value": "gmc",
+                "synonyms": [
+                    "g m c",
+                    "gmc"
+                ]
+            },
+            {
+                "value": "honda",
+                "synonyms": [
+                    "honda"
+                ]
+            },
+            {
+                "value": "hyundai",
+                "synonyms": [
+                    "hyundai"
+                ]
+            },
+            {
+                "value": "infiniti",
+                "synonyms": [
+                    "infiniti"
+                ]
+            },
+            {
+                "value": "jaguar",
+                "synonyms": [
+                    "jaguar"
+                ]
+            },
+            {
+                "value": "jeep",
+                "synonyms": [
+                    "jeep"
+                ]
+            },
+            {
+                "value": "kia",
+                "synonyms": [
+                    "kia"
+                ]
+            },
+            {
+                "value": "lamborghini",
+                "synonyms": [
+                    "lamborghini"
+                ]
+            },
+            {
+                "value": "land rover",
+                "synonyms": [
+                    "land rover"
+                ]
+            },
+            {
+                "value": "lexus",
+                "synonyms": [
+                    "lexus"
+                ]
+            },
+            {
+                "value": "lincoln",
+                "synonyms": [
+                    "lincoln"
+                ]
+            },
+            {
+                "value": "maserati",
+                "synonyms": [
+                    "maserati"
+                ]
+            },
+            {
+                "value": "mazda",
+                "synonyms": [
+                    "mazda"
+                ]
+            },
+            {
+                "value": "mclaren",
+                "synonyms": [
+                    "mac laaren",
+                    "mac laren",
+                    "mclaren"
+                ]
+            },
+            {
+                "value": "mercedes-benz",
+                "synonyms": [
+                    "benz",
+                    "mercedes",
+                    "mercedes-benz"
+                ]
+            },
+            {
+                "value": "mini",
+                "synonyms": [
+                    "mini"
+                ]
+            },
+            {
+                "value": "mitsubishi",
+                "synonyms": [
+                    "mitsubishi"
+                ]
+            },
+            {
+                "value": "nissan",
+                "synonyms": [
+                    "nissan"
+                ]
+            },
+            {
+                "value": "opel",
+                "synonyms": [
+                    "opel"
+                ]
+            },
+            {
+                "value": "porsche",
+                "synonyms": [
+                    "porsche"
+                ]
+            },
+            {
+                "value": "ram",
+                "synonyms": [
+                    "ram"
+                ]
+            },
+            {
+                "value": "range rover",
+                "synonyms": [
+                    "range rover"
+                ]
+            },
+            {
+                "value": "rolls-royce",
+                "synonyms": [
+                    "rolls-royce"
+                ]
+            },
+            {
+                "value": "scion",
+                "synonyms": [
+                    "scion"
+                ]
+            },
+            {
+                "value": "smart",
+                "synonyms": [
+                    "smart"
+                ]
+            },
+            {
+                "value": "subaru",
+                "synonyms": [
+                    "subaru"
+                ]
+            },
+            {
+                "value": "tesla",
+                "synonyms": [
+                    "tesla"
+                ]
+            },
+            {
+                "value": "toyota",
+                "synonyms": [
+                    "toyota"
+                ]
+            },
+            {
+                "value": "volswagen",
+                "synonyms": [
+                    "v w",
+                    "volkswagen",
+                    "volswagen"
+                ]
+            },
+            {
+                "value": "volvo",
+                "synonyms": [
+                    "volvo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carMakeAllLessCurrent",
+        "entries": [
+            {
+                "value": "M G",
+                "synonyms": [
+                    "M G"
+                ]
+            },
+            {
+                "value": "Peterbilt",
+                "synonyms": [
+                    "Peterbilt"
+                ]
+            },
+            {
+                "value": "acura",
+                "synonyms": [
+                    "acura"
+                ]
+            },
+            {
+                "value": "alfa romeo",
+                "synonyms": [
+                    "alfa romeo"
+                ]
+            },
+            {
+                "value": "aston martin",
+                "synonyms": [
+                    "aston martin"
+                ]
+            },
+            {
+                "value": "audi",
+                "synonyms": [
+                    "audo"
+                ]
+            },
+            {
+                "value": "bentley",
+                "synonyms": [
+                    "bentley"
+                ]
+            },
+            {
+                "value": "bmw",
+                "synonyms": [
+                    "b m w",
+                    "bmw"
+                ]
+            },
+            {
+                "value": "buick",
+                "synonyms": [
+                    "buick"
+                ]
+            },
+            {
+                "value": "cadillac",
+                "synonyms": [
+                    "cadillac"
+                ]
+            },
+            {
+                "value": "chevrolet",
+                "synonyms": [
+                    "chevrolet"
+                ]
+            },
+            {
+                "value": "chevy",
+                "synonyms": [
+                    "chevy",
+                    "shevy"
+                ]
+            },
+            {
+                "value": "chrysler",
+                "synonyms": [
+                    "chrysler"
+                ]
+            },
+            {
+                "value": "dodge",
+                "synonyms": [
+                    "dodge"
+                ]
+            },
+            {
+                "value": "ferrari",
+                "synonyms": [
+                    "ferrari"
+                ]
+            },
+            {
+                "value": "fiat",
+                "synonyms": [
+                    "fiat"
+                ]
+            },
+            {
+                "value": "ford",
+                "synonyms": [
+                    "ford"
+                ]
+            },
+            {
+                "value": "freighliner",
+                "synonyms": [
+                    "freighliner"
+                ]
+            },
+            {
+                "value": "gmc",
+                "synonyms": [
+                    "g m c",
+                    "gmc"
+                ]
+            },
+            {
+                "value": "hyundai",
+                "synonyms": [
+                    "hyundai"
+                ]
+            },
+            {
+                "value": "infiniti",
+                "synonyms": [
+                    "infiniti"
+                ]
+            },
+            {
+                "value": "jaguar",
+                "synonyms": [
+                    "jaguar"
+                ]
+            },
+            {
+                "value": "jeep",
+                "synonyms": [
+                    "jeep"
+                ]
+            },
+            {
+                "value": "kia",
+                "synonyms": [
+                    "kia"
+                ]
+            },
+            {
+                "value": "lamborghini",
+                "synonyms": [
+                    "lamborghini"
+                ]
+            },
+            {
+                "value": "land rover",
+                "synonyms": [
+                    "land rover"
+                ]
+            },
+            {
+                "value": "lexus",
+                "synonyms": [
+                    "lexus"
+                ]
+            },
+            {
+                "value": "lincoln",
+                "synonyms": [
+                    "lincoln"
+                ]
+            },
+            {
+                "value": "maserati",
+                "synonyms": [
+                    "maserati"
+                ]
+            },
+            {
+                "value": "mazda",
+                "synonyms": [
+                    "mazda"
+                ]
+            },
+            {
+                "value": "mclaren",
+                "synonyms": [
+                    "mac laaren",
+                    "mac laren",
+                    "mclaren"
+                ]
+            },
+            {
+                "value": "mercedes-benz",
+                "synonyms": [
+                    "benz",
+                    "mercedes",
+                    "mercedes-benz"
+                ]
+            },
+            {
+                "value": "mini",
+                "synonyms": [
+                    "mini"
+                ]
+            },
+            {
+                "value": "mitsubishi",
+                "synonyms": [
+                    "mitsubishi"
+                ]
+            },
+            {
+                "value": "nissan",
+                "synonyms": [
+                    "nissan"
+                ]
+            },
+            {
+                "value": "opel",
+                "synonyms": [
+                    "opel"
+                ]
+            },
+            {
+                "value": "porsche",
+                "synonyms": [
+                    "porsche"
+                ]
+            },
+            {
+                "value": "ram",
+                "synonyms": [
+                    "ram"
+                ]
+            },
+            {
+                "value": "range rover",
+                "synonyms": [
+                    "range rover"
+                ]
+            },
+            {
+                "value": "rolls-royce",
+                "synonyms": [
+                    "rolls-royce"
+                ]
+            },
+            {
+                "value": "scion",
+                "synonyms": [
+                    "scion"
+                ]
+            },
+            {
+                "value": "smart",
+                "synonyms": [
+                    "smart"
+                ]
+            },
+            {
+                "value": "subaru",
+                "synonyms": [
+                    "subaru"
+                ]
+            },
+            {
+                "value": "tesla",
+                "synonyms": [
+                    "tesla"
+                ]
+            },
+            {
+                "value": "toyota",
+                "synonyms": [
+                    "toyota"
+                ]
+            },
+            {
+                "value": "volswagen",
+                "synonyms": [
+                    "v w",
+                    "volkswagen",
+                    "volswagen"
+                ]
+            },
+            {
+                "value": "volvo",
+                "synonyms": [
+                    "volvo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "aWordsUnhandled",
+        "entries": [
+            {
+                "value": "confirm appointment",
+                "synonyms": [
+                    "confirm appointment",
+                    "confirm my appoinmtnet",
+                    "verify my appointment",
+                    "confirm my schedule",
+                    "when is my appointment",
+                    "when is",
+                    "pending appointment",
+                    "when is my"
+                ]
+            },
+            {
+                "value": "warrantyWords",
+                "synonyms": [
+                    "warranty"
+                ]
+            },
+            {
+                "value": "helpWords",
+                "synonyms": [
+                    "help"
+                ]
+            },
+            {
+                "value": "vehiclePickup",
+                "synonyms": [
+                    "pick up",
+                    "pick up my vehicle",
+                    "concierge",
+                    "valet"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carModels",
+        "entries": [
+            {
+                "value": "carModel",
+                "synonyms": [
+                    "carModel"
+                ]
+            },
+            {
+                "value": "Accord",
+                "synonyms": [
+                    "ACCORD",
+                    "Record",
+                    "court",
+                    "awkward",
+                    "occurred",
+                    "add cord",
+                    "a chord"
+                ]
+            },
+            {
+                "value": "Accord Crosstour",
+                "synonyms": [
+                    "ACCORD CROSSTOUR",
+                    "accord cross tour",
+                    "accord crows tour",
+                    "accord crestor",
+                    "accord cro store",
+                    "accord cray store"
+                ]
+            },
+            {
+                "value": "Accord Hybrid",
+                "synonyms": [
+                    "ACCORD HYBRID",
+                    "accord hebron",
+                    "accord hybrids",
+                    "accord ebird",
+                    "accord hey bread"
+                ]
+            },
+            {
+                "value": "Accord Plug-IN",
+                "synonyms": [
+                    "ACCORD PLUG-IN",
+                    "accord lubing"
+                ]
+            },
+            {
+                "value": "Clarity Electric",
+                "synonyms": [
+                    "CLARITY ELECTRIC",
+                    "clarity",
+                    "polarity",
+                    "clarity lectric",
+                    "clarity e lectric"
+                ]
+            },
+            {
+                "value": "Civic",
+                "synonyms": [
+                    "CIVIC",
+                    "Scenic"
+                ]
+            },
+            {
+                "value": "Civic Hybrid",
+                "synonyms": [
+                    "CIVIC HYBRID"
+                ]
+            },
+            {
+                "value": "Civic NGV",
+                "synonyms": [
+                    "CIVIC NGV",
+                    "civic angie",
+                    "civic ngb",
+                    "civic an givi",
+                    "civic an tv"
+                ]
+            },
+            {
+                "value": "Clarity Electric",
+                "synonyms": [
+                    "CLARITY Electric",
+                    "clarity Electric",
+                    "clarity",
+                    "flaherty"
+                ]
+            },
+            {
+                "value": "Clarity Fuel Cell",
+                "synonyms": [
+                    "CLARITY FUEL CELL",
+                    "clarity cell",
+                    "clarity feel so"
+                ]
+            },
+            {
+                "value": "Clarity Plug-In Hybird",
+                "synonyms": [
+                    "CLARITY PLUG-IN HYBRID",
+                    "clarity plug in"
+                ]
+            },
+            {
+                "value": "CR-V",
+                "synonyms": [
+                    "CR-V",
+                    "c r v",
+                    "crv",
+                    "servi",
+                    "survey",
+                    "cerave",
+                    "ceraVe"
+                ]
+            },
+            {
+                "value": "CR-V Hybrid",
+                "synonyms": [
+                    "CR-V HYBRID"
+                ]
+            },
+            {
+                "value": "CR-Z",
+                "synonyms": [
+                    "CR-Z",
+                    "crz",
+                    "c r z",
+                    "sears e",
+                    "seriously"
+                ]
+            },
+            {
+                "value": "Crosstour",
+                "synonyms": [
+                    "CROSSTOUR",
+                    "cross tour"
+                ]
+            },
+            {
+                "value": "Element",
+                "synonyms": [
+                    "ELEMENT",
+                    "l&m"
+                ]
+            },
+            {
+                "value": "FCX Clarity",
+                "synonyms": [
+                    "FCX CLARITY",
+                    "f c x",
+                    "fcx",
+                    "fcf"
+                ]
+            },
+            {
+                "value": "Fit",
+                "synonyms": [
+                    "FIT",
+                    "set",
+                    "fish",
+                    "fifth"
+                ]
+            },
+            {
+                "value": "HR-V",
+                "synonyms": [
+                    "HR-V",
+                    "hrv",
+                    "h r v",
+                    "hev",
+                    "hiv",
+                    "hov"
+                ]
+            },
+            {
+                "value": "Insight",
+                "synonyms": [
+                    "INSIGHT",
+                    "inside",
+                    "insect"
+                ]
+            },
+            {
+                "value": "Odyssey",
+                "synonyms": [
+                    "ODYSSEY"
+                ]
+            },
+            {
+                "value": "Passport",
+                "synonyms": [
+                    "PASSPORT",
+                    "Stockport",
+                    "that's worth"
+                ]
+            },
+            {
+                "value": "Pilot",
+                "synonyms": [
+                    "PILOT",
+                    "pilaf",
+                    "pillot",
+                    "pilotte"
+                ]
+            },
+            {
+                "value": "Prelude",
+                "synonyms": [
+                    "PRELUDE",
+                    "play Loot",
+                    "preludes",
+                    "free lud"
+                ]
+            },
+            {
+                "value": "Ridgeline",
+                "synonyms": [
+                    "RIDGELINE",
+                    "ridge line"
+                ]
+            },
+            {
+                "value": "S2000",
+                "synonyms": [
+                    "S2000",
+                    "s2k",
+                    "s 2 1000"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "aWordsVoicemail",
+        "entries": [
+            {
+                "value": "operatorW",
+                "synonyms": [
+                    "@wordsOperator",
+                    "@aWordsOperator"
+                ]
+            },
+            {
+                "value": "unhandeledW",
+                "synonyms": [
+                    "@aWordsUnhandled"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "aWordsOperator",
+        "entries": [
+            {
+                "value": "aWordsOperator",
+                "synonyms": [
+                    "aWordsOperator"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carMake",
+        "entries": [
+            {
+                "value": "Honda",
+                "synonyms": [
+                    "carMake",
+                    "HONDA",
+                    "banda"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsAfternoon",
+        "entries": [
+            {
+                "value": "afternoon",
+                "synonyms": [
+                    "afternoon",
+                    "after noon",
+                    "pm",
+                    "p m",
+                    "p.m.",
+                    "pm."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsAppointment",
+        "entries": [
+            {
+                "value": "serviceOption",
+                "synonyms": [
+                    "maintenance service",
+                    "brakes service",
+                    "valve adjustment"
+                ]
+            },
+            {
+                "value": "appointment",
+                "synonyms": [
+                    "appointment",
+                    "service appointment",
+                    "schedule",
+                    "book",
+                    "booking",
+                    "schedule appointment",
+                    "schedule service",
+                    "schedule service appointment",
+                    "book appointment",
+                    "book service",
+                    "book service appointment",
+                    "make appointment",
+                    "scheduling",
+                    "schedule repair",
+                    "repair appointment",
+                    "book repair",
+                    "Can I have an appointment",
+                    "appointment to check my car",
+                    "my vehicle looked at",
+                    "vehicle looked at",
+                    "I need apppointment.",
+                    "need appointment",
+                    "get appointment",
+                    "get an appointment",
+                    "book an appointment",
+                    "schedule an appointment",
+                    "appointment for"
+                ]
+            },
+            {
+                "value": "other",
+                "synonyms": [
+                    "assignment",
+                    "apartment",
+                    "unemployment",
+                    "disappointment",
+                    "employment"
+                ]
+            },
+            {
+                "value": "longSentence",
+                "synonyms": [
+                    "bring my car for service"
+                ]
+            },
+            {
+                "value": "Service",
+                "synonyms": [
+                    "I need service on my car.",
+                    "need service",
+                    "want service",
+                    "bring my car for service",
+                    "service car",
+                    "service my car",
+                    "service for my car",
+                    "have my car service",
+                    "have my car serviced",
+                    "have service for my car",
+                    "have service for car",
+                    "have service for my vehicle",
+                    "have service for vehicle"
+                ]
+            },
+            {
+                "value": "repairCar",
+                "synonyms": [
+                    "repair car",
+                    "Need a repair done on my vehicle.",
+                    "repair done on my vehicle",
+                    "repair my vehicle",
+                    "repair on my vehicle",
+                    "vehicle repair",
+                    "repair my car"
+                ]
+            },
+            {
+                "value": "Express service",
+                "synonyms": [
+                    "Express service",
+                    "Express services"
+                ]
+            },
+            {
+                "value": "carproblems",
+                "synonyms": [
+                    "Car problems",
+                    "car problem",
+                    "problem with car",
+                    "problem with engine",
+                    "engine problem",
+                    "window problem",
+                    "door problem"
+                ]
+            },
+            {
+                "value": "check",
+                "synonyms": [
+                    "check leak",
+                    "check brakes",
+                    "check engine light",
+                    "check engine",
+                    "Diagnostic check"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "serviceOptions000",
+        "entries": [
+            {
+                "value": "000",
+                "synonyms": [
+                    "5K",
+                    "5K.",
+                    "5,K",
+                    "5 k",
+                    "5. K",
+                    "5, k",
+                    "10K",
+                    "10K.",
+                    "10,K",
+                    "10. K",
+                    "10, K",
+                    "20K",
+                    "20K.",
+                    "20,K",
+                    "20 K",
+                    "20. K",
+                    "20, K",
+                    "30K",
+                    "30K.",
+                    "30,K",
+                    "30 K",
+                    "30. K",
+                    "30, K",
+                    "40",
+                    "40K.",
+                    "40,K",
+                    "40 K",
+                    "40. K",
+                    "40, K",
+                    "50K",
+                    "50K.",
+                    "50,K",
+                    "50 K",
+                    "50. K",
+                    "50, K",
+                    "60K",
+                    "60K.",
+                    "60,K",
+                    "60 k",
+                    "60. K",
+                    "60, k",
+                    "70K",
+                    "70K.",
+                    "70,K",
+                    "70. K",
+                    "70, K",
+                    "80K",
+                    "80K.",
+                    "80,K",
+                    "80 K",
+                    "80. K",
+                    "80, K",
+                    "90K",
+                    "90K.",
+                    "90,K",
+                    "90 K",
+                    "90. K",
+                    "90, K",
+                    "100K",
+                    "100K.",
+                    "100,K",
+                    "100 K",
+                    "100. K",
+                    "100, K",
+                    "150K",
+                    "150K.",
+                    "150,K",
+                    "150 K",
+                    "150. K",
+                    "150, K",
+                    "200K",
+                    "200K.",
+                    "200,K",
+                    "200 K",
+                    "200. K",
+                    "200, K",
+                    "everything",
+                    "a1",
+                    "a2",
+                    "a3",
+                    "a4",
+                    "a 1",
+                    "a 2",
+                    "a 3",
+                    "a 4",
+                    "b1",
+                    "b2",
+                    "b3",
+                    "b4",
+                    "b 1",
+                    "b 2",
+                    "b 3",
+                    "b 4",
+                    "c1",
+                    "c2",
+                    "c3",
+                    "c4",
+                    "c 1",
+                    "c 2",
+                    "c 3",
+                    "c 4",
+                    "d1",
+                    "d2",
+                    "d3",
+                    "d4",
+                    "d 1",
+                    "d 2",
+                    "d 3",
+                    "d 4",
+                    "a12",
+                    "b12",
+                    "c12",
+                    "d12",
+                    "a 12",
+                    "b 12",
+                    "c 12",
+                    "d 12",
+                    "a16",
+                    "b16",
+                    "c16",
+                    "d16",
+                    "a 16",
+                    "b 16",
+                    "c 16",
+                    "d 16",
+                    "10000 mi",
+                    "20000 mi",
+                    "30000 mi",
+                    "40000 mi",
+                    "50000 mi",
+                    "60000 mi",
+                    "70000 mi",
+                    "80000 mi",
+                    "90000 mi",
+                    "100000 mi",
+                    "10000",
+                    "20000",
+                    "30000",
+                    "40000",
+                    "50000",
+                    "60000",
+                    "70000",
+                    "80000",
+                    "90000",
+                    "100000",
+                    "5000",
+                    "5000 Mi",
+                    "58000",
+                    "maintenance",
+                    "service",
+                    "service A",
+                    "service B",
+                    "service C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "transportation",
+        "entries": [
+            {
+                "value": "DROPOFF",
+                "synonyms": [
+                    "drop off",
+                    "no transportation",
+                    "I have a ride",
+                    "have a ride",
+                    "top off",
+                    "drop",
+                    "drop it",
+                    "drop it off",
+                    "off",
+                    "yes"
+                ]
+            },
+            {
+                "value": "WAITER",
+                "synonyms": [
+                    "wait",
+                    "I'll wait at the dealership",
+                    "wait at the dealership",
+                    "will wait",
+                    "waiting",
+                    "plan to wait",
+                    "want to wait",
+                    "wait at the lounge",
+                    "Weight",
+                    "where",
+                    "dealership",
+                    "Way to the dealership.",
+                    "way",
+                    "kuwait",
+                    "weigh",
+                    "@wordsNo"
+                ]
+            },
+            {
+                "value": "SHUTTLE",
+                "synonyms": [
+                    "shuttle",
+                    "selltle",
+                    "take the shuttle",
+                    "shut le",
+                    "settle",
+                    "lift",
+                    "lyft",
+                    "uber",
+                    "rideshare",
+                    "ride",
+                    "need a ride",
+                    "right",
+                    "right?"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsCarYear",
+        "entries": [
+            {
+                "value": "2000",
+                "synonyms": [
+                    "2000",
+                    "00",
+                    "S2000",
+                    "1000"
+                ]
+            },
+            {
+                "value": "2001",
+                "synonyms": [
+                    "2001",
+                    "01",
+                    "1",
+                    "S2000, 1",
+                    "20, 01",
+                    "20 01",
+                    "2*1",
+                    "2**1",
+                    "20001",
+                    "10001"
+                ]
+            },
+            {
+                "value": "2002",
+                "synonyms": [
+                    "2002",
+                    "S2000, 2",
+                    "S2000 2",
+                    "02",
+                    "2",
+                    "2**2",
+                    "2*2",
+                    "20002",
+                    "10002"
+                ]
+            },
+            {
+                "value": "2003",
+                "synonyms": [
+                    "2003",
+                    "20 03",
+                    "S2000 3",
+                    "S2000, 3",
+                    "3",
+                    "03",
+                    "2*3",
+                    "2**3",
+                    "20003",
+                    "10003"
+                ]
+            },
+            {
+                "value": "2004",
+                "synonyms": [
+                    "2004",
+                    "4",
+                    "04",
+                    "S2000 4",
+                    "S2000, 4",
+                    "20 04",
+                    "2*4",
+                    "2**4",
+                    "2 * 4",
+                    "20004",
+                    "10004"
+                ]
+            },
+            {
+                "value": "2005",
+                "synonyms": [
+                    "2005",
+                    "5",
+                    "05",
+                    "20 05",
+                    "2 * 5",
+                    "S2000 5",
+                    "S2000, 5",
+                    "2*5",
+                    "20005",
+                    "10005"
+                ]
+            },
+            {
+                "value": "2006",
+                "synonyms": [
+                    "2006",
+                    "06",
+                    "6",
+                    "20 06",
+                    "20, 06",
+                    "S2000 6",
+                    "S2000, 6",
+                    "2*6",
+                    "2 * 6",
+                    "20006",
+                    "10006"
+                ]
+            },
+            {
+                "value": "2007",
+                "synonyms": [
+                    "2007",
+                    "07",
+                    "7",
+                    "20 07",
+                    "20, 07",
+                    "S2000 7",
+                    "S2000, 7",
+                    "2*7",
+                    "2 * 7",
+                    "20007",
+                    "10007"
+                ]
+            },
+            {
+                "value": "2008",
+                "synonyms": [
+                    "2008",
+                    "08",
+                    "8",
+                    "20 08",
+                    "20, 08",
+                    "S2000 8",
+                    "S2000, 8",
+                    "2*8",
+                    "2 * 8",
+                    "20008",
+                    "10008"
+                ]
+            },
+            {
+                "value": "2009",
+                "synonyms": [
+                    "2009",
+                    "9",
+                    "09",
+                    "20 09",
+                    "20, 09",
+                    "S2000 9",
+                    "S2000, 9",
+                    "2*9",
+                    "20009",
+                    "10009"
+                ]
+            },
+            {
+                "value": "2010",
+                "synonyms": [
+                    "2010",
+                    "20 10",
+                    "10",
+                    "20, 10",
+                    "S2000 10",
+                    "S2000, 10",
+                    "2000 10",
+                    "2000, 10",
+                    "2*10",
+                    "200010",
+                    "10010"
+                ]
+            },
+            {
+                "value": "2011",
+                "synonyms": [
+                    "2011",
+                    "20 11",
+                    "20, 11",
+                    "11",
+                    "2000 11",
+                    "2000, 11",
+                    "S2000 11",
+                    "S2000, 11",
+                    "2*11",
+                    "200011",
+                    "10011"
+                ]
+            },
+            {
+                "value": "2012",
+                "synonyms": [
+                    "2012",
+                    "20 12",
+                    "20, 12",
+                    "12",
+                    "2000 12",
+                    "2000, 12",
+                    "S2000 12",
+                    "S2000, 12",
+                    "2*12",
+                    "200012",
+                    "10012"
+                ]
+            },
+            {
+                "value": "2013",
+                "synonyms": [
+                    "2013",
+                    "20 13",
+                    "20, 13",
+                    "2000 13",
+                    "2000, 13",
+                    "2*13",
+                    "S2000 13",
+                    "S2000, 13",
+                    "13",
+                    "200013",
+                    "10013",
+                    "30",
+                    "2030",
+                    "20 30",
+                    "20, 30"
+                ]
+            },
+            {
+                "value": "2014",
+                "synonyms": [
+                    "2014",
+                    "20 14",
+                    "20, 14",
+                    "2000 14",
+                    "2000, 14",
+                    "S2000 14",
+                    "S2000, 14",
+                    "2*14",
+                    "14",
+                    "200014",
+                    "10014",
+                    "40",
+                    "2040",
+                    "20 40",
+                    "20, 40"
+                ]
+            },
+            {
+                "value": "2015",
+                "synonyms": [
+                    "2015",
+                    "20 15",
+                    "20, 15",
+                    "2000 15",
+                    "2000, 15",
+                    "S2000 15",
+                    "S2000, 15",
+                    "2*15",
+                    "2 * 15",
+                    "15",
+                    "200015",
+                    "10015",
+                    "50",
+                    "2050",
+                    "20 50",
+                    "20, 50"
+                ]
+            },
+            {
+                "value": "2016",
+                "synonyms": [
+                    "2016",
+                    "20 16",
+                    "20, 16",
+                    "16",
+                    "2000 16",
+                    "2000, 16",
+                    "S2000 16",
+                    "S2000, 16",
+                    "2*16",
+                    "2 * 16",
+                    "200016",
+                    "10016",
+                    "60",
+                    "2060",
+                    "20 60",
+                    "20, 60"
+                ]
+            },
+            {
+                "value": "2017",
+                "synonyms": [
+                    "2017",
+                    "20 17",
+                    "20, 17",
+                    "17",
+                    "2000 17",
+                    "2000, 17",
+                    "S2000 17",
+                    "S2000, 17",
+                    "2*17",
+                    "2 * 17",
+                    "200017",
+                    "10017",
+                    "70",
+                    "2070",
+                    "20 70",
+                    "20, 70"
+                ]
+            },
+            {
+                "value": "2018",
+                "synonyms": [
+                    "2018",
+                    "20 18",
+                    "20,18",
+                    "18",
+                    "2000 18",
+                    "2000, 18",
+                    "S2000 18",
+                    "S2000, 18",
+                    "2*18",
+                    "200018",
+                    "10018",
+                    "80",
+                    "2080",
+                    "20 80",
+                    "20, 80"
+                ]
+            },
+            {
+                "value": "2019",
+                "synonyms": [
+                    "2019",
+                    "20 19",
+                    "20, 19",
+                    "19",
+                    "2000 19",
+                    "2000, 19",
+                    "S2000 19",
+                    "S2000, 19",
+                    "2*19",
+                    "200019",
+                    "10019",
+                    "90",
+                    "2090",
+                    "20 90",
+                    "20, 90"
+                ]
+            },
+            {
+                "value": "2020",
+                "synonyms": [
+                    "2020",
+                    "20 20",
+                    "20, 20",
+                    "20",
+                    "2000 20",
+                    "2000, 20",
+                    "S2000 20",
+                    "S2000, 20",
+                    "2*20",
+                    "20020",
+                    "10020"
+                ]
+            },
+            {
+                "value": "2021",
+                "synonyms": [
+                    "2021",
+                    "20 21",
+                    "20, 21",
+                    "21",
+                    "2000 21",
+                    "2000, 21",
+                    "S2000 21",
+                    "S2000, 21",
+                    "2*21",
+                    "20 20 1",
+                    "20, 20, 1",
+                    "20. 20. 1",
+                    "20, 20.1",
+                    "20. 20, 1",
+                    "20021",
+                    "10021"
+                ]
+            },
+            {
+                "value": "2022",
+                "synonyms": [
+                    "2022",
+                    "20 22",
+                    "20, 22",
+                    "22",
+                    "2000 22",
+                    "2000, 22",
+                    "2000. 22",
+                    "S2000 22",
+                    "S2000, 22",
+                    "S2000. 22",
+                    "2*22",
+                    "2 * 22",
+                    "20, 20, 2",
+                    "20, 20. 2",
+                    "20. 20. 2",
+                    "20 20, 2",
+                    "20, 20 2",
+                    "20022",
+                    "10022"
+                ]
+            },
+            {
+                "value": "2023",
+                "synonyms": [
+                    "2023",
+                    "20 23",
+                    "20, 23",
+                    "23",
+                    "2000 23",
+                    "2000, 23",
+                    "S2000 23",
+                    "S2000, 23",
+                    "20 20 3",
+                    "20, 20, 3",
+                    "20. 20. 3",
+                    "20, 20. 3",
+                    "2*23",
+                    "2 * 23",
+                    "20023",
+                    "10023"
+                ]
+            },
+            {
+                "value": "1990",
+                "synonyms": [
+                    "1990",
+                    "19 90",
+                    "19, 90",
+                    "90",
+                    "19. 90",
+                    "19 19",
+                    "1919"
+                ]
+            },
+            {
+                "value": "1991",
+                "synonyms": [
+                    "1991",
+                    "19 90 1",
+                    "19, 90 1",
+                    "19. 91",
+                    "19 19 1",
+                    "1919 1",
+                    "1919, 1",
+                    "91"
+                ]
+            },
+            {
+                "value": "1992",
+                "synonyms": [
+                    "1992",
+                    "19 90 2",
+                    "19, 90 2",
+                    "19. 92",
+                    "19 19 2",
+                    "1919 2",
+                    "1919, 2",
+                    "92"
+                ]
+            },
+            {
+                "value": "1993",
+                "synonyms": [
+                    "1993",
+                    "19 90 3",
+                    "19, 90 3",
+                    "19. 93",
+                    "19 19 3",
+                    "1919 3",
+                    "1919, 3",
+                    "93"
+                ]
+            },
+            {
+                "value": "1994",
+                "synonyms": [
+                    "1994",
+                    "19 90 4",
+                    "19, 90 4",
+                    "19. 94",
+                    "19 19 4",
+                    "1919 4",
+                    "1919, 4",
+                    "94"
+                ]
+            },
+            {
+                "value": "1995",
+                "synonyms": [
+                    "1995",
+                    "19 90 5",
+                    "19, 90 5",
+                    "19. 95",
+                    "19 19 5",
+                    "1919 5",
+                    "1919, 5",
+                    "95"
+                ]
+            },
+            {
+                "value": "1996",
+                "synonyms": [
+                    "1996",
+                    "19 90 6",
+                    "19, 90 6",
+                    "19. 96",
+                    "19 19 6",
+                    "1919 6",
+                    "1919, 6",
+                    "96"
+                ]
+            },
+            {
+                "value": "1997",
+                "synonyms": [
+                    "1997",
+                    "19 90 7",
+                    "19, 90 7",
+                    "19. 97",
+                    "19 19 7",
+                    "1919 7",
+                    "1919, 7",
+                    "97"
+                ]
+            },
+            {
+                "value": "1998",
+                "synonyms": [
+                    "1998",
+                    "19 90 8",
+                    "19, 90 8",
+                    "19. 98",
+                    "19 19 8",
+                    "1919 8",
+                    "1919, 8",
+                    "98"
+                ]
+            },
+            {
+                "value": "1999",
+                "synonyms": [
+                    "1999",
+                    "19 90 9",
+                    "19, 90 9",
+                    "19. 99",
+                    "19 19 9",
+                    "1919 9",
+                    "1919, 9",
+                    "99"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "serviceOptions",
+        "entries": [
+            {
+                "value": "000",
+                "synonyms": [
+                    "100011",
+                    "mile service",
+                    "miles service",
+                    "K miles service",
+                    "year service",
+                    "major service",
+                    "preventative service",
+                    "full service",
+                    "complete service",
+                    "minor service",
+                    "regular service",
+                    "scheduled service",
+                    "km service",
+                    "kilometer service",
+                    "kilometers service",
+                    "maintenance service",
+                    "general maintenance",
+                    "regular maintenance",
+                    "regular check up",
+                    "routine service",
+                    "scheduled maintenance",
+                    "general service",
+                    "service maintenance",
+                    "routine maintanance",
+                    "essential maintanance",
+                    "annual maintenance",
+                    "needs maintenance",
+                    "need maintenance",
+                    "maintenance required",
+                    "basic service",
+                    "factory service",
+                    "standard service",
+                    "recommended service",
+                    "recommended services",
+                    "first service",
+                    "maintenance schedule",
+                    "service schedule",
+                    "service interval",
+                    "maintenance check",
+                    "oil services"
+                ]
+            },
+            {
+                "value": "MINOR",
+                "synonyms": [
+                    "10001",
+                    "change filter",
+                    "Synthetic Oil",
+                    "engine oil",
+                    "diesel oil",
+                    "diesel synthetic oil",
+                    "why change",
+                    "oil chage",
+                    "4 cylinders",
+                    "6 cylinders",
+                    "8 cylinders",
+                    "oil change"
+                ]
+            },
+            {
+                "value": "FM305",
+                "synonyms": [
+                    "10002",
+                    "seasonal tires",
+                    "seasonal tires off rims",
+                    "seasonal tires on rims",
+                    "winter tire",
+                    "winter tires",
+                    "tire swap",
+                    "swap tires",
+                    "tire changeover",
+                    "replace tires",
+                    "replace tire",
+                    "replace 4 tires",
+                    "new tire",
+                    "new tires",
+                    "tire service",
+                    "change tires",
+                    "change tire"
+                ]
+            },
+            {
+                "value": "FM305",
+                "synonyms": [
+                    "10003",
+                    "tire pressure",
+                    "low pressure",
+                    "low tire pressure",
+                    "tire Low Pressure",
+                    "tyre pressure",
+                    "check treadwear"
+                ]
+            },
+            {
+                "value": "TPMS",
+                "synonyms": [
+                    "10004",
+                    "flat tire",
+                    "tire repair",
+                    "fix a flat",
+                    "repair a flat",
+                    "have a flat",
+                    "need a flat tire fix",
+                    "nail in tire",
+                    "tire replacement"
+                ]
+            },
+            {
+                "value": "DIAGTIRE",
+                "synonyms": [
+                    "10005",
+                    "change wheel",
+                    "change wheels",
+                    "Wheel Shaking",
+                    "new wheel",
+                    "new wheels"
+                ]
+            },
+            {
+                "value": "FM305",
+                "synonyms": [
+                    "10006",
+                    "wheel bearing"
+                ]
+            },
+            {
+                "value": "FM305",
+                "synonyms": [
+                    "10007",
+                    "Tire Storage"
+                ]
+            },
+            {
+                "value": "BAL",
+                "synonyms": [
+                    "10008",
+                    "tire balance",
+                    "tire balanced",
+                    "balance wheel",
+                    "balance wheels",
+                    "wheel balance",
+                    "wheel balanced",
+                    "wheels balance",
+                    "wheels balanced"
+                ]
+            },
+            {
+                "value": "ROTATE",
+                "synonyms": [
+                    "10009",
+                    "tire rotate",
+                    "tire rotation",
+                    "rotate tire",
+                    "rotate tires",
+                    "tire cotation"
+                ]
+            },
+            {
+                "value": "FM305",
+                "synonyms": [
+                    "10010",
+                    "Tire Pulling",
+                    "Tire Shaking",
+                    "Road Noise"
+                ]
+            },
+            {
+                "value": "ALIGN4",
+                "synonyms": [
+                    "10011",
+                    "wheel alignment",
+                    "wheel align",
+                    "wheel aligned",
+                    "wheels aligned",
+                    "alignment check"
+                ]
+            },
+            {
+                "value": "ALIGN4",
+                "synonyms": [
+                    "10012",
+                    "Four Wheel Alignment"
+                ]
+            },
+            {
+                "value": "DIAGSES",
+                "synonyms": [
+                    "10013",
+                    "interior lighting",
+                    "exterior lighting",
+                    "engine light",
+                    "engine soon light",
+                    "tail light",
+                    "tail lights",
+                    "check engine light",
+                    "warning lights"
+                ]
+            },
+            {
+                "value": "DIAGELECT",
+                "synonyms": [
+                    "10014",
+                    "battery",
+                    "battery terminal",
+                    "12 v battery",
+                    "12 volt battery",
+                    "clean battery",
+                    "clean battery terminal",
+                    "clean battery terminals",
+                    "battery is dead"
+                ]
+            },
+            {
+                "value": "DIAGELECT",
+                "synonyms": [
+                    "100141",
+                    "replace battery",
+                    "battery replace",
+                    "battery replacement"
+                ]
+            },
+            {
+                "value": "DIAGENG",
+                "synonyms": [
+                    "10015",
+                    "knocking sound",
+                    "grinding sound",
+                    "lack of power",
+                    "poor mileage",
+                    "tuneup",
+                    "tune up",
+                    "vibration problem",
+                    "running rough",
+                    "cylinder misfire",
+                    "cylinder",
+                    "engine diagnosis",
+                    "knocking sounds",
+                    "grinding sounds",
+                    "lots of vibration",
+                    "vibration issue",
+                    "vibration issues",
+                    "performance problem",
+                    "performance issues",
+                    "performance matter",
+                    "mechanical",
+                    "mechanically",
+                    "repair",
+                    "with thermostat",
+                    "with gasket",
+                    "check thermostat",
+                    "check gasket\",”radiator hoses",
+                    "fan belts",
+                    "engine overheating",
+                    "shaking",
+                    "pulling",
+                    "won't start",
+                    "does not move",
+                    "does not work",
+                    "accident",
+                    "towed"
+                ]
+            },
+            {
+                "value": "DIAGELECT",
+                "synonyms": [
+                    "100151",
+                    "spark plug",
+                    "spark plugs",
+                    "replace spark plug",
+                    "replace spark plugs"
+                ]
+            },
+            {
+                "value": "DIAGENG",
+                "synonyms": [
+                    "10016",
+                    "abs",
+                    "Anti-lock Brake",
+                    "Anti-lock",
+                    "ABS Brake",
+                    "ABS brake",
+                    "ABS brake check",
+                    "Anti-lock Break",
+                    "ABS Break",
+                    "ABS break",
+                    "ABS break check"
+                ]
+            },
+            {
+                "value": "AC DIAG",
+                "synonyms": [
+                    "10017",
+                    "ac",
+                    "a c",
+                    "air conditioning",
+                    "air conditioner",
+                    "cooling system",
+                    "a c filter",
+                    "hvac",
+                    "h v a c filter",
+                    "evap",
+                    "e v a p",
+                    "Hvac Filter",
+                    "climate control",
+                    "heating system",
+                    "heater system",
+                    "nitrogen"
+                ]
+            },
+            {
+                "value": "DIAGMTRANS",
+                "synonyms": [
+                    "10018",
+                    "transmission",
+                    "automatic transmission",
+                    "manual transmission",
+                    "clutch problem",
+                    "not shifting",
+                    "transmission diagnosis",
+                    "clutch issue",
+                    "clutch not working",
+                    "clutch failure"
+                ]
+            },
+            {
+                "value": "DIAGELECT",
+                "synonyms": [
+                    "10019",
+                    "bulb indicator",
+                    "lighting indicator",
+                    "exterior lighting",
+                    "interior lighting",
+                    "tail light",
+                    "tail lights",
+                    "headlight",
+                    "charging problem",
+                    "wiring problem",
+                    "sensor problem",
+                    "turning signal",
+                    "lamp problem",
+                    "indicator",
+                    "warning light",
+                    "warning lamp",
+                    "lamp illuminated",
+                    "light on",
+                    "light off",
+                    "lamp is illuminated",
+                    "head light",
+                    "light bulb",
+                    "indicator on",
+                    "light indicator",
+                    "headlights",
+                    "reverse lights",
+                    "park and fog lights",
+                    "bulb not working",
+                    "change bulb",
+                    "lighting"
+                ]
+            },
+            {
+                "value": "DIAGELECT",
+                "synonyms": [
+                    "10020",
+                    "electric",
+                    "electrical",
+                    "electronic",
+                    "electronic card",
+                    "electronic board",
+                    "electrical component",
+                    "electronic component",
+                    "electrical system",
+                    "electrical system diagnosis",
+                    "switch problem"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10021",
+                    "remote key",
+                    "key fob",
+                    "key car",
+                    "car key",
+                    "key replacement",
+                    "key copy",
+                    "cut key",
+                    "program key",
+                    "cut and program key",
+                    "key cut",
+                    "new key",
+                    "lost key",
+                    "lost my key",
+                    "replacement key",
+                    "Need a duplicate key",
+                    "duplicate key"
+                ]
+            },
+            {
+                "value": "DIAGRADIO",
+                "synonyms": [
+                    "10022",
+                    "cd",
+                    "dvd",
+                    "Entertainment",
+                    "Radio problem",
+                    "communication problem",
+                    "iPod problem",
+                    "navigation problem",
+                    "gps problem",
+                    "bluetooth problem",
+                    "wi-fi problem",
+                    "wifi problem",
+                    "audio problem",
+                    "infotainment problem",
+                    "touchscreen problem",
+                    "problem with cd",
+                    "problem with dvd",
+                    "problem with entertainment",
+                    "problem with radio",
+                    "problem with communication",
+                    "problem with ipod",
+                    "problem with navigation",
+                    "problem with gps",
+                    "problem with bluetooth",
+                    "problem with wi-fi",
+                    "problem with wifi",
+                    "problem with audio",
+                    "problem with infotainment",
+                    "problem with touchscreen",
+                    "problem with touch screen",
+                    "touch screen problem"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10023",
+                    "software problem",
+                    "patch problem",
+                    "computer problem",
+                    "problem with software",
+                    "problem with patch",
+                    "problem with computer"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10024",
+                    "inspection",
+                    "safety inspection",
+                    "safety belt",
+                    "multipoint inspection",
+                    "multi point inspection",
+                    "complete check-up",
+                    "check up",
+                    "timing belt",
+                    "diagnostic",
+                    "what is wrong"
+                ]
+            },
+            {
+                "value": "DIAGSUSP",
+                "synonyms": [
+                    "10026",
+                    "suspension",
+                    "shock absorber",
+                    "shock absorbers",
+                    "tires suspension",
+                    "shocks problem",
+                    "spring problem"
+                ]
+            },
+            {
+                "value": "DIAGSTEER",
+                "synonyms": [
+                    "10027",
+                    "steering gear",
+                    "tie rods",
+                    "adaptive steering",
+                    "steering wheel",
+                    "heated steering wheel",
+                    "power steering",
+                    "steering problem",
+                    "steering issue",
+                    "problem with steering"
+                ]
+            },
+            {
+                "value": "DIAGBRAKE",
+                "synonyms": [
+                    "10028",
+                    "brake",
+                    "brakes",
+                    "front brake",
+                    "front brakes",
+                    "brake pad",
+                    "brake pads",
+                    "super duty pad",
+                    "grinding from brakes",
+                    "rattles from brakes",
+                    "squeaks from brakes",
+                    "brake line",
+                    "brake lines",
+                    "break pad",
+                    "break pads",
+                    "hoses problem",
+                    "hoses issue",
+                    "break",
+                    "breaks",
+                    "brake check",
+                    "brake check light",
+                    "break check",
+                    "break check light"
+                ]
+            },
+            {
+                "value": "DAG",
+                "synonyms": [
+                    "100281",
+                    "brake inspection"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10029",
+                    "rear brake",
+                    "rear brakes"
+                ]
+            },
+            {
+                "value": "DIIAG",
+                "synonyms": [
+                    "10030",
+                    "fuel injector",
+                    "fuel injectors",
+                    "fuel line"
+                ]
+            },
+            {
+                "value": "CABIN",
+                "synonyms": [
+                    "10031",
+                    "air filter",
+                    "air filters",
+                    "cabin air filter",
+                    "air cleaner filter",
+                    "air intake",
+                    "air intake filter",
+                    "air intake filter element",
+                    "engine air intake filter",
+                    "engine air filter",
+                    "engine air filters",
+                    "in cabin",
+                    "cabin air"
+                ]
+            },
+            {
+                "value": "DIAGGLASS",
+                "synonyms": [
+                    "10032",
+                    "window problem",
+                    "window glass",
+                    "windshield",
+                    "windows problem",
+                    "window tint",
+                    "auto tint",
+                    "sun roof",
+                    "moon roof",
+                    "problem with window",
+                    "issue with window",
+                    "window not",
+                    "windows not",
+                    "with window",
+                    "with sunroof",
+                    "with sun roof",
+                    "sunroof problem",
+                    "with moonroof",
+                    "moonroof problem",
+                    "with windshield",
+                    "windshield problem"
+                ]
+            },
+            {
+                "value": "DAG",
+                "synonyms": [
+                    "10033",
+                    "accessory",
+                    "accessories",
+                    "antenna",
+                    "with antenna",
+                    "antenna problem",
+                    "with accessory",
+                    "accessory problem"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10034",
+                    "emergency brake",
+                    "drivetrain",
+                    "turbo",
+                    "drive axle",
+                    "transfer case",
+                    "tailpipe",
+                    "drive train",
+                    "tail pipe"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "100341",
+                    "exhaust problem",
+                    "muffler problem",
+                    "problem with exhaust",
+                    "problem with muffler"
+                ]
+            },
+            {
+                "value": "DIIAG",
+                "synonyms": [
+                    "10035",
+                    "starter problem",
+                    "ignition problem",
+                    "problem with starter",
+                    "problem with ignition"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10036",
+                    "camera problem",
+                    "reverse camera",
+                    "o2 sensor",
+                    "airbag",
+                    "air bag",
+                    "problem with camera",
+                    "backup camera",
+                    "back camera"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10037",
+                    "retractable",
+                    "floor board",
+                    "floor boards",
+                    "glove box",
+                    "glove compartment"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10038",
+                    "opal problem",
+                    "lipo problem",
+                    "opal issue",
+                    "lipo issue"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10039",
+                    "burning odors",
+                    "scraping noise"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10040",
+                    "factory",
+                    "technical"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10041",
+                    "paint problem",
+                    "undercoat problem",
+                    "have a dent",
+                    "seat problem",
+                    "seats problem",
+                    "upholstery",
+                    "body works",
+                    "moulding",
+                    "carwash",
+                    "car wash",
+                    "door handle",
+                    "door handles",
+                    "front door",
+                    "back door",
+                    "backdoor",
+                    "trunk latch",
+                    "trunk latches",
+                    "traction aid",
+                    "fault hill descent",
+                    "Glove box",
+                    "glove compartment",
+                    "body shop",
+                    "rear end",
+                    "accident",
+                    "repair door",
+                    "repair car doo",
+                    "repairing drive,\"bumper",
+                    "dashboard",
+                    "seat issue",
+                    "with seat",
+                    "with trim",
+                    "trim problem",
+                    "trim issue",
+                    "with door",
+                    "door problem",
+                    "with trunk",
+                    "trunk problem",
+                    "with dash",
+                    "dash problem",
+                    "with cover",
+                    "cover problem",
+                    "with dashboard",
+                    "dash board",
+                    "seat belt",
+                    "seat belts",
+                    "handbrake",
+                    "windscreen",
+                    "check horn"
+                ]
+            },
+            {
+                "value": "DIAGLEAK",
+                "synonyms": [
+                    "10044",
+                    "oil leak",
+                    "engine leak",
+                    "engine leaks",
+                    "engine oil leak",
+                    "fluid leak",
+                    "fluid leaks",
+                    "fluid exchange",
+                    "drivetrain leaks",
+                    "water pump",
+                    "fluid levels",
+                    "antifreeze",
+                    "flush fluid",
+                    "flush fluids",
+                    "fuel pump",
+                    "with hose",
+                    "with leak",
+                    "with leaks",
+                    "with coolant",
+                    "with level",
+                    "with levels",
+                    "check level",
+                    "check levels",
+                    "check fluid",
+                    "check fluids",
+                    "check leak",
+                    "check leaks",
+                    "check pump",
+                    "check coolant",
+                    "radiator coolant",
+                    "brake fluid",
+                    "power steering fluid",
+                    "windshield washer fluid",
+                    "clutch fluid",
+                    "grearbox oil",
+                    "differential fluid"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "100441",
+                    "replace engine coolant",
+                    "engine coolant"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "10046",
+                    "take a drive",
+                    "drive around",
+                    "test drive",
+                    "driveability test",
+                    "complimentary driveability"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "20010",
+                    "emission test",
+                    "emission inspection",
+                    "emission reinspection",
+                    "inspection emission",
+                    "emissions test",
+                    "emissions inspection",
+                    "smog inspection",
+                    "Smog check",
+                    "emission check",
+                    "emissions check",
+                    "with emission",
+                    "with emissions",
+                    "smog test",
+                    "with smog"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "20020",
+                    "front differential",
+                    "rear differential"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "20021",
+                    "differential system"
+                ]
+            },
+            {
+                "value": "DIAG",
+                "synonyms": [
+                    "20022",
+                    "axle"
+                ]
+            },
+            {
+                "value": "OCM",
+                "synonyms": [
+                    "20030",
+                    "map sensor"
+                ]
+            },
+            {
+                "value": "OCM",
+                "synonyms": [
+                    "20040",
+                    "knock sensor"
+                ]
+            },
+            {
+                "value": "OCM",
+                "synonyms": [
+                    "20050",
+                    "engine electrical"
+                ]
+            },
+            {
+                "value": "OCM",
+                "synonyms": [
+                    "20060",
+                    "steering problem",
+                    "power steering",
+                    "with steering",
+                    "check steering"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsNext",
+        "entries": [
+            {
+                "value": "next",
+                "synonyms": [
+                    "next",
+                    "text",
+                    "ext",
+                    "nest",
+                    "sex",
+                    "next slots",
+                    "next time slots",
+                    "next dates",
+                    "next times",
+                    "next options"
+                ]
+            },
+            {
+                "value": "more",
+                "synonyms": [
+                    "more",
+                    "more options",
+                    "next option",
+                    "give me more",
+                    "more slots",
+                    "more time slots",
+                    "more dates",
+                    "more times"
+                ]
+            },
+            {
+                "value": "another",
+                "synonyms": [
+                    "another",
+                    "another preferred date",
+                    "other",
+                    "other slots",
+                    "other time slots",
+                    "other dates",
+                    "other times",
+                    "other options"
+                ]
+            },
+            {
+                "value": "after",
+                "synonyms": [
+                    "after",
+                    "sometime after",
+                    "after this time"
+                ]
+            },
+            {
+                "value": "later",
+                "synonyms": [
+                    "later",
+                    "Anything later.",
+                    "later time",
+                    "later times"
+                ]
+            },
+            {
+                "value": "Snack",
+                "synonyms": [
+                    "Snack"
+                ]
+            },
+            {
+                "value": "options",
+                "synonyms": [
+                    "options"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsDropIn",
+        "entries": [
+            {
+                "value": "carWonStart",
+                "synonyms": [
+                    "won't start",
+                    "does not move",
+                    "does not work",
+                    "will not start",
+                    "does not start",
+                    "won't move",
+                    "will not work",
+                    "won't work"
+                ]
+            },
+            {
+                "value": "batteryDead",
+                "synonyms": [
+                    "battery is dead",
+                    "battery died",
+                    "dead battery",
+                    "battery dead"
+                ]
+            },
+            {
+                "value": "accidentWord",
+                "synonyms": [
+                    "accident"
+                ]
+            },
+            {
+                "value": "towW",
+                "synonyms": [
+                    "tow",
+                    "towed"
+                ]
+            },
+            {
+                "value": "Urgent service.",
+                "synonyms": [
+                    "Urgent service.",
+                    "right now"
+                ]
+            },
+            {
+                "value": "roadside assistant",
+                "synonyms": [
+                    "roadside assistant",
+                    "emergency",
+                    "urgent",
+                    "urgency",
+                    "accident",
+                    "driver assistance",
+                    "collision repair",
+                    "tow"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsEvening",
+        "entries": [
+            {
+                "value": "evening",
+                "synonyms": [
+                    "evening",
+                    "night",
+                    "late evening",
+                    "late in the day",
+                    "end of day",
+                    "close of day",
+                    "by close of day"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsChangeAppt",
+        "entries": [
+            {
+                "value": "chngAppt",
+                "synonyms": [
+                    "Change appointment",
+                    "change service date",
+                    "change service appointment",
+                    "change an",
+                    "change a service appointment",
+                    "change appointment date",
+                    "exchange appointment",
+                    "exchange appointment date",
+                    "exchange service date",
+                    "change my appointment",
+                    "change my service appointment",
+                    "exchange my appointment",
+                    "change my date",
+                    "adjust appointment",
+                    "adjust service",
+                    "adjust my appointment",
+                    "adjust my service",
+                    "change booking",
+                    "change my booking",
+                    "modify an appointment",
+                    "modify appointment",
+                    "modify service",
+                    "modify my appointment"
+                ]
+            },
+            {
+                "value": "reschAppt",
+                "synonyms": [
+                    "reschedule appointment",
+                    "I need to reschedule a service.",
+                    "reschedule service",
+                    "reschedule a service",
+                    "Reschedule service.",
+                    "reschedule a service.",
+                    "reschedule my appointment",
+                    "reschedule my service"
+                ]
+            },
+            {
+                "value": "updtAppt",
+                "synonyms": [
+                    "update appointment",
+                    "update my appointment",
+                    "reset  appointment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsDept",
+        "entries": [
+            {
+                "value": "accounting",
+                "synonyms": [
+                    "accounting"
+                ]
+            },
+            {
+                "value": "human resources",
+                "synonyms": [
+                    "h r",
+                    "human resources",
+                    "jobs",
+                    "payroll",
+                    "recruiting"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsExceptions",
+        "entries": [
+            {
+                "value": "aaaa",
+                "synonyms": [
+                    "aaaaa"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsIssues",
+        "entries": [
+            {
+                "value": "check",
+                "synonyms": [
+                    "check",
+                    "check the",
+                    "system check",
+                    "check up",
+                    "check up on",
+                    "checkup",
+                    "diagnose",
+                    "diagnosis",
+                    "diagnostics",
+                    "install",
+                    "installation",
+                    "trouble shooting",
+                    "troubleshooting",
+                    "concern",
+                    "complimentary",
+                    "general",
+                    "existing",
+                    "test",
+                    "control",
+                    "is gone",
+                    "change",
+                    "change the",
+                    "exchange",
+                    "add",
+                    "added"
+                ]
+            },
+            {
+                "value": "fix",
+                "synonyms": [
+                    "fix",
+                    "fix the",
+                    "fix it",
+                    "get it fixed",
+                    "fixes",
+                    "adjust",
+                    "repair",
+                    "repairs",
+                    "reparation",
+                    "upgrade",
+                    "upgrades",
+                    "update",
+                    "updates",
+                    "perform",
+                    "replace",
+                    "replacement",
+                    "remove"
+                ]
+            },
+            {
+                "value": "front",
+                "synonyms": [
+                    "front",
+                    "rear",
+                    "back",
+                    "side",
+                    "right",
+                    "left",
+                    "interior",
+                    "exterior",
+                    "new",
+                    "one",
+                    "two",
+                    "four",
+                    "three",
+                    "on",
+                    "off",
+                    "is on",
+                    "is off",
+                    "from",
+                    "or",
+                    "all",
+                    "full"
+                ]
+            },
+            {
+                "value": "request",
+                "synonyms": [
+                    "request",
+                    "special",
+                    "specials",
+                    "just",
+                    "just an",
+                    "package",
+                    "promotion"
+                ]
+            },
+            {
+                "value": "problem",
+                "synonyms": [
+                    "problem",
+                    "won't close",
+                    "cannot close",
+                    "does not close",
+                    "do not close",
+                    "will not close",
+                    "resist",
+                    "stuck",
+                    "something wrong",
+                    "malfunction",
+                    "trouble",
+                    "breakdown",
+                    "issue",
+                    "issues",
+                    "not work",
+                    "isn't working",
+                    "not working",
+                    "doesn't work",
+                    "doesn't run",
+                    "not run",
+                    "not starting",
+                    "broke",
+                    "broken",
+                    "broken down",
+                    "is gone"
+                ]
+            },
+            {
+                "value": "system",
+                "synonyms": [
+                    "system diagnosis",
+                    "system repair",
+                    "system repairs",
+                    "system",
+                    "system work",
+                    "system malfunction",
+                    "system defective",
+                    "system not working"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FAQ",
+        "entries": [
+            {
+                "value": "Yes we offer car rentals. Please say make appointment or say operator",
+                "synonyms": [
+                    "do you offer loaner service?",
+                    "do you have a loaner?",
+                    "do you have loaners?",
+                    "do you have any loaner?",
+                    "do you offer owner service?",
+                    "do you have a owner?",
+                    "do you have owners?",
+                    "do you have any owner?",
+                    "do you have loner service?",
+                    "do you offer loner service?",
+                    "do you offer rental service?",
+                    "do you offer car rental service?",
+                    "i need a loaner",
+                    "I need a loaner for service.",
+                    "request a rental",
+                    "do you offer loaners?",
+                    "loaner service?",
+                    "A loner.",
+                    "a rental car",
+                    "a rental vehicle",
+                    "a loner vehicle"
+                ]
+            },
+            {
+                "value": "At the moment, we do not offer rental service.  Please say operator or say make appointment",
+                "synonyms": [
+                    "xxx"
+                ]
+            },
+            {
+                "value": "Yes.  for services over 2 hours, we offer complimentary shuttle services to and from our dealership. Please say make appointment or other.",
+                "synonyms": [
+                    "do you offer shuttle service?",
+                    "do you have shuttle service?",
+                    "do you have shuttle?",
+                    "do you have rideshare service?",
+                    "i want to order shuttle",
+                    "i want to book shuttle"
+                ]
+            },
+            {
+                "value": "At the moment, we do not offer shuttle service.  Please say operator or say make appointment",
+                "synonyms": [
+                    "xxx"
+                ]
+            },
+            {
+                "value": "At the moment, We do not offer pickup and delivery service.  Please say operator or say make appointment",
+                "synonyms": [
+                    "do you offer pickup service?",
+                    "do you have pickup service?",
+                    "do you do pickup service?"
+                ]
+            },
+            {
+                "value": "We offer a pickup and delivery service.  Please say operator or say make appointment",
+                "synonyms": [
+                    "XXX"
+                ]
+            },
+            {
+                "value": "Please contact the Honda care Roadside Assistance at 1-800-594 -7400",
+                "synonyms": [
+                    "urgent",
+                    "emergency",
+                    "accident"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsNotSure",
+        "entries": [
+            {
+                "value": "not sure",
+                "synonyms": [
+                    "not sure",
+                    "do not know",
+                    "any date",
+                    "any day",
+                    "what is available",
+                    "as soon as possible",
+                    "as soon as you have any availability",
+                    "soon"
+                ]
+            },
+            {
+                "value": "dontknow",
+                "synonyms": [
+                    "dontknow",
+                    "I do not know",
+                    "i don't know",
+                    "do not know",
+                    "don't know",
+                    "i both know",
+                    "no idea"
+                ]
+            },
+            {
+                "value": "needSome",
+                "synonyms": [
+                    "needSome",
+                    "I need someone to take a look at it",
+                    "i need someone to take a look",
+                    "take a look"
+                ]
+            },
+            {
+                "value": "Donthave.",
+                "synonyms": [
+                    "Don't have",
+                    "i Don't have",
+                    "do not have",
+                    "i do not have"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsOperator",
+        "entries": [
+            {
+                "value": "agent",
+                "synonyms": [
+                    "operator",
+                    "live person",
+                    "customer service",
+                    "representative",
+                    "human being",
+                    "representatives",
+                    "operator operator",
+                    "Evaporator",
+                    "receptionist",
+                    "general manager",
+                    "customer support",
+                    "agent",
+                    "customer service agent",
+                    "manager",
+                    "associate",
+                    "Evaporator.",
+                    "person",
+                    "a person",
+                    "technician",
+                    "service advisor",
+                    "service rep",
+                    "service manager",
+                    "service director",
+                    "service supervisor",
+                    "service department"
+                ]
+            },
+            {
+                "value": "annoying",
+                "synonyms": [
+                    "annoying",
+                    "what are you doing",
+                    "especially annoying"
+                ]
+            },
+            {
+                "value": "spanish",
+                "synonyms": [
+                    "spanish",
+                    "espagnol",
+                    "espanol"
+                ]
+            },
+            {
+                "value": "Quick Lane",
+                "synonyms": [
+                    "Quick Lane"
+                ]
+            },
+            {
+                "value": "transfer",
+                "synonyms": [
+                    "transfer to",
+                    "talk to",
+                    "speak to",
+                    "stop",
+                    "transfer the line",
+                    "connect me",
+                    "transfer me"
+                ]
+            },
+            {
+                "value": "I want to know",
+                "synonyms": [
+                    "I want to know",
+                    "tell me",
+                    "calling about"
+                ]
+            },
+            {
+                "value": "assistance",
+                "synonyms": [
+                    "assistance",
+                    "assistance."
+                ]
+            },
+            {
+                "value": "localwordsforoperator",
+                "synonyms": [
+                    "@aWordsOperator"
+                ]
+            },
+            {
+                "value": "a ride home",
+                "synonyms": [
+                    "a ride home",
+                    "have a ride home"
+                ]
+            },
+            {
+                "value": "helpW",
+                "synonyms": [
+                    "help"
+                ]
+            },
+            {
+                "value": "cost",
+                "synonyms": [
+                    "cost",
+                    "I would like to know how much it cost.",
+                    "how much"
+                ]
+            },
+            {
+                "value": "wordsVoicemail",
+                "synonyms": [
+                    "@wordsVoicemail"
+                ]
+            },
+            {
+                "value": "department",
+                "synonyms": [
+                    "parts",
+                    "finance department"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsOddHours",
+        "entries": [
+            {
+                "value": "2021-11-03T07:00:00-06:00",
+                "synonyms": [
+                    "seven.",
+                    "seven",
+                    "seven a.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:10:00-06:00",
+                "synonyms": [
+                    "710.",
+                    "710",
+                    "7 10",
+                    "7 10.",
+                    "710 a.m.",
+                    "7 10 a.m.",
+                    "7:30, a.m.",
+                    "7:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:15:00-06:00",
+                "synonyms": [
+                    "715.",
+                    "715",
+                    "7 15.",
+                    "7 15",
+                    "715 a.m.",
+                    "7 15 a.m.",
+                    "7:15, a.m.",
+                    "7:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:20:00-06:00",
+                "synonyms": [
+                    "720.",
+                    "720",
+                    "7 20",
+                    "7 20.",
+                    "720 a.m.",
+                    "7 20 a.m.",
+                    "7:20, a.m.",
+                    "7:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:30:00-06:00",
+                "synonyms": [
+                    "730.",
+                    "730",
+                    "7 30",
+                    "7 30.",
+                    "730 a.m.",
+                    "7 30 a.m.",
+                    "7:30, a.m.",
+                    "7:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:40:00-06:00",
+                "synonyms": [
+                    "740.",
+                    "740",
+                    "7 40",
+                    "7 40.",
+                    "740 a.m.",
+                    "7 40 a.m.",
+                    "7:40, a.m.",
+                    "7:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:45:00-06:00",
+                "synonyms": [
+                    "745.",
+                    "745",
+                    "7 45.",
+                    "7 45",
+                    "745 a.m.",
+                    "7 45 a.m.",
+                    "7:45, a.m.",
+                    "7:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T07:50:00-06:00",
+                "synonyms": [
+                    "750.",
+                    "750",
+                    "7 50",
+                    "7 50.",
+                    "750 a.m.",
+                    "7 50 a.m.",
+                    "7:50, a.m.",
+                    "7:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:00:00-06:00",
+                "synonyms": [
+                    "eight.",
+                    "eight",
+                    "eight a.m.",
+                    "eit a.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:10:00-06:00",
+                "synonyms": [
+                    "810.",
+                    "810",
+                    "8 10",
+                    "8 10.",
+                    "810 a.m.",
+                    "8 10 a.m.",
+                    "8:10, a.m.",
+                    "8:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:15:00-06:00",
+                "synonyms": [
+                    "815.",
+                    "815",
+                    "8 15.",
+                    "8 15",
+                    "815 a.m.",
+                    "8 15 a.m.",
+                    "8:15, a.m.",
+                    "8:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:20:00-06:00",
+                "synonyms": [
+                    "820.",
+                    "820",
+                    "8 20",
+                    "8 20.",
+                    "820 a.m.",
+                    "8 20 a.m.",
+                    "8:20, a.m.",
+                    "8:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:30:00-06:00",
+                "synonyms": [
+                    "830.",
+                    "830",
+                    "8 30",
+                    "8 30.",
+                    "830 a.m.",
+                    "8 30 a.m.",
+                    "8:30, a.m.",
+                    "8:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:40:00-06:00",
+                "synonyms": [
+                    "840.",
+                    "840",
+                    "8 40",
+                    "8 40.",
+                    "840 a.m.",
+                    "8 40 a.m.",
+                    "8:40, a.m.",
+                    "8:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:45:00-06:00",
+                "synonyms": [
+                    "845.",
+                    "845",
+                    "8 45.",
+                    "8 45",
+                    "845 a.m.",
+                    "8 45 a.m.",
+                    "8:45, a.m.",
+                    "8:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T08:50:00-06:00",
+                "synonyms": [
+                    "850.",
+                    "850",
+                    "8 50",
+                    "8 50.",
+                    "850 a.m.",
+                    "8 50 a.m.",
+                    "8:50, a.m.",
+                    "8:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:00:00-06:00",
+                "synonyms": [
+                    "nine.",
+                    "nine",
+                    "nine a.m.",
+                    "nain a.m.",
+                    "nain am",
+                    "nain"
+                ]
+            },
+            {
+                "value": "2021-11-03T09:10:00-06:00",
+                "synonyms": [
+                    "910.",
+                    "910",
+                    "9 10",
+                    "9 10.",
+                    "910 a.m.",
+                    "9 10 a.m.",
+                    "9:10, a.m.",
+                    "9:10.",
+                    "nain 10",
+                    "nine 10"
+                ]
+            },
+            {
+                "value": "2021-11-03T09:15:00-06:00",
+                "synonyms": [
+                    "915.",
+                    "915",
+                    "9 15.",
+                    "9 15",
+                    "915 a.m.",
+                    "9 15 a.m.",
+                    "9:15, a.m.",
+                    "9:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:20:00-06:00",
+                "synonyms": [
+                    "920.",
+                    "920",
+                    "9 20",
+                    "9 20.",
+                    "920 a.m.",
+                    "9 20 a.m.",
+                    "9:20, a.m.",
+                    "9:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:30:00-06:00",
+                "synonyms": [
+                    "930.",
+                    "930",
+                    "9 30",
+                    "9 30.",
+                    "930 a.m.",
+                    "9 30 a.m.",
+                    "9:30, a.m.",
+                    "9:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:40:00-06:00",
+                "synonyms": [
+                    "940.",
+                    "940",
+                    "9 40",
+                    "9 40.",
+                    "940 a.m.",
+                    "9 40 a.m.",
+                    "9:40, a.m.",
+                    "9:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:45:00-06:00",
+                "synonyms": [
+                    "945.",
+                    "945",
+                    "9 45",
+                    "9 45.",
+                    "945 a.m.",
+                    "9 45 a.m.",
+                    "9:45, a.m.",
+                    "9:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T09:50:00-06:00",
+                "synonyms": [
+                    "950.",
+                    "950",
+                    "9 50",
+                    "9 50.",
+                    "950 a.m.",
+                    "9 50 a.m.",
+                    "9:50, a.m.",
+                    "9:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:00:00-06:00",
+                "synonyms": [
+                    "ten.",
+                    "ten",
+                    "ten a.m.",
+                    "en a.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:10:00-06:00",
+                "synonyms": [
+                    "1010.",
+                    "1010",
+                    "10 10",
+                    "10 10.",
+                    "1010 a.m.",
+                    "10 10 a.m.",
+                    "10:10, a.m.",
+                    "10:10.",
+                    "ten ten",
+                    "ten 10",
+                    "10 ten"
+                ]
+            },
+            {
+                "value": "2021-11-03T10:15:00-06:00",
+                "synonyms": [
+                    "1015.",
+                    "1015",
+                    "10 15.",
+                    "10 15",
+                    "1015 a.m.",
+                    "10 15 a.m.",
+                    "10:15, a.m.",
+                    "10:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:20:00-06:00",
+                "synonyms": [
+                    "1020.",
+                    "1020",
+                    "10 20",
+                    "10 20.",
+                    "1020 a.m.",
+                    "10 20 a.m.",
+                    "10:20, a.m.",
+                    "10:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:30:00-06:00",
+                "synonyms": [
+                    "1030.",
+                    "1030",
+                    "10 30",
+                    "10 30.",
+                    "1030 a.m.",
+                    "10 30 a.m.",
+                    "10:30, a.m.",
+                    "10:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:40:00-06:00",
+                "synonyms": [
+                    "1040.",
+                    "1040",
+                    "10 40",
+                    "10 40.",
+                    "1040 a.m.",
+                    "10 40 a.m.",
+                    "10:40, a.m.",
+                    "10:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:45:00-06:00",
+                "synonyms": [
+                    "1045.",
+                    "1045",
+                    "10 45.",
+                    "10 45",
+                    "1045 a.m.",
+                    "10 45 a.m.",
+                    "10:45, a.m.",
+                    "10:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T10:50:00-06:00",
+                "synonyms": [
+                    "1050.",
+                    "1050",
+                    "10 50",
+                    "10 50.",
+                    "1050 a.m.",
+                    "10 50 a.m.",
+                    "10:50, a.m.",
+                    "10:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:00:00-06:00",
+                "synonyms": [
+                    "eleven.",
+                    "eleven",
+                    "eleven a.m.",
+                    "ileven a.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:10:00-06:00",
+                "synonyms": [
+                    "1110.",
+                    "1110",
+                    "11 10",
+                    "11 10.",
+                    "1110 a.m.",
+                    "11 10 a.m.",
+                    "11:10, a.m.",
+                    "11:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:15:00-06:00",
+                "synonyms": [
+                    "1115.",
+                    "1115",
+                    "11 15.",
+                    "11 15",
+                    "1115 a.m.",
+                    "11 15 a.m.",
+                    "11:15, a.m.",
+                    "11:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:20:00-06:00",
+                "synonyms": [
+                    "1120.",
+                    "1120",
+                    "11 20",
+                    "11 20.",
+                    "1120 a.m.",
+                    "11 20 a.m.",
+                    "11:20, a.m.",
+                    "11:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:30:00-06:00",
+                "synonyms": [
+                    "1130.",
+                    "1130",
+                    "11 30",
+                    "11 30.",
+                    "1130 a.m.",
+                    "11 30 a.m.",
+                    "11:30, a.m.",
+                    "11:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:40:00-06:00",
+                "synonyms": [
+                    "1140.",
+                    "1140",
+                    "11 40",
+                    "11 40.",
+                    "1140 a.m.",
+                    "11 40 a.m.",
+                    "11:40, a.m.",
+                    "11:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:45:00-06:00",
+                "synonyms": [
+                    "1145.",
+                    "1145",
+                    "11 45.",
+                    "11 45",
+                    "1145 a.m.",
+                    "11 45 a.m.",
+                    "11:45, a.m.",
+                    "11:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T11:50:00-06:00",
+                "synonyms": [
+                    "1150.",
+                    "1150",
+                    "11 50",
+                    "11 50.",
+                    "1150 a.m.",
+                    "11 50 a.m.",
+                    "11:50, a.m.",
+                    "11:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:00:00-06:00",
+                "synonyms": [
+                    "twelve.",
+                    "twelve",
+                    "twelve p.m.",
+                    "twelf p.m.",
+                    "twelv p.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:10:00-06:00",
+                "synonyms": [
+                    "1210.",
+                    "1210",
+                    "12 10",
+                    "12 10.",
+                    "1210 a.m.",
+                    "12 10 a.m.",
+                    "1210 p.m.",
+                    "12 10 p.m.",
+                    "12:10, a.m.",
+                    "12:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:15:00-06:00",
+                "synonyms": [
+                    "1215.",
+                    "1215",
+                    "12 15.",
+                    "12 15",
+                    "1215 a.m.",
+                    "12 15 a.m.",
+                    "1215 p.m.",
+                    "12 15 p.m.",
+                    "12:15, a.m.",
+                    "12:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:20:00-06:00",
+                "synonyms": [
+                    "1220.",
+                    "1220",
+                    "12 20",
+                    "12 20.",
+                    "1220 a.m.",
+                    "12 20 a.m.",
+                    "1220 p.m.",
+                    "12 20 p.m.",
+                    "12:20, a.m.",
+                    "12:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:30:00-06:00",
+                "synonyms": [
+                    "1230.",
+                    "1230",
+                    "12 30",
+                    "12 30.",
+                    "1230 a.m.",
+                    "12 30 a.m.",
+                    "1230 p.m.",
+                    "12 30 p.m.",
+                    "12:30, a.m.",
+                    "12:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:40:00-06:00",
+                "synonyms": [
+                    "1240.",
+                    "1240",
+                    "12 40",
+                    "12 40.",
+                    "1240 a.m.",
+                    "12 40 a.m.",
+                    "1240 p.m.",
+                    "12 40 p.m.",
+                    "12:40, a.m.",
+                    "12:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:45:00-06:00",
+                "synonyms": [
+                    "1245.",
+                    "1245",
+                    "12 45.",
+                    "12 45",
+                    "1245 a.m.",
+                    "12 45 a.m.",
+                    "1245 p.m.",
+                    "12 45 p.m.",
+                    "12:45, a.m.",
+                    "12:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T12:50:00-06:00",
+                "synonyms": [
+                    "1250.",
+                    "1250",
+                    "12 50",
+                    "12 50.",
+                    "1250 a.m.",
+                    "12 50 a.m.",
+                    "1250 p.m.",
+                    "12 50 p.m.",
+                    "12:50, a.m.",
+                    "12:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:00:00-06:00",
+                "synonyms": [
+                    "one.",
+                    "one",
+                    "one p.m.",
+                    "ouane p.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:10:00-06:00",
+                "synonyms": [
+                    "110.",
+                    "110",
+                    "1 10",
+                    "1 10.",
+                    "one 10.",
+                    "one ten.",
+                    "1 10 p.m.",
+                    "one 10 p.m.",
+                    "110 p.m.",
+                    "1 10 a.m.",
+                    "one 10 a.m.",
+                    "110 a.m.",
+                    "1:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:15:00-06:00",
+                "synonyms": [
+                    "115.",
+                    "115",
+                    "1 15",
+                    "1 15.",
+                    "one 15.",
+                    "one fifteen.",
+                    "1 15 p.m.",
+                    "one 15 p.m.",
+                    "115 p.m.",
+                    "1 15 a.m.",
+                    "one 15 a.m.",
+                    "115 a.m.",
+                    "1:15, p.m.",
+                    "1:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:20:00-06:00",
+                "synonyms": [
+                    "120.",
+                    "120",
+                    "1 20",
+                    "1 20.",
+                    "one 20.",
+                    "one twenty.",
+                    "1 20 p.m.",
+                    "one 20 p.m.",
+                    "120 p.m.",
+                    "1 20 a.m.",
+                    "one 20 a.m.",
+                    "120 a.m.",
+                    "1:20, p.m.",
+                    "1:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:25:00-06:00",
+                "synonyms": [
+                    "125.",
+                    "125",
+                    "1 25",
+                    "1 25.",
+                    "one 25.",
+                    "one twenty five.",
+                    "1 25 p.m.",
+                    "one 25 p.m.",
+                    "125 p.m.",
+                    "1 25 a.m.",
+                    "one 25 a.m.",
+                    "125 a.m.",
+                    "1:25, p.m.",
+                    "1:25."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:30:00-06:00",
+                "synonyms": [
+                    "130.",
+                    "130",
+                    "1 30",
+                    "1 30.",
+                    "one 30.",
+                    "one thirty.",
+                    "1 10 p.m.",
+                    "one 30 p.m.",
+                    "130 p.m.",
+                    "1 30 a.m.",
+                    "one 30 a.m.",
+                    "130 a.m.",
+                    "1:30, p.m.",
+                    "1:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:40:00-06:00",
+                "synonyms": [
+                    "140.",
+                    "140",
+                    "1 40",
+                    "1 40.",
+                    "one 40.",
+                    "one forty.",
+                    "1 40 p.m.",
+                    "one 40 p.m.",
+                    "140 p.m.",
+                    "1 40 a.m.",
+                    "one 40 a.m.",
+                    "140 a.m.",
+                    "1:40, p.m.",
+                    "1:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:45:00-06:00",
+                "synonyms": [
+                    "145.",
+                    "145",
+                    "1 45",
+                    "1 45.",
+                    "one 45.",
+                    "one forty five.",
+                    "1 45 p.m.",
+                    "one 45 p.m.",
+                    "145 p.m.",
+                    "1 45 a.m.",
+                    "one 45 a.m.",
+                    "145 a.m.",
+                    "1:45, p.m.",
+                    "1:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T13:50:00-06:00",
+                "synonyms": [
+                    "150.",
+                    "150",
+                    "1 50",
+                    "1 50.",
+                    "one 50.",
+                    "one fifty.",
+                    "1 50 p.m.",
+                    "one 50 p.m.",
+                    "150 p.m.",
+                    "1 50 a.m.",
+                    "one 50 a.m.",
+                    "150 a.m.",
+                    "1:50, p.m.",
+                    "1:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:00:00-06:00",
+                "synonyms": [
+                    "two.",
+                    "two",
+                    "two p.m.",
+                    "to p.m.",
+                    "tow p.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:10:00-06:00",
+                "synonyms": [
+                    "210.",
+                    "210",
+                    "2 10",
+                    "2 10.",
+                    "to 10.",
+                    "to ten.",
+                    "two 10.",
+                    "2 10 p.m.",
+                    "two 10 p.m.",
+                    "210 p.m.",
+                    "to 10 p.m.",
+                    "to ten p.m.",
+                    "tow 10 p.m.",
+                    "2:10, p.m.",
+                    "2:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:15:00-06:00",
+                "synonyms": [
+                    "215.",
+                    "215",
+                    "2 15",
+                    "2 15.",
+                    "to 15.",
+                    "to fifteen.",
+                    "two 15.",
+                    "2 15 p.m.",
+                    "two 15 p.m.",
+                    "215 p.m.",
+                    "to 15 p.m.",
+                    "to fifteen p.m.",
+                    "tow 15 p.m.",
+                    "2:15, p.m.",
+                    "2:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:20:00-06:00",
+                "synonyms": [
+                    "220.",
+                    "220",
+                    "2 20",
+                    "2 20.",
+                    "to 20.",
+                    "to twenty.",
+                    "two 20.",
+                    "2 20 p.m.",
+                    "two 20 p.m.",
+                    "220 p.m.",
+                    "to 20 p.m.",
+                    "to twenty p.m.",
+                    "tow 20 p.m.",
+                    "2:20, p.m.",
+                    "2:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:25:00-06:00",
+                "synonyms": [
+                    "225.",
+                    "225",
+                    "2 25",
+                    "2 25.",
+                    "to 25.",
+                    "to twenty five.",
+                    "two 25.",
+                    "2 25 p.m.",
+                    "two 25 p.m.",
+                    "225 p.m.",
+                    "to 25 p.m.",
+                    "to twenty five p.m.",
+                    "tow 30 p.m.",
+                    "tow 25 p.m.",
+                    "2:25, p.m.",
+                    "2:25."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:30:00-06:00",
+                "synonyms": [
+                    "230.",
+                    "230",
+                    "2 30",
+                    "2 30.",
+                    "to 30.",
+                    "to thirty.",
+                    "two 30.",
+                    "2 30 p.m.",
+                    "two 30 p.m.",
+                    "230 p.m.",
+                    "to 30 p.m.",
+                    "to thirty p.m.",
+                    "tow 30 p.m.",
+                    "2:30, p.m.",
+                    "2:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:40:00-06:00",
+                "synonyms": [
+                    "240.",
+                    "240",
+                    "2 40",
+                    "2 40.",
+                    "to 40.",
+                    "to forty.",
+                    "two 40.",
+                    "2 40 p.m.",
+                    "two 40 p.m.",
+                    "240 p.m.",
+                    "to 40 p.m.",
+                    "to forty p.m.",
+                    "tow 40 p.m.",
+                    "2:40, p.m.",
+                    "2:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:45:00-06:00",
+                "synonyms": [
+                    "245.",
+                    "245",
+                    "2 45",
+                    "2 45.",
+                    "to 45.",
+                    "to forty five.",
+                    "two 45.",
+                    "2 45 p.m.",
+                    "two 45 p.m.",
+                    "245 p.m.",
+                    "to 45 p.m.",
+                    "to forty five p.m.",
+                    "tow 45 p.m.",
+                    "2:45, p.m.",
+                    "2:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T14:50:00-06:00",
+                "synonyms": [
+                    "250.",
+                    "250",
+                    "2 50",
+                    "2 50.",
+                    "to 50.",
+                    "to fifty.",
+                    "two 50.",
+                    "2 50 p.m.",
+                    "two 50 p.m.",
+                    "250 p.m.",
+                    "to 50 p.m.",
+                    "to fifty p.m.",
+                    "tow 50 p.m.",
+                    "2:50, p.m.",
+                    "2:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:00:00-06:00",
+                "synonyms": [
+                    "three.",
+                    "three",
+                    "three p.m.",
+                    "free p.m.",
+                    "tree p.m.",
+                    "tree."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:10:00-06:00",
+                "synonyms": [
+                    "310.",
+                    "310",
+                    "3 10",
+                    "3 10.",
+                    "free 10.",
+                    "free ten.",
+                    "tree 10.",
+                    "fee ten.",
+                    "3 10 p.m.",
+                    "free 10 p.m.",
+                    "tree 10 p.m.",
+                    "fee 10 p.m.",
+                    "310 p.m.",
+                    "free ten p.m.",
+                    "tree ten p.m.",
+                    "fee ten p.m.",
+                    "3:10, p.m.",
+                    "3:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:15:00-06:00",
+                "synonyms": [
+                    "315.",
+                    "315",
+                    "3 15",
+                    "3 15.",
+                    "free 15.",
+                    "free fifteen.",
+                    "tree 15.",
+                    "fee fifteen.",
+                    "3 15 p.m.",
+                    "free 15 p.m.",
+                    "tree 15 p.m.",
+                    "fee 15 p.m.",
+                    "315 p.m.",
+                    "free fifteen p.m.",
+                    "tree fifteen p.m.",
+                    "fee fifteen p.m.",
+                    "3:15, p.m.",
+                    "3:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:20:00-06:00",
+                "synonyms": [
+                    "320.",
+                    "320",
+                    "3 20",
+                    "3 20.",
+                    "free 20.",
+                    "free twenty.",
+                    "tree 20.",
+                    "fee twenty.",
+                    "3 20 p.m.",
+                    "free 20 p.m.",
+                    "tree 20 p.m.",
+                    "fee 20 p.m.",
+                    "320 p.m.",
+                    "free twenty p.m.",
+                    "tree twenty p.m.",
+                    "fee twenty p.m.",
+                    "3:20, p.m.",
+                    "3:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:25:00-06:00",
+                "synonyms": [
+                    "325.",
+                    "325",
+                    "3 25",
+                    "3 25.",
+                    "free 25.",
+                    "free twenty five.",
+                    "tree 25.",
+                    "fee twenty five.",
+                    "3 25 p.m.",
+                    "free 25 p.m.",
+                    "tree 25 p.m.",
+                    "fee 25 p.m.",
+                    "325 p.m.",
+                    "free twenty five p.m.",
+                    "tree twenty five p.m.",
+                    "fee twenty five p.m.",
+                    "3:25, p.m.",
+                    "3:25."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:30:00-06:00",
+                "synonyms": [
+                    "330.",
+                    "330",
+                    "3 30",
+                    "3 30.",
+                    "free 30.",
+                    "free thirty.",
+                    "tree 30.",
+                    "fee thirty.",
+                    "3 30 p.m.",
+                    "free 30 p.m.",
+                    "tree 30 p.m.",
+                    "fee 30 p.m.",
+                    "330 p.m.",
+                    "free thirty p.m.",
+                    "tree thirty p.m.",
+                    "fee thirty p.m.",
+                    "3:30, p.m.",
+                    "3:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:40:00-06:00",
+                "synonyms": [
+                    "340.",
+                    "340",
+                    "3 40",
+                    "3 40.",
+                    "free 40.",
+                    "free forty.",
+                    "tree 40.",
+                    "fee forty.",
+                    "3 40 p.m.",
+                    "free 40 p.m.",
+                    "tree 40 p.m.",
+                    "fee 40 p.m.",
+                    "340 p.m.",
+                    "free forty p.m.",
+                    "tree forty p.m.",
+                    "fee forty p.m.",
+                    "3:40, p.m.",
+                    "3:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:45:00-06:00",
+                "synonyms": [
+                    "345.",
+                    "345",
+                    "3 45",
+                    "3 45.",
+                    "free 45.",
+                    "free forty five.",
+                    "tree 45.",
+                    "fee forty five.",
+                    "3 45 p.m.",
+                    "free 45 p.m.",
+                    "tree 45 p.m.",
+                    "fee 45 p.m.",
+                    "345 p.m.",
+                    "free forty five p.m.",
+                    "tree forty five p.m.",
+                    "fee forty five p.m.",
+                    "3:45, p.m.",
+                    "3:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T15:50:00-06:00",
+                "synonyms": [
+                    "350.",
+                    "350",
+                    "3 50",
+                    "3 50.",
+                    "free 50.",
+                    "free fifty.",
+                    "tree 50.",
+                    "fee fifty.",
+                    "3 50 p.m.",
+                    "free 50 p.m.",
+                    "tree 50 p.m.",
+                    "fee 50 p.m.",
+                    "350 p.m.",
+                    "free fifty p.m.",
+                    "tree fifty p.m.",
+                    "fee fifty p.m.",
+                    "3:50, p.m.",
+                    "3:50."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:00:00-06:00",
+                "synonyms": [
+                    "four.",
+                    "four",
+                    "four p.m.",
+                    "for p.m.",
+                    "floor p.m."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:10:00-06:00",
+                "synonyms": [
+                    "410.",
+                    "410",
+                    "4 10",
+                    "4 10.",
+                    "for 10.",
+                    "four ten.",
+                    "for 10",
+                    "4 10 p.m.",
+                    "for 10 p.m.",
+                    "410 p.m.",
+                    "for ten p.m.",
+                    "4:10, p.m.",
+                    "4:10."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:15:00-06:00",
+                "synonyms": [
+                    "415.",
+                    "415",
+                    "4 15",
+                    "4 15.",
+                    "for 15.",
+                    "four fifteen.",
+                    "for 15",
+                    "4 15 p.m.",
+                    "for 15 p.m.",
+                    "415 p.m.",
+                    "for fifteen p.m.",
+                    "4:15, p.m.",
+                    "4:15."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:20:00-06:00",
+                "synonyms": [
+                    "420.",
+                    "420",
+                    "4 20",
+                    "4 20.",
+                    "for 20.",
+                    "four twenty.",
+                    "for 20",
+                    "4 20 p.m.",
+                    "for 20 p.m.",
+                    "420 p.m.",
+                    "for twenty p.m.",
+                    "4:20, p.m.",
+                    "4:20."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:25:00-06:00",
+                "synonyms": [
+                    "425.",
+                    "425",
+                    "4 25",
+                    "4 25.",
+                    "for 25.",
+                    "four twenty five.",
+                    "for 25",
+                    "4 25 p.m.",
+                    "for 25 p.m.",
+                    "425 p.m.",
+                    "for twenty five p.m.",
+                    "4:25, p.m.",
+                    "4:25."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:30:00-06:00",
+                "synonyms": [
+                    "430.",
+                    "430",
+                    "4 30",
+                    "4 30.",
+                    "for 30.",
+                    "four thirty.",
+                    "for 30",
+                    "4 30 p.m.",
+                    "for 30 p.m.",
+                    "430 p.m.",
+                    "for thirty p.m.",
+                    "4:30, p.m.",
+                    "4:30."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:40:00-06:00",
+                "synonyms": [
+                    "440.",
+                    "440",
+                    "4 40",
+                    "4 40.",
+                    "for 40.",
+                    "four forty.",
+                    "for 40",
+                    "4 40 p.m.",
+                    "for 40 p.m.",
+                    "440 p.m.",
+                    "for forty p.m.",
+                    "4:40, p.m.",
+                    "4:40."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:45:00-06:00",
+                "synonyms": [
+                    "445.",
+                    "445",
+                    "4 45",
+                    "4 45.",
+                    "for 45.",
+                    "four forty five.",
+                    "for 45",
+                    "4 45 p.m.",
+                    "for 45 p.m.",
+                    "445 p.m.",
+                    "for forty five p.m.",
+                    "4:45, p.m.",
+                    "4:45."
+                ]
+            },
+            {
+                "value": "2021-11-03T16:50:00-06:00",
+                "synonyms": [
+                    "450.",
+                    "450",
+                    "4 50",
+                    "4 50.",
+                    "for 50.",
+                    "four fifty.",
+                    "for 50",
+                    "4 50 p.m.",
+                    "for 50 p.m.",
+                    "450 p.m.",
+                    "for fifty p.m.",
+                    "4:50, p.m.",
+                    "4:50."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsNoAppointment",
+        "entries": [
+            {
+                "value": "idontwant",
+                "synonyms": [
+                    "i do not want an appointment",
+                    "i do not want to book",
+                    "do not need an appointment",
+                    "i do not need an appointment",
+                    "no i don't want an appointment",
+                    "no i do not want an appointment",
+                    "no i do not need an appointment",
+                    "no i don't need an appointment",
+                    "no, i don't want an appointment",
+                    "no, i do not want an appointment",
+                    "no, i do not need an appointment",
+                    "no, i don't need an appointment"
+                ]
+            },
+            {
+                "value": "notabooking",
+                "synonyms": [
+                    "not a booking",
+                    "not interested",
+                    "no need for booking"
+                ]
+            },
+            {
+                "value": "justWant",
+                "synonyms": [
+                    "no, i just want",
+                    "no i just want"
+                ]
+            },
+            {
+                "value": "howLong",
+                "synonyms": [
+                    "how Long",
+                    "how long my appointment",
+                    "how long for appointment",
+                    "how long is",
+                    "how long for",
+                    "how long my",
+                    "how long is an appointment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsQuote",
+        "entries": [
+            {
+                "value": "quote",
+                "synonyms": [
+                    "quote for",
+                    "quotation for",
+                    "quote",
+                    "quotation",
+                    "quote on a",
+                    "quote on an",
+                    "get a quote",
+                    "get a quotation"
+                ]
+            },
+            {
+                "value": "how much",
+                "synonyms": [
+                    "how much",
+                    "how much for",
+                    "how much is",
+                    "how much is it for",
+                    "what is charge for",
+                    "what is the charge for",
+                    "what is a charge for",
+                    "how much do you charge"
+                ]
+            },
+            {
+                "value": "cost",
+                "synonyms": [
+                    "costs for",
+                    "cost for",
+                    "cost of",
+                    "costs of",
+                    "costing"
+                ]
+            },
+            {
+                "value": "price",
+                "synonyms": [
+                    "price for",
+                    "prices for",
+                    "price of",
+                    "prices of",
+                    "pricing for",
+                    "price for oil change."
+                ]
+            },
+            {
+                "value": "estimate",
+                "synonyms": [
+                    "estimate for",
+                    "estimate of",
+                    "estimated for",
+                    "estimation for"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsOther",
+        "entries": [
+            {
+                "value": "other",
+                "synonyms": [
+                    "other",
+                    "mother",
+                    "otter",
+                    "father",
+                    "are there?",
+                    "weather"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsNo",
+        "entries": [
+            {
+                "value": "no1",
+                "synonyms": [
+                    "don't need",
+                    "don't need it",
+                    "know",
+                    "no",
+                    "no need",
+                    "no no",
+                    "no thank you",
+                    "no thanks",
+                    "no way",
+                    "noo",
+                    "nope",
+                    "now",
+                    "No, I don't need.",
+                    "no i do not need",
+                    "no no need",
+                    "No, I don't need a ride",
+                    "No, no ride.",
+                    "I don't think i'll need it",
+                    "i don't want it",
+                    "I don't need it",
+                    "I don't think I need it",
+                    "I don't think I want it",
+                    "I don't want",
+                    "not",
+                    "I don't",
+                    "nah",
+                    "not interested",
+                    "thanks but no",
+                    "no don't",
+                    "not at all",
+                    "never",
+                    "don't",
+                    "i don't think so",
+                    "no no don't",
+                    "i can't",
+                    "not really",
+                    "no that's okay",
+                    "no we are good",
+                    "no that's fine",
+                    "not sure",
+                    "I am not sure",
+                    "not this time",
+                    "may be not",
+                    "lo low",
+                    "snow",
+                    "nothing",
+                    "not now",
+                    "not for now",
+                    "nada",
+                    "NO.",
+                    "none",
+                    "skip",
+                    "nono",
+                    "not right now"
+                ]
+            },
+            {
+                "value": "no2",
+                "synonyms": [
+                    "wrong car",
+                    "incorrect",
+                    "wrong",
+                    "incorrect car",
+                    "wrong vehicle",
+                    "incorrect vehicle",
+                    "wrong model",
+                    "incorrect model",
+                    "wrong year",
+                    "incorrect year",
+                    "I do not have",
+                    "i don't have",
+                    "my other car"
+                ]
+            },
+            {
+                "value": "no3",
+                "synonyms": [
+                    "Basically, that's it.",
+                    "that's it",
+                    "that is it",
+                    "that's all",
+                    "that is all"
+                ]
+            },
+            {
+                "value": "no4",
+                "synonyms": [
+                    "already have",
+                    "already"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsSales",
+        "entries": [
+            {
+                "value": "sales",
+                "synonyms": [
+                    "sales",
+                    "sale",
+                    "else",
+                    "sales department",
+                    "sex",
+                    "sex department",
+                    "talk to sales"
+                ]
+            },
+            {
+                "value": "new model",
+                "synonyms": [
+                    "new model",
+                    "how much",
+                    "estimate",
+                    "get an estimate",
+                    "can you send me information about new model",
+                    "model",
+                    "models",
+                    "what models do you have",
+                    "How much is it?",
+                    "what's the price",
+                    "the price",
+                    "price",
+                    "What is the price"
+                ]
+            },
+            {
+                "value": "quotation",
+                "synonyms": [
+                    "@wordsQuote"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsRecall",
+        "entries": [
+            {
+                "value": "recall",
+                "synonyms": [
+                    "recall",
+                    "recalls",
+                    "safety recall",
+                    "part recall",
+                    "parts recall",
+                    "recall notice",
+                    "recall reminder notice",
+                    "recall reminder",
+                    "notice recall",
+                    "notices recall",
+                    "notice of recall",
+                    "notice recall reminder",
+                    "safety recall notice",
+                    "safety recall reminder",
+                    "Rico",
+                    "rical",
+                    "ricol",
+                    "ricco",
+                    "re call",
+                    "recall work",
+                    "recall service",
+                    "work on recall",
+                    "airbag recall",
+                    "Schedule, an appointment for recall.",
+                    "manufacturer recall",
+                    "manufacturer recalls"
+                ]
+            },
+            {
+                "value": "recall",
+                "synonyms": [
+                    "recall",
+                    "find out if there's a recall",
+                    "find recalls",
+                    "find recall",
+                    "find out if there is a recall",
+                    "find out if there are recalls",
+                    "is there a recall",
+                    "do I have a recall",
+                    "check recall",
+                    "check recall on my car",
+                    "what recall is there",
+                    "what recalls are there",
+                    "are there recalls?"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsService",
+        "entries": [
+            {
+                "value": "service advisor",
+                "synonyms": [
+                    "service department",
+                    "service people",
+                    "service advisor",
+                    "service representative",
+                    "service rep",
+                    "Speak to service",
+                    "talk to service",
+                    "I speak the service person",
+                    "speak service person",
+                    "service person",
+                    "speak to the service person",
+                    "speak to the advisor",
+                    "service manager",
+                    "service advisor.",
+                    "service attendant",
+                    "service director",
+                    "staff",
+                    "technician",
+                    "Team member",
+                    "adviser",
+                    "advisor",
+                    "advisory"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsRepair",
+        "entries": [
+            {
+                "value": "repair",
+                "synonyms": [
+                    "repair",
+                    "check",
+                    "fix",
+                    "diagnose",
+                    "repairing",
+                    "checking",
+                    "fixing",
+                    "diagnosing"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsSearchAppt",
+        "entries": [
+            {
+                "value": "confirm appointment",
+                "synonyms": [
+                    "confirm appointment",
+                    "confirm my appoinmtnet",
+                    "verify my appointment",
+                    "confirm my schedule",
+                    "when is my appointment",
+                    "when is",
+                    "pending appointment",
+                    "when is my",
+                    "search appointment",
+                    "fiind appointment",
+                    "search"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsTakeIt",
+        "entries": [
+            {
+                "value": "takeitW",
+                "synonyms": [
+                    "take it",
+                    "i'll take it",
+                    "take"
+                ]
+            },
+            {
+                "value": "willWork",
+                "synonyms": [
+                    "will work",
+                    "that will work",
+                    "that will work for me",
+                    "works for me",
+                    "works",
+                    "will do"
+                ]
+            },
+            {
+                "value": "good",
+                "synonyms": [
+                    "good for me"
+                ]
+            },
+            {
+                "value": "bookit",
+                "synonyms": [
+                    "book it",
+                    "book"
+                ]
+            },
+            {
+                "value": "confirmit",
+                "synonyms": [
+                    "confirm",
+                    "i confirm",
+                    "confirmed"
+                ]
+            },
+            {
+                "value": "wantit",
+                "synonyms": [
+                    "want"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsStatus",
+        "entries": [
+            {
+                "value": "status update",
+                "synonyms": [
+                    "status on",
+                    "what time it is done",
+                    "Update on service",
+                    "update on",
+                    "service update",
+                    "status update",
+                    "status of my car",
+                    "repair update",
+                    "update on repair",
+                    "status for",
+                    "update for"
+                ]
+            },
+            {
+                "value": "status update",
+                "synonyms": [
+                    "checking on service",
+                    "checking on my car",
+                    "check if car is ready",
+                    "check on my car",
+                    "check on car",
+                    "x check car",
+                    "check if my car is ready",
+                    "Checking on a car",
+                    "Checking on a vehicle",
+                    "checking on my vehicle",
+                    "check status",
+                    "check my warranty.",
+                    "check warranty",
+                    "x check my car",
+                    "x check my vehicle",
+                    "check my status",
+                    "check up on",
+                    "Can I receive my car",
+                    "can I get my car",
+                    "can I take my car",
+                    "Can I receive my car?",
+                    "can I get my car?",
+                    "can I take my car?",
+                    "Vehicle check on"
+                ]
+            },
+            {
+                "value": "status update",
+                "synonyms": [
+                    "car ready",
+                    "is car ready",
+                    "is my car ready",
+                    "what time is my car ready",
+                    "Is my car ready for pickup",
+                    "is car ready for pickup",
+                    "vehicle is ready",
+                    "my vehicle is ready",
+                    "is my vehicle ready",
+                    "if my vehicle is ready",
+                    "If my car is ready",
+                    "vehicle ready",
+                    "carReady",
+                    "is ready",
+                    "is ready.",
+                    "ready to pickup,",
+                    "ready to pickup?",
+                    "ready to pickup",
+                    "ready to pickup.",
+                    "Pick up car",
+                    "pick up my car",
+                    "when can I pick up car?",
+                    "when can I pick up my car?",
+                    "what time can I pick up car?",
+                    "what time can I pick up my car?"
+                ]
+            },
+            {
+                "value": "status update",
+                "synonyms": [
+                    "is car done",
+                    "is my car done",
+                    "when is my car done"
+                ]
+            },
+            {
+                "value": "status update",
+                "synonyms": [
+                    "find out",
+                    "find out if",
+                    "find out if there is"
+                ]
+            },
+            {
+                "value": "status update",
+                "synonyms": [
+                    "is done",
+                    "is finished",
+                    "is completed",
+                    "repair is completed",
+                    "repair is done"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "aWordsUnhandled",
+        "entries": [
+            {
+                "value": "warrantyWords",
+                "synonyms": [
+                    "warranty"
+                ]
+            },
+            {
+                "value": "helpWords",
+                "synonyms": [
+                    "help"
+                ]
+            },
+            {
+                "value": "vehiclePickup",
+                "synonyms": [
+                    "pick up",
+                    "pick up my vehicle",
+                    "concierge",
+                    "valet"
+                ]
+            },
+            {
+                "value": "other",
+                "synonyms": [
+                    "other",
+                    "mother",
+                    "father"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsTransport",
+        "entries": [
+            {
+                "value": "pickup",
+                "synonyms": [
+                    "pick up",
+                    "user service",
+                    "pickup",
+                    "arrange pickup",
+                    "arrange for a pickup",
+                    "arrange a pickup"
+                ]
+            },
+            {
+                "value": "loaner",
+                "synonyms": [
+                    "loaner",
+                    "lunar"
+                ]
+            },
+            {
+                "value": "valet",
+                "synonyms": [
+                    "valet"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsYes",
+        "entries": [
+            {
+                "value": "yes",
+                "synonyms": [
+                    "yeah",
+                    "yep",
+                    "yep that's right",
+                    "yes I agree",
+                    "yes i do",
+                    "yes that's right",
+                    "yup",
+                    "yet",
+                    "it's ok",
+                    "sure why not",
+                    "go ahead",
+                    "I think so",
+                    "yes agreed",
+                    "yes, that's ok",
+                    "ok i will",
+                    "yes that's ok",
+                    "yes",
+                    "Oh, yes.",
+                    "if",
+                    "CVS."
+                ]
+            },
+            {
+                "value": "strongYes",
+                "synonyms": [
+                    "absolutely",
+                    "for sure",
+                    "right",
+                    "sure",
+                    "yes you can do it",
+                    "confirmation",
+                    "i confirm",
+                    "confirm",
+                    "exactly",
+                    "correct",
+                    "perfect"
+                ]
+            },
+            {
+                "value": "weakYes",
+                "synonyms": [
+                    "I guess",
+                    "guess",
+                    "it's fine",
+                    "why not",
+                    "death",
+                    "noted",
+                    "thank you"
+                ]
+            },
+            {
+                "value": "agreementWords",
+                "synonyms": [
+                    "i agree",
+                    "of course",
+                    "alright",
+                    "that's right",
+                    "sounds good",
+                    "good",
+                    "i am good",
+                    "agree",
+                    "that works"
+                ]
+            },
+            {
+                "value": "bookIt",
+                "synonyms": [
+                    "book it",
+                    "book",
+                    "bok it",
+                    "look",
+                    "lock it",
+                    "booking",
+                    "booklet",
+                    "look it",
+                    "hook it",
+                    "nook it",
+                    "duke it",
+                    "bucket"
+                ]
+            },
+            {
+                "value": "okW",
+                "synonyms": [
+                    "Ok",
+                    "okay",
+                    "o k",
+                    "that's ok",
+                    "ok i will",
+                    "ok yes"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsVague",
+        "entries": [
+            {
+                "value": "if possible",
+                "synonyms": [
+                    "if possible",
+                    "possibly",
+                    "preferably",
+                    "I prefer",
+                    "may be"
+                ]
+            },
+            {
+                "value": "any",
+                "synonyms": [
+                    "anytime",
+                    "any time",
+                    "anything",
+                    "any day",
+                    "any"
+                ]
+            },
+            {
+                "value": "do not know",
+                "synonyms": [
+                    "do not know",
+                    "i don't know",
+                    "i do not know"
+                ]
+            },
+            {
+                "value": "as soon as",
+                "synonyms": [
+                    "as soon as"
+                ]
+            },
+            {
+                "value": "whenever",
+                "synonyms": [
+                    "whenever"
+                ]
+            },
+            {
+                "value": "yes",
+                "synonyms": [
+                    "yes",
+                    "yep"
+                ]
+            },
+            {
+                "value": "no",
+                "synonyms": [
+                    "no"
+                ]
+            },
+            {
+                "value": "other",
+                "synonyms": [
+                    "other",
+                    "other date",
+                    "not other date",
+                    "no another date",
+                    "another date",
+                    "or other"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsVoicemail",
+        "entries": [
+            {
+                "value": "ifineed",
+                "synonyms": [
+                    "if i need"
+                ]
+            },
+            {
+                "value": "cost",
+                "synonyms": [
+                    "cost of",
+                    "quotation for",
+                    "price of",
+                    "how much",
+                    "cost for an oil change",
+                    "cost of an oil change",
+                    "cost of oil change",
+                    "estimate for",
+                    "estimation for",
+                    "estimates for",
+                    "how much an oil change",
+                    "how much for oil change",
+                    "quote for",
+                    "cost for",
+                    "price for"
+                ]
+            },
+            {
+                "value": "don't want",
+                "synonyms": [
+                    "i do not want",
+                    "i do not want an appointment",
+                    "no appointment",
+                    "i did not want",
+                    "i do not need",
+                    "i Don't want"
+                ]
+            },
+            {
+                "value": "information on recall",
+                "synonyms": [
+                    "information on recall",
+                    "information on recalls",
+                    "recall information",
+                    "recalls information"
+                ]
+            },
+            {
+                "value": "other",
+                "synonyms": [
+                    "director.",
+                    "president.",
+                    "other.",
+                    "mother.",
+                    "father.",
+                    "Are there?",
+                    "Weather.",
+                    "another.",
+                    "otter.",
+                    "oter.",
+                    "other",
+                    "mother",
+                    "father",
+                    "weather",
+                    "another",
+                    "otter",
+                    "oter"
+                ]
+            },
+            {
+                "value": "speak",
+                "synonyms": [
+                    "speak to",
+                    "can you",
+                    "would like to ask",
+                    "would like to ask if",
+                    "talk to",
+                    "information",
+                    "C2 a person",
+                    "i need to know",
+                    "i need to know the dates",
+                    "find out",
+                    "find out about"
+                ]
+            },
+            {
+                "value": "switch",
+                "synonyms": [
+                    "already have appointment",
+                    "already have an appointment"
+                ]
+            },
+            {
+                "value": "test",
+                "synonyms": [
+                    "test drive"
+                ]
+            },
+            {
+                "value": "waittime",
+                "synonyms": [
+                    "waittime",
+                    "Can you please tell me how long is the wait for oil change?",
+                    "wait time"
+                ]
+            },
+            {
+                "value": "warranty",
+                "synonyms": [
+                    "warranty."
+                ]
+            },
+            {
+                "value": "How much time",
+                "synonyms": [
+                    "How much time",
+                    "how much more",
+                    "how long",
+                    "what is the wait",
+                    "what is the wait for",
+                    "what is the wait time",
+                    "what is wait time"
+                ]
+            },
+            {
+                "value": "have a ride home",
+                "synonyms": [
+                    "have a ride home",
+                    "ride home",
+                    "need a ride",
+                    "need a ride back"
+                ]
+            },
+            {
+                "value": "questionW",
+                "synonyms": [
+                    "when was",
+                    "when is",
+                    "what is",
+                    "who is",
+                    "where is",
+                    "why is",
+                    "why was",
+                    "what was",
+                    "Got a question for service",
+                    "question for",
+                    "question for service",
+                    "got questions for service",
+                    "questions for",
+                    "questions for service"
+                ]
+            },
+            {
+                "value": "lateForAppt",
+                "synonyms": [
+                    "late for appointment",
+                    "late for my appointment",
+                    "late for the appointment",
+                    "late for",
+                    "late for my",
+                    "Are you going to be late for my appointment?"
+                ]
+            },
+            {
+                "value": "operator",
+                "synonyms": [
+                    "operator",
+                    "Evaporator",
+                    "Evaporator.",
+                    "Operator."
+                ]
+            },
+            {
+                "value": "message",
+                "synonyms": [
+                    "leave a message",
+                    "leave message",
+                    "take message",
+                    "take a message",
+                    "voicemail",
+                    "message for",
+                    "put message",
+                    "a message",
+                    "the message"
+                ]
+            },
+            {
+                "value": "something",
+                "synonyms": [
+                    "something",
+                    "something else",
+                    "some thing"
+                ]
+            },
+            {
+                "value": "wordsNoAppointment",
+                "synonyms": [
+                    "@wordsNoAppointment"
+                ]
+            },
+            {
+                "value": "noAppt",
+                "synonyms": [
+                    "Not @wordsAppointment",
+                    "no @wordsAppointment",
+                    "not an @wordsAppointment",
+                    "not an appointment",
+                    "no appointment",
+                    "not appointment"
+                ]
+            },
+            {
+                "value": "localwordsforvoicemail",
+                "synonyms": [
+                    "@aWordsVoicemail"
+                ]
+            },
+            {
+                "value": "unhandled",
+                "synonyms": [
+                    "@aWordsUnhandled"
+                ]
+            },
+            {
+                "value": "appointment confirmation",
+                "synonyms": [
+                    "Confirm appointment",
+                    "confirm my appointment",
+                    "confirm booking",
+                    "confirm my booking",
+                    "confirm an appointment."
+                ]
+            },
+            {
+                "value": "agent",
+                "synonyms": [
+                    "operator",
+                    "live person",
+                    "customer service",
+                    "representative",
+                    "human being",
+                    "representatives",
+                    "operator operator",
+                    "Evaporator",
+                    "receptionist",
+                    "general manager",
+                    "customer support",
+                    "agent",
+                    "customer service agent",
+                    "manager",
+                    "associate",
+                    "Evaporator.",
+                    "person",
+                    "a person",
+                    "technician",
+                    "service advisor",
+                    "service representative",
+                    "service provider",
+                    "service rep",
+                    "service manager",
+                    "service director",
+                    "service supervisor",
+                    "service department"
+                ]
+            },
+            {
+                "value": "annoying",
+                "synonyms": [
+                    "annoying",
+                    "what are you doing",
+                    "especially annoying"
+                ]
+            },
+            {
+                "value": "Quick Lane",
+                "synonyms": [
+                    "Quick Lane"
+                ]
+            },
+            {
+                "value": "transfer",
+                "synonyms": [
+                    "transfer to",
+                    "talk to",
+                    "speak to",
+                    "stop",
+                    "transfer the line",
+                    "connect me",
+                    "transfer me"
+                ]
+            },
+            {
+                "value": "I want to know",
+                "synonyms": [
+                    "I want to know",
+                    "tell me",
+                    "calling about"
+                ]
+            },
+            {
+                "value": "assistance",
+                "synonyms": [
+                    "assistance",
+                    "assistance."
+                ]
+            },
+            {
+                "value": "helpW",
+                "synonyms": [
+                    "help"
+                ]
+            },
+            {
+                "value": "department",
+                "synonyms": [
+                    "parts",
+                    "finance department",
+                    "collision center"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsYesNo",
+        "entries": [
+            {
+                "value": "1",
+                "synonyms": [
+                    "@wordsYes"
+                ]
+            },
+            {
+                "value": "0",
+                "synonyms": [
+                    "@wordsNo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsParts",
+        "entries": [
+            {
+                "value": "parts",
+                "synonyms": [
+                    "parts",
+                    "part",
+                    "part number",
+                    "parts number",
+                    "parks",
+                    "parks department",
+                    "park",
+                    "park number",
+                    "park department",
+                    "part department",
+                    "parts department"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsTime",
+        "entries": [
+            {
+                "value": "morning",
+                "synonyms": [
+                    "morning",
+                    "morning at",
+                    "early morning",
+                    "early in the day",
+                    "before noon",
+                    "before lunch"
+                ]
+            },
+            {
+                "value": "evening",
+                "synonyms": [
+                    "evening",
+                    "evening at",
+                    "late evening",
+                    "late in the day",
+                    "end of day",
+                    "close of day",
+                    "by close of day"
+                ]
+            },
+            {
+                "value": "afternoon",
+                "synonyms": [
+                    "afternoon",
+                    "after noon",
+                    "late afternoon"
+                ]
+            },
+            {
+                "value": "at",
+                "synonyms": [
+                    "at"
+                ]
+            },
+            {
+                "value": "after",
+                "synonyms": [
+                    "after"
+                ]
+            },
+            {
+                "value": "before",
+                "synonyms": [
+                    "before"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "wordsPre",
+        "entries": [
+            {
+                "value": "I am interested in",
+                "synonyms": [
+                    "I am interested in",
+                    "interested"
+                ]
+            },
+            {
+                "value": "I need assistance with",
+                "synonyms": [
+                    "I need assistance with",
+                    "assistance with",
+                    "need assistance"
+                ]
+            },
+            {
+                "value": "I want to",
+                "synonyms": [
+                    "I want to",
+                    "want",
+                    "want to",
+                    "we want",
+                    "we want to"
+                ]
+            },
+            {
+                "value": "I want to learn about",
+                "synonyms": [
+                    "I want to know about",
+                    "I want to learn about"
+                ]
+            },
+            {
+                "value": "I would like to",
+                "synonyms": [
+                    "I would like to",
+                    "Would like",
+                    "we would like",
+                    "we would like to",
+                    "would like",
+                    "i'd like to",
+                    "i'd like to see",
+                    "i'd like to see if"
+                ]
+            },
+            {
+                "value": "I'm calling about",
+                "synonyms": [
+                    "Calling about",
+                    "I am calling about",
+                    "I want to talk to",
+                    "I'm calling about",
+                    "we are calling about"
+                ]
+            },
+            {
+                "value": "Please",
+                "synonyms": [
+                    "Please"
+                ]
+            },
+            {
+                "value": "help with",
+                "synonyms": [
+                    "I am looking for help",
+                    "I am looking for help with",
+                    "I need help with",
+                    "I want help",
+                    "I want help with",
+                    "I would like help",
+                    "I would like help with",
+                    "We want help with",
+                    "We would like help with",
+                    "help with",
+                    "looking for help"
+                ]
+            },
+            {
+                "value": "i want",
+                "synonyms": [
+                    "i want"
+                ]
+            },
+            {
+                "value": "looking to",
+                "synonyms": [
+                    "I am looking for",
+                    "I am looking to",
+                    "I look for",
+                    "I look to",
+                    "look for",
+                    "look to",
+                    "looking for",
+                    "looking to",
+                    "we are looking for",
+                    "we are looking to",
+                    "we look for",
+                    "we look to"
+                ]
+            },
+            {
+                "value": "need",
+                "synonyms": [
+                    "I have a need for",
+                    "I need",
+                    "need",
+                    "needing",
+                    "we are needing",
+                    "we have a need for",
+                    "we need"
+                ]
+            },
+            {
+                "value": "ready to",
+                "synonyms": [
+                    "ready for",
+                    "ready to"
+                ]
+            },
+            {
+                "value": "request",
+                "synonyms": [
+                    "I would like to request",
+                    "request",
+                    "requesting",
+                    "we would like to request"
+                ]
+            },
+            {
+                "value": "stop your",
+                "synonyms": [
+                    "stop your"
+                ]
+            },
+            {
+                "value": "i would like to bring it",
+                "synonyms": [
+                    "i would like to bring it",
+                    "bring my car",
+                    "bring car",
+                    "i would like to",
+                    "i'd like to"
+                ]
+            },
+            {
+                "value": "I have",
+                "synonyms": [
+                    "I have",
+                    "i do have"
+                ]
+            },
+            {
+                "value": "i know",
+                "synonyms": [
+                    "i know",
+                    "I'd like to know",
+                    "i want to know"
+                ]
+            },
+            {
+                "value": "i think",
+                "synonyms": [
+                    "i think",
+                    "think",
+                    "I believe",
+                    "believe"
+                ]
+            },
+            {
+                "value": "i am",
+                "synonyms": [
+                    "i am",
+                    "i am not",
+                    "i'm",
+                    "i'm not"
+                ]
+            },
+            {
+                "value": "come",
+                "synonyms": [
+                    "bring car",
+                    "bring my car"
+                ]
+            },
+            {
+                "value": "in",
+                "synonyms": [
+                    "in",
+                    "with",
+                    "to"
+                ]
+            },
+            {
+                "value": "what is",
+                "synonyms": [
+                    "what is",
+                    "what is the"
+                ]
+            },
+            {
+                "value": "offer",
+                "synonyms": [
+                    "do you offer",
+                    "do you guys offer",
+                    "do you have",
+                    "can you offer"
+                ]
+            },
+            {
+                "value": "I have to",
+                "synonyms": [
+                    "I have to",
+                    "i got to",
+                    "have to",
+                    "got to"
+                ]
+            },
+            {
+                "value": "just a",
+                "synonyms": [
+                    "just a",
+                    "simply a",
+                    "i want just a"
+                ]
+            },
+            {
+                "value": "whatINeedIs",
+                "synonyms": [
+                    "what i want is",
+                    "what i need is"
+                ]
+            },
+            {
+                "value": "thisiswhatineed",
+                "synonyms": [
+                    "this is what i want",
+                    "this is what i need",
+                    "this is my need need"
+                ]
+            },
+            {
+                "value": "helpmewith",
+                "synonyms": [
+                    "help me with",
+                    "please help me with"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,89 @@
+{
+  "id": "8e1bfbbf-c481-425a-ae5c-266342f1b6b2",
+  "name": "--20-NoTransferDropIn",
+  "auto": true,
+  "contexts": [
+    "config",
+    "dropIn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "TransferCall",
+      "affectedContexts": [
+        {
+          "name": "makeAppt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e6fe599b-0877-4838-9a29-ea7deac9ac80",
+          "name": "wordsdropin",
+          "required": false,
+          "dataType": "@wordsDropIn",
+          "value": "$wordsdropin",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1f913e17-32dc-47db-8e87-cf93f10f876e",
+          "name": "any",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "68b88a23-f674-4902-b219-d67bafe42cf4",
+          "name": "wordspre",
+          "required": false,
+          "dataType": "@wordsPre",
+          "value": "$wordspre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u003cspeak\u003e\n\u003cprosody rate\u003d\"medium\" pitch\u003d\"1st\"\u003e\u2028Sorry to hear your car is having issues.\nYou can drop off your car at the dealership for an emergency appointment or have it towed in any time during the day. To book an appointment, please say make appointment. To talk to an agent, please say operator.\n\u003c/prosody\u003e\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

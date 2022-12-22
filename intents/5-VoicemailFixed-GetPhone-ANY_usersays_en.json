@@ -1,0 +1,96 @@
+[
+  {
+    "id": "0b130375-eccc-48a5-9221-063475d71404",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      },
+      {
+        "text": " .",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4cac60e6-2a21-4b42-85e8-11873c62d5c0",
+    "data": [
+      {
+        "text": "no .",
+        "meta": "@wordsNo",
+        "alias": "wordsno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ec453bc-f7bd-4582-9647-189f3e600509",
+    "data": [
+      {
+        "text": "yes .",
+        "meta": "@wordsYes",
+        "alias": "wordsyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aff8f00c-127f-4590-8f66-01f9ffe4d46e",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68100938-4047-4ffd-b7fe-fec605e3c607",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@wordsYes",
+        "alias": "wordsyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cac9871-5a77-4ec5-aee4-7520a3855d1d",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@wordsNo",
+        "alias": "wordsno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
